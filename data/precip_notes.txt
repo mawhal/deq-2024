@@ -1,0 +1,11 @@
+# Weather Station Information for Petersburg, Virginia
+## From NOAA (National Oceanic and Atmospheric Administration)
+Name	PETERSBURG, VA US   Network:ID	GHCND:USC00446656  position: 37.2388 N, -77.3925 S
+<https://www.ncdc.noaa.gov/cdo-web/search?datasetid=GHCND>
+
+
+#### Other NOAA Stations 
+
+Dinwiddie, Churchroad, , , 37.1332, -77.6888
+Dinwiddie, 1 ESE Addison, , , 37.1874, -77.4788
+Prince George, South Prince George 6.8 S, , , 37.0557, -77.3682
