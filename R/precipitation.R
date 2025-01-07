@@ -88,10 +88,24 @@ tobs_weekly <- tapply( precip.data.all$tobs,
                          FUN =  week_average )
 tobs_weekly <- do.call( rbind, tobs_weekly)
 tobs_weekly <- data.frame( date = rownames(tobs_weekly), tobs_weekly)
+apply(tobs_weekly,2,sd)
+# consider mean5 for tobs because it reduces variance a bit
+
+
 
 tmax_weekly <- tapply( precip.data.all$tmax, 
                        list(precip.data.all$sample.date), 
                        FUN =  week_average )
 tmax_weekly <- do.call( rbind, tmax_weekly)
 tmax_weekly <- data.frame( date = rownames(tmax_weekly), tmax_weekly)
+with(tmax_weekly, plot(sameday,mean7))
+apply(tmax_weekly,2,sd)
+# consider mean7 for tmax because it reduces variance and what seems like potential outliers.
 
+# collect all relevant pieces
+env_weekly <- data.frame( precip_weekly,
+                          select(tobs_weekly, tobs = sameday, tobs_mean = mean5),
+                          select(tmax_weekly, tmax = sameday, tmax_mean = mean7) )
+               
+write_csv(env_weekly, "data/env_weekly.csv")           
+                          
