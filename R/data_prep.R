@@ -37,14 +37,29 @@ meta$datetime <- ymd_hms(paste(meta$date, meta$time))
 meta <- meta %>% 
   select(id, date, datetime, site_name, site_conditions, site_notes,
          river_height_feet)
+# look for duplicates
+duplicated( meta ) # row 56 is duplicated as a stand-by for potentially missing data
+# based only on id
+meta[ duplicated(meta$id), ]
+
+
 # write to disk
 write_csv(meta, "data/metadata.csv")
 
 # prepare final data file
 d <- draw
+d %>% 
+  filter( measurement == "total_Ecoli" ) %>% 
+  filter( is.na(value) )
 
 # outliers?
 by( d$value, d$measurement, FUN = summary)
+
+# use the standard by James River Association
+# CFU / 100ml
+d$cfu100 <- d$value/3 * 100
+d$cfu100[ d$measurement != "total_Ecoli" ] <- NA
+
 
 # write to disk
 write_csv( d, "data/data_qaqc.csv")
