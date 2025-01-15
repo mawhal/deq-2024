@@ -75,13 +75,26 @@ week_average <- function(z, n = 8) {
   )
 }
 week_average(test$precip_cm)
+week_sum <- function(z, n = 8) {
+  return( c( sum1 = z[n],
+  sum2   = sum(z[(n-1):n]),
+  sum3   = sum(z[(n-2):n]),
+  sum4   = sum(z[(n-3):n]),
+  sum5   = sum(z[(n-4):n]),
+  sum6   = sum(z[(n-5):n]),
+  sum7   = sum(z[(n-6):n]),
+  sum8   = sum(z[(n-7):n]) )
+  )
+}
+week_sum(test$precip_cm)
 
 # apply across all variables desired
 precip_weekly <- tapply( precip.data.all$precip_cm, 
         list(precip.data.all$sample.date), 
-        FUN =  week_average )
+        FUN =  week_sum )
 precip_weekly <- do.call( rbind, precip_weekly)
 precip_weekly <- data.frame( date = rownames(precip_weekly), precip_weekly)
+plot(apply(precip_weekly,2,sd))
 
 tobs_weekly <- tapply( precip.data.all$tobs, 
                          list(precip.data.all$sample.date), 
