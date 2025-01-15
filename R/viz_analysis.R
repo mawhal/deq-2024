@@ -17,6 +17,8 @@ d <- read_csv("data/data_qaqc.csv")
 meta <- read_csv("data/metadata.csv")
 env <- read_csv("data/env_weekly.csv")
 
+# color scheme - see <https://www.pmscolorguide.com/coated/pms-2728-c> and VSU style guide
+vsu <- c("#0047BB","#EE7624")
 
 # merge metadata, environmental with observed data
 names(d)[ names(d) %in% names(meta) ]
@@ -32,51 +34,139 @@ d_env$datetime <- ymd_hms( d_env$datetime )
 
 ## Visualization and Analysis
 # 1) compare sites (specifically, Fleets Branch)
-# 2) trends over time in measured data
+# 2) trends over time in measured data - see ggplot figures below
 # 3) visualize/analysis association between weather events and water quality
 
 
+## Summarize data 
+# take means for all samples and subsamples
+# important for Coliscan because these were sample splits rather than separate samples
+dsite <- d_env %>% 
+  group_by(id,date,site_name, datetime,
+           measurement, 
+           sum1,sum2,sum3,sum4,sum5,sum6,sum7,sum8,
+           tobs,tmax) %>% 
+  summarize( value = mean(value),
+             cfu100 = mean(cfu100),
+             river_height = mean(river_height_feet) )
+
 
 #### Simple visualizations
+
+# make boxplot for each measurement (facets)
+# where each panel/facet compares the sites
+give.n <- function(x){
+  return(c(y = mean(x), label = length(x)))
+}
+
+
+dsite %>%
+  filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
+  filter( measurement %in% c("do_mgl","do_percent",
+                             "pH","total_Ecoli","turbidity","water_temperature")) %>% 
+  ggplot( aes(x = site_name, y = value, fill = site_name)) +
+    facet_wrap( ~ measurement, scales = "free_y") + 
+    geom_boxplot(notch = T) +
+  scale_fill_manual(values = vsu)
+
+# for other sites, only include times that are near the other two sites
+dsite$month <- month(dsite$date)
+dsite$week <- week(dsite$date)
+with(dsite, table(week,site_name))
+dweeks <- dsite %>% 
+  filter( week %in% c(12,14,17,23,30,44))
+
+dweeks %>% 
+  filter( measurement %in% c("do_mgl","do_percent",
+                             "pH","total_Ecoli","turbidity","water_temperature")) %>% 
+  ggplot( aes(x = site_name, y = value, fill = site_name)) +
+  facet_wrap( ~ measurement, scales = "free_y") + 
+  geom_boxplot()
+
+
 ## Main data comparisons are between Harvell Dam and Fleets Branch sites
 #
-# Water temperature
-d_env %>% 
+
+# look at precipitation, which one is most correlated with Ecoli?
+cormat1 <- dsite %>% 
+  ungroup() %>% 
+  filter(measurement == "total_Ecoli", site_name == "Harvell Dam") %>% 
+  select(sum1,sum2,sum3,sum4,sum5,sum6,sum7,sum8,
+         value) %>% 
+  cor(use = "complete.obs")
+cormat2 <- d_env %>% 
+  ungroup() %>% 
+  filter(measurement == "total_Ecoli", site_name == "Fleets Branch") %>% 
+  select(sum1,sum2,sum3,sum4,sum5,sum6,sum7,sum8,
+         value) %>% 
+  cor(use = "complete.obs")
+rowMeans( 
+  data.frame( cormat1[1:8,"value"],cormat2[1:8,"value"])
+)
+
+
+
+
+
+
+# water temperature
+dsite %>% 
   filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
   filter( measurement == "water_temperature") %>% 
-  ggplot( aes(x = date, y = value) ) +
-  facet_wrap( ~ site_name) +
-  geom_point() + geom_smooth()
-# pH
-d_env %>% 
-  filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
-  filter( measurement == "pH") %>% 
-  ggplot( aes(x = date, y = value, col = site_name) ) +
-  geom_point() + geom_smooth()
-# DO - DO usually slightly higher at Harvell Dam than Fleets Branch
-d_env %>% 
+  ggplot( aes(x = datetime, y = value, col = site_name) ) +
+  geom_smooth(alpha = 0.3) + geom_point() + geom_line() + 
+  ylab( expression(paste( "Water temperature (",degree,"C)") ) ) +
+  xlab( "Sampling time") +
+  scale_color_manual(values = vsu, name = "Sampling site") +
+  theme(legend.position = "top")
+ggsave( "figs/water_temperature_2site.svg", width = 5, height = 2.75)
+
+# oxygen
+dsite %>% 
   filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
   filter( measurement == "do_mgl") %>% 
-  ggplot( aes(x = date, y = value, col = site_name) ) +
-  geom_point() + geom_smooth()
+  ggplot( aes(x = datetime, y = value, col = site_name) ) +
+  geom_smooth(alpha = 0.3) + geom_point() + geom_line() + 
+  ylab( "Dissolved oxygen (mg/L)" ) +
+  xlab( "Sampling time") +
+  scale_color_manual(values = vsu, name = "Sampling site") +
+  theme(legend.position = "top")
+ggsave( "figs/water_oxygen_2site.svg", width = 5, height = 2.75)
+
+# precipitation
+env %>% 
+  ggplot( aes(x = date, y = sum4) ) +
+  geom_smooth(alpha = 0.3) + geom_point() + geom_line() + 
+  ylab( "Precipitation over prev. 3 days (cm)" ) +
+  xlab( "Sampling time") +
+  scale_color_manual(values = vsu, name = "Sampling site") +
+  theme(legend.position = "top")
+
 # E coli
-d_env %>% 
+dsite %>% 
   filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
   filter( measurement == "total_Ecoli") %>% 
   ggplot( aes(x = date, y = cfu100, col = site_name) ) +
   geom_point() + geom_smooth() + 
   ylab("total E.coli colonies\nColiscan method") +
-  scale_y_log10()
-d_env %>% 
+  scale_color_manual(values = vsu) +
+  scale_y_log10() 
+dsite %>% 
   filter( site_name %in% c("Harvell Dam")) %>% 
   filter( measurement == "total_Ecoli") %>% 
-  ggplot( aes(x = date, y = cfu100, col = site_name) ) +
-  geom_point() + geom_smooth() + 
-  ylab("total E.coli colonies\nColiscan method") 
+  ggplot( aes(x = date, y = cfu100) ) +
+  geom_smooth( col = vsu[2], se = F ) + 
+  geom_point( col = vsu[2] ) + 
+  ylab("total E.coli colonies\nColiscan method")  + 
+  ylim(c(0,525))
+dsite %>% 
+  filter( site_name %in% c("Fleets Branch")) %>% 
+  filter( measurement == "total_Ecoli") %>% 
+  ggplot( aes(x = date, y = cfu100) ) +
+  geom_smooth( col = vsu[1], se = F ) + 
+  geom_point( col = vsu[1] ) + 
+  ylab("total E.coli colonies\nColiscan method") + 
+  ylim(c(0,3500))
 
 
-### Further data manipulation and analysis
-
-
-
- 
+# does weather and temperature predict the quantity of E. coli for each stream?

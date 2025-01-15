@@ -1,10 +1,8 @@
 id,date,datetime,site_name,site_conditions,site_notes,river_height_feet
 20240320_Fleets Branch,2024-03-20,2024-03-20T15:30:00Z,Fleets Branch,"sunny, windy",lots of algae on the rocks,3.51
 20240320_Harvell Dam,2024-03-20,2024-03-20T15:00:00Z,Harvell Dam,"sunny, windy",NA,3.53
-20240320_Rapids Site,2024-03-20,2024-03-20T16:45:00Z,Rapids Site,"sunny, windy",NA,3.5
-20240320_Tidal Site,2024-03-20,2024-03-20T17:55:00Z,Tidal Site,"sunny, windy",NA,3.45
 20240403_Brickhouse Run,2024-04-03,2024-04-03T15:50:00Z,Brickhouse Run,"cloudy, rainy",tornado warning and incoming rain,4.5
-20240403_Fleets Branch,2024-04-03,2024-04-03T15:20:00Z,Fleets Branch,"cloudy, rainy",morning rain and tornado warning,4.5
+20240403_Willcox Dam,2024-04-03,2024-04-03T15:20:00Z,Willcox Dam,"cloudy, rainy",morning rain and tornado warning,4.5
 20240410_Fleets Branch,2024-04-10,2024-04-10T14:35:00Z,Fleets Branch,"warm, overcast",river level low,3.93
 20240410_Harvell Dam,2024-04-10,2024-04-10T14:40:00Z,Harvell Dam,"warm, overcast",river level low,3.93
 20240417_Fleets Branch,2024-04-17,2024-04-17T14:35:00Z,Fleets Branch,"partly sunny, humid",NA,4.81
@@ -65,4 +63,3 @@ id,date,datetime,site_name,site_conditions,site_notes,river_height_feet
 20241205_Harvell Dam,2024-12-05,2024-12-05T12:00:00Z,Harvell Dam,"40.5F, overcast, rain drizzle",NA,2.59
 20241213_Fleets Branch,2024-12-13,2024-12-13T11:00:00Z,Fleets Branch,"cold, sunny, recent rains 2 days ago",NA,3.04
 20241213_Harvell Dam,2024-12-13,2024-12-13T11:00:00Z,Harvell Dam,"cold, sunny, recent rains 2 days ago",NA,3.04
-NA,2024-10-17,2024-10-17T12:00:00Z,NA,potentially missing data?,NA,2.34

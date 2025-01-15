@@ -11,6 +11,16 @@ library(lubridate)
 draw = read_csv(file = "data/data_entry - data.csv")
 metaraw = read_csv(file = "data/data_entry - metadata.csv")
 
+# remove data from "Rapids Site" and "Tidal Site" as these were part of a separate study
+metaraw <- metaraw %>% 
+  filter( !(site_name %in% c("Rapids Site", "Tidal Site")) )
+draw <- draw[ -grep("Rapids Site",draw$id), ]
+draw <- draw[ -grep("Tidal Site",draw$id), ]
+
+# remove any NA values for id 
+metaraw <- metaraw %>% 
+  filter( !is.na(id) )
+
 # are all ids in the metadata found in the data and vice versa
 unique(draw$id)[!(unique(draw$id) %in% unique(metaraw$id))]
 unique(metaraw$id)[!(unique(metaraw$id) %in% unique(draw$id))]
@@ -52,13 +62,20 @@ d %>%
   filter( measurement == "total_Ecoli" ) %>% 
   filter( is.na(value) )
 
-# outliers?
-by( d$value, d$measurement, FUN = summary)
-
 # use the standard by James River Association
 # CFU / 100ml
 d$cfu100 <- d$value/3 * 100
 d$cfu100[ d$measurement != "total_Ecoli" ] <- NA
+
+# outliers?
+by( d$value, d$measurement, FUN = summary)
+
+# flagged data
+unique(d$flag)
+d <- d %>% 
+  filter( is.na(flag) )
+
+
 
 
 # write to disk
