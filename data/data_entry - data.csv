@@ -689,7 +689,7 @@ id,measurement,replicate,value,sample_notes,flag
 20240815_Fleets Branch,do_percent,1,72,,
 20240815_Fleets Branch,do_percent,2,75.0,,
 20240815_Fleets Branch,do_mgl,1,6.4,,
-20240815_Fleets Branch,do_mgl,2, ,,
+20240815_Fleets Branch,do_mgl,2,6.75,,
 20240815_Fleets Branch,turbidity,1,2.62,,
 20240815_Fleets Branch,turbidity,2,2.65,,
 20240815_Fleets Branch,total_Ecoli,1,7,,
