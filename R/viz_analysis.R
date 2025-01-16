@@ -67,22 +67,42 @@ dsite %>%
   ggplot( aes(x = site_name, y = value, fill = site_name)) +
     facet_wrap( ~ measurement, scales = "free_y") + 
     geom_boxplot(notch = T) +
-  scale_fill_manual(values = vsu)
+  scale_fill_manual(values = colorspace::lighten(vsu, amount = 0.3), name = "Site") +
+  theme( axis.text.x = element_blank() ) + 
+  xlab("Site")
+ggsave("figs/all_measures_2sites.svg", width = 6, height = 3)
+
+dsite %>%
+  filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
+  filter( measurement %in% c("total_Ecoli")) %>% 
+  ggplot( aes(x = site_name, y = value, fill = site_name)) +
+  facet_wrap( ~ measurement, scales = "free_y") + 
+  geom_boxplot(notch = T) + 
+  xlab("Site") +
+  scale_y_log10() +
+  scale_fill_manual(values = colorspace::lighten(vsu, amount = 0.3), name = "Site") +
+  theme( axis.text.x = element_blank() )
+ggsave("figs/all_measures_Ecoli.svg", width = 4, height = 3)
+
 
 # for other sites, only include times that are near the other two sites
 dsite$month <- month(dsite$date)
 dsite$week <- week(dsite$date)
 with(dsite, table(week,site_name))
 dweeks <- dsite %>% 
-  filter( week %in% c(12,14,17,23,30,44))
+  filter( week %in% c(12,14,17,23,30,44)) # these weeks were found through a visual scan of the data
+# which dates have data from all of te sites used here.
+lubridate::ymd( "2024-01-01" ) + lubridate::weeks( c(12,14,17,23,30,44) )
 
 dweeks %>% 
   filter( measurement %in% c("do_mgl","do_percent",
                              "pH","total_Ecoli","turbidity","water_temperature")) %>% 
   ggplot( aes(x = site_name, y = value, fill = site_name)) +
   facet_wrap( ~ measurement, scales = "free_y") + 
-  geom_boxplot()
-
+  geom_boxplot() +
+  theme( axis.text.x = element_blank() ) +
+  xlab("Site") + scale_fill_manual( values = c("gray",colorspace::lighten(vsu, amount = 0.3),"white"), name = "Site")
+ggsave("figs/all_measures_all_sites.svg", width = 6, height = 3)
 
 ## Main data comparisons are between Harvell Dam and Fleets Branch sites
 #
@@ -147,10 +167,11 @@ dsite %>%
   filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
   filter( measurement == "total_Ecoli") %>% 
   ggplot( aes(x = date, y = cfu100, col = site_name) ) +
-  geom_point() + geom_smooth() + 
+  geom_point( size = 2 ) + geom_smooth( se = F ) + 
   ylab("total E.coli colonies\nColiscan method") +
   scale_color_manual(values = vsu) +
   scale_y_log10() 
+ggsave("figs/Ecoli_trend.svg", height = 3, width = 5)
 dsite %>% 
   filter( site_name %in% c("Harvell Dam")) %>% 
   filter( measurement == "total_Ecoli") %>% 
@@ -170,3 +191,19 @@ dsite %>%
 
 
 # does weather and temperature predict the quantity of E. coli for each stream?
+dcoli <- dsite %>% 
+  filter(measurement == "total_Ecoli") %>% 
+  filter(site_name %in% c("Fleets Branch", "Harvell Dam"))
+dwide <- dsite %>% 
+  ungroup() %>% 
+  select(-cfu100) %>% 
+  filter(site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
+  pivot_wider( names_from = measurement, values_from = value )
+dwide$cfu100 <- dwide$total_Ecoli / 3 * 100
+hist(log(dwide$cfu100))
+dwide$logcfu100 <- log(dwide$cfu100)
+
+lm1 <- lm( logcfu100 ~ water_temperature + sum6 + site_name, data = dwide)
+summary(lm1)
+plot(lm1)
+
