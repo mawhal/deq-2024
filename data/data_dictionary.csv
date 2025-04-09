@@ -1,0 +1,27 @@
+Data Dictionary for Whalen DEQ 2024 regular citizen science grant,
+,
+Photo taken?,1 = yes; 0 = no
+,
+River height,sourced in units of feet from USGS Matoaca site
+,
+,
+,
+Data,
+measurement,units
+air_temperature,degrees C
+water_temperature,degrees C
+pH,
+do_percent,percent
+do_mgl,milligrams per liter
+turbdity,FNU - functional nephelometric units
+total_Ecoli,number per Petri
+total_coliform,number per Petri
+cfu_per_100ml,number of colony-forming units per 100ml of water sample
+,
+,
+,
+,
+Flags,
+0,out of range of instrument
+1,mistake in sampling or processing
+2,instrument needs calibration
