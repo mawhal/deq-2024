@@ -1,1061 +1,1186 @@
-id,measurement,replicate,value,sample_notes,flag,cfu100
-20240320_Harvell Dam,air_temperature,1,13.8,NA,NA,NA
-20240320_Harvell Dam,water_temperature,1,14.1,NA,NA,NA
-20240320_Harvell Dam,pH,1,7.81,NA,NA,NA
-20240320_Harvell Dam,do_percent,1,110,NA,NA,NA
-20240320_Harvell Dam,do_mgl,1,13.31,NA,NA,NA
-20240320_Harvell Dam,turbidity,1,25.5,NA,NA,NA
-20240320_Harvell Dam,total_Ecoli,1,4,NA,NA,133.33333333333331
-20240320_Harvell Dam,total_Ecoli,2,5,NA,NA,166.66666666666669
-20240320_Harvell Dam,total_coliform,1,1,NA,NA,NA
-20240320_Harvell Dam,total_coliform,2,0,NA,NA,NA
-20240320_Fleets Branch,air_temperature,1,13.8,NA,NA,NA
-20240320_Fleets Branch,water_temperature,1,15.1,NA,NA,NA
-20240320_Fleets Branch,pH,1,9.28,NA,NA,NA
-20240320_Fleets Branch,do_percent,1,114.8,NA,NA,NA
-20240320_Fleets Branch,do_mgl,1,11.55,NA,NA,NA
-20240320_Fleets Branch,turbidity,1,4.5,NA,NA,NA
-20240320_Fleets Branch,total_Ecoli,1,NA,NA,NA,NA
-20240320_Fleets Branch,total_Ecoli,2,NA,NA,NA,NA
-20240320_Fleets Branch,total_coliform,1,NA,NA,NA,NA
-20240320_Fleets Branch,total_coliform,2,NA,NA,NA,NA
-20240403_Willcox Dam,air_temperature,NA,25.1,rain in the AM; more rain on the way,NA,NA
-20240403_Willcox Dam,water_temperature,1,16.6,tornado warning; temperature drop with coming rain,NA,NA
-20240403_Willcox Dam,water_temperature,2,16.7,NA,NA,NA
-20240403_Willcox Dam,pH,1,7.42,NA,NA,NA
-20240403_Willcox Dam,pH,2,7.24,NA,NA,NA
-20240403_Willcox Dam,do_percent,1,90,NA,NA,NA
-20240403_Willcox Dam,do_percent,2,97.9,NA,NA,NA
-20240403_Willcox Dam,do_mgl,1,8.75,NA,NA,NA
-20240403_Willcox Dam,do_mgl,2,9.53,NA,NA,NA
-20240403_Willcox Dam,turbidity,1,21.4,NA,NA,NA
-20240403_Willcox Dam,turbidity,2,22.1,NA,NA,NA
-20240403_Willcox Dam,total_Ecoli,1,1,NA,NA,33.33333333333333
-20240403_Willcox Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20240403_Willcox Dam,total_coliform,1,0,NA,NA,NA
-20240403_Willcox Dam,total_coliform,2,1,NA,NA,NA
-20240403_Brickhouse Run,air_temperature,1,24.1,NA,NA,NA
-20240403_Brickhouse Run,air_temperature,2,19,NA,NA,NA
-20240403_Brickhouse Run,water_temperature,1,16.7,NA,NA,NA
-20240403_Brickhouse Run,water_temperature,2,16.7,NA,NA,NA
-20240403_Brickhouse Run,pH,1,7.37,NA,NA,NA
-20240403_Brickhouse Run,pH,2,7.37,NA,NA,NA
-20240403_Brickhouse Run,do_percent,1,89.3,NA,NA,NA
-20240403_Brickhouse Run,do_percent,2,89.4,NA,NA,NA
-20240403_Brickhouse Run,do_mgl,1,8.69,NA,NA,NA
-20240403_Brickhouse Run,do_mgl,2,8.7,NA,NA,NA
-20240403_Brickhouse Run,turbidity,1,9.89,NA,NA,NA
-20240403_Brickhouse Run,turbidity,2,9.4,NA,NA,NA
-20240403_Brickhouse Run,total_Ecoli,1,5,NA,NA,166.66666666666669
-20240403_Brickhouse Run,total_Ecoli,2,8,NA,NA,266.66666666666663
-20240403_Brickhouse Run,total_coliform,1,21,NA,NA,NA
-20240403_Brickhouse Run,total_coliform,2,24,NA,NA,NA
-20240410_Fleets Branch,air_temperature,1,26.8,NA,NA,NA
-20240410_Fleets Branch,air_temperature,2,27.7,NA,NA,NA
-20240410_Fleets Branch,water_temperature,1,18.7,NA,NA,NA
-20240410_Fleets Branch,water_temperature,2,18.7,NA,NA,NA
-20240410_Fleets Branch,pH,1,9.19,NA,NA,NA
-20240410_Fleets Branch,pH,2,9.19,NA,NA,NA
-20240410_Fleets Branch,do_percent,1,99,NA,NA,NA
-20240410_Fleets Branch,do_percent,2,98.4,NA,NA,NA
-20240410_Fleets Branch,do_mgl,1,9.24,NA,NA,NA
-20240410_Fleets Branch,do_mgl,2,9.2,NA,NA,NA
-20240410_Fleets Branch,turbidity,1,3.66,NA,NA,NA
-20240410_Fleets Branch,turbidity,2,3.77,NA,NA,NA
-20240410_Fleets Branch,total_Ecoli,1,4,NA,NA,133.33333333333331
-20240410_Fleets Branch,total_Ecoli,2,2,NA,NA,66.66666666666666
-20240410_Fleets Branch,total_coliform,1,7,NA,NA,NA
-20240410_Fleets Branch,total_coliform,2,7,NA,NA,NA
-20240410_Harvell Dam,air_temperature,1,24.1,NA,NA,NA
-20240410_Harvell Dam,air_temperature,2,23.7,NA,NA,NA
-20240410_Harvell Dam,water_temperature,1,16.1,river level low,NA,NA
-20240410_Harvell Dam,water_temperature,2,16.1,NA,NA,NA
-20240410_Harvell Dam,pH,1,7.84,NA,NA,NA
-20240410_Harvell Dam,pH,2,7.81,NA,NA,NA
-20240410_Harvell Dam,do_percent,1,91,NA,NA,NA
-20240410_Harvell Dam,do_percent,2,99.8,NA,NA,NA
-20240410_Harvell Dam,do_mgl,1,9.1,NA,NA,NA
-20240410_Harvell Dam,do_mgl,2,9.82,NA,NA,NA
-20240410_Harvell Dam,turbidity,1,16.4,NA,NA,NA
-20240410_Harvell Dam,turbidity,2,15.8,NA,NA,NA
-20240410_Harvell Dam,total_Ecoli,1,0,NA,NA,0
-20240410_Harvell Dam,total_Ecoli,2,2,NA,NA,66.66666666666666
-20240410_Harvell Dam,total_coliform,1,0,NA,NA,NA
-20240410_Harvell Dam,total_coliform,2,1,NA,NA,NA
-20240417_Fleets Branch,air_temperature,1,24.8,NA,NA,NA
-20240417_Fleets Branch,air_temperature,2,25.6,NA,NA,NA
-20240417_Fleets Branch,water_temperature,1,17.3,NA,NA,NA
-20240417_Fleets Branch,water_temperature,2,17.3,NA,NA,NA
-20240417_Fleets Branch,pH,1,7.89,NA,NA,NA
-20240417_Fleets Branch,pH,2,7.83,NA,NA,NA
-20240417_Fleets Branch,do_percent,1,85.3,NA,NA,NA
-20240417_Fleets Branch,do_percent,2,86.6,NA,NA,NA
-20240417_Fleets Branch,do_mgl,1,8.19,NA,NA,NA
-20240417_Fleets Branch,do_mgl,2,8.31,NA,NA,NA
-20240417_Fleets Branch,turbidity,1,2.67,NA,NA,NA
-20240417_Fleets Branch,turbidity,2,2.7,NA,NA,NA
-20240417_Fleets Branch,total_Ecoli,1,6,NA,NA,200
-20240417_Fleets Branch,total_Ecoli,2,4,NA,NA,133.33333333333331
-20240417_Fleets Branch,total_coliform,1,16,NA,NA,NA
-20240417_Fleets Branch,total_coliform,2,29,NA,NA,NA
-20240417_Harvell Dam,air_temperature,1,29.8,NA,NA,NA
-20240417_Harvell Dam,air_temperature,2,30.1,NA,NA,NA
-20240417_Harvell Dam,water_temperature,1,17.8,NA,NA,NA
-20240417_Harvell Dam,water_temperature,2,17.8,NA,NA,NA
-20240417_Harvell Dam,pH,1,7.9,NA,NA,NA
-20240417_Harvell Dam,pH,2,7.89,NA,NA,NA
-20240417_Harvell Dam,do_percent,1,97.6,NA,NA,NA
-20240417_Harvell Dam,do_percent,2,98.1,NA,NA,NA
-20240417_Harvell Dam,do_mgl,1,9.29,NA,NA,NA
-20240417_Harvell Dam,do_mgl,2,9.34,NA,NA,NA
-20240417_Harvell Dam,turbidity,1,9.62,NA,NA,NA
-20240417_Harvell Dam,turbidity,2,10.73,NA,NA,NA
-20240417_Harvell Dam,total_Ecoli,1,0,NA,NA,0
-20240417_Harvell Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20240417_Harvell Dam,total_coliform,1,1,NA,NA,NA
-20240417_Harvell Dam,total_coliform,2,1,NA,NA,NA
-20240424_Fleets Branch,air_temperature,1,22.9,NA,NA,NA
-20240424_Fleets Branch,air_temperature,2,23.7,NA,NA,NA
-20240424_Fleets Branch,water_temperature,1,15.2,NA,NA,NA
-20240424_Fleets Branch,water_temperature,2,15.2,NA,NA,NA
-20240424_Fleets Branch,pH,1,7.69,NA,NA,NA
-20240424_Fleets Branch,pH,2,7.72,NA,NA,NA
-20240424_Fleets Branch,do_percent,1,95.9,NA,NA,NA
-20240424_Fleets Branch,do_percent,2,97.7,NA,NA,NA
-20240424_Fleets Branch,do_mgl,1,9.69,NA,NA,NA
-20240424_Fleets Branch,do_mgl,2,9.91,NA,NA,NA
-20240424_Fleets Branch,turbidity,1,2.42,NA,NA,NA
-20240424_Fleets Branch,turbidity,2,2.3,NA,NA,NA
-20240424_Fleets Branch,total_Ecoli,1,5,NA,NA,166.66666666666669
-20240424_Fleets Branch,total_Ecoli,2,3,NA,NA,100
-20240424_Fleets Branch,total_coliform,1,20,NA,NA,NA
-20240424_Fleets Branch,total_coliform,2,15,NA,NA,NA
-20240424_Harvell Dam,air_temperature,1,24.9,NA,NA,NA
-20240424_Harvell Dam,air_temperature,2,23,NA,NA,NA
-20240424_Harvell Dam,water_temperature,1,18.3,river level low,NA,NA
-20240424_Harvell Dam,water_temperature,2,18.4,NA,NA,NA
-20240424_Harvell Dam,pH,1,8.05,NA,NA,NA
-20240424_Harvell Dam,pH,2,8.05,NA,NA,NA
-20240424_Harvell Dam,do_percent,1,100.8,NA,NA,NA
-20240424_Harvell Dam,do_percent,2,105.5,NA,NA,NA
-20240424_Harvell Dam,do_mgl,1,9.5,NA,NA,NA
-20240424_Harvell Dam,do_mgl,2,9.91,NA,NA,NA
-20240424_Harvell Dam,turbidity,1,4.6,NA,NA,NA
-20240424_Harvell Dam,turbidity,2,4.33,NA,NA,NA
-20240424_Harvell Dam,total_Ecoli,1,1,NA,NA,33.33333333333333
-20240424_Harvell Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20240424_Harvell Dam,total_coliform,1,2,NA,NA,NA
-20240424_Harvell Dam,total_coliform,2,1,NA,NA,NA
-20240425_Willcox Dam,air_temperature,1,21.6,NA,NA,NA
-20240425_Willcox Dam,air_temperature,2,22,NA,NA,NA
-20240425_Willcox Dam,water_temperature,1,19.1,NA,NA,NA
-20240425_Willcox Dam,water_temperature,2,19.1,NA,NA,NA
-20240425_Willcox Dam,pH,1,7.15,NA,NA,NA
-20240425_Willcox Dam,pH,2,7.16,NA,NA,NA
-20240425_Willcox Dam,do_percent,1,92.9,NA,NA,NA
-20240425_Willcox Dam,do_percent,2,93,NA,NA,NA
-20240425_Willcox Dam,do_mgl,1,8.61,NA,NA,NA
-20240425_Willcox Dam,do_mgl,2,8.62,NA,NA,NA
-20240425_Willcox Dam,turbidity,1,4.29,NA,NA,NA
-20240425_Willcox Dam,turbidity,2,4.35,NA,NA,NA
-20240425_Willcox Dam,total_Ecoli,1,0,NA,NA,0
-20240425_Willcox Dam,total_Ecoli,2,0,NA,NA,0
-20240425_Willcox Dam,total_coliform,1,1,NA,NA,NA
-20240425_Willcox Dam,total_coliform,2,2,NA,NA,NA
-20240425_Brickhouse Run,air_temperature,1,26.4,NA,NA,NA
-20240425_Brickhouse Run,air_temperature,2,23.2,NA,NA,NA
-20240425_Brickhouse Run,water_temperature,1,15.4,NA,NA,NA
-20240425_Brickhouse Run,water_temperature,2,15.3,NA,NA,NA
-20240425_Brickhouse Run,pH,1,7.48,NA,NA,NA
-20240425_Brickhouse Run,pH,2,7.49,NA,NA,NA
-20240425_Brickhouse Run,do_percent,1,90.8,NA,NA,NA
-20240425_Brickhouse Run,do_percent,2,94,NA,NA,NA
-20240425_Brickhouse Run,do_mgl,1,9.05,NA,NA,NA
-20240425_Brickhouse Run,do_mgl,2,9.44,NA,NA,NA
-20240425_Brickhouse Run,turbidity,1,2.93,NA,NA,NA
-20240425_Brickhouse Run,turbidity,2,2.76,NA,NA,NA
-20240425_Brickhouse Run,total_Ecoli,1,1,NA,NA,33.33333333333333
-20240425_Brickhouse Run,total_Ecoli,2,0,NA,NA,0
-20240425_Brickhouse Run,total_coliform,1,14,NA,NA,NA
-20240425_Brickhouse Run,total_coliform,2,12,NA,NA,NA
-20240501_Fleets Branch,air_temperature,1,24.7,NA,NA,NA
-20240501_Fleets Branch,air_temperature,2,25,NA,NA,NA
-20240501_Fleets Branch,water_temperature,1,18,NA,NA,NA
-20240501_Fleets Branch,water_temperature,2,18,NA,NA,NA
-20240501_Fleets Branch,pH,1,7.3,NA,NA,NA
-20240501_Fleets Branch,pH,2,7.29,NA,NA,NA
-20240501_Fleets Branch,turbidity,1,3.7,NA,NA,NA
-20240501_Fleets Branch,turbidity,2,3.46,NA,NA,NA
-20240501_Fleets Branch,total_Ecoli,1,1,NA,NA,33.33333333333333
-20240501_Fleets Branch,total_Ecoli,2,8,NA,NA,266.66666666666663
-20240501_Fleets Branch,total_coliform,1,1,NA,NA,NA
-20240501_Fleets Branch,total_coliform,2,8,NA,NA,NA
-20240501_Harvell Dam,air_temperature,1,23.7,NA,NA,NA
-20240501_Harvell Dam,air_temperature,2,23,NA,NA,NA
-20240501_Harvell Dam,water_temperature,1,20.1,NA,NA,NA
-20240501_Harvell Dam,water_temperature,2,20.6,NA,NA,NA
-20240501_Harvell Dam,pH,1,6.8,NA,NA,NA
-20240501_Harvell Dam,pH,2,6.76,NA,NA,NA
-20240501_Harvell Dam,turbidity,1,6.63,NA,NA,NA
-20240501_Harvell Dam,turbidity,2,6.01,NA,NA,NA
-20240501_Harvell Dam,total_Ecoli,1,4,NA,NA,133.33333333333331
-20240501_Harvell Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20240501_Harvell Dam,total_coliform,1,4,NA,NA,NA
-20240501_Harvell Dam,total_coliform,2,1,NA,NA,NA
-20240508_Fleets Branch,air_temperature,1,34.5,NA,NA,NA
-20240508_Fleets Branch,air_temperature,2,33,NA,NA,NA
-20240508_Fleets Branch,water_temperature,1,21.2,NA,NA,NA
-20240508_Fleets Branch,water_temperature,2,21.2,NA,NA,NA
-20240508_Fleets Branch,pH,1,7.18,NA,NA,NA
-20240508_Fleets Branch,pH,2,7.27,NA,NA,NA
-20240508_Fleets Branch,turbidity,1,7.12,NA,NA,NA
-20240508_Fleets Branch,turbidity,2,7.91,NA,NA,NA
-20240508_Fleets Branch,total_Ecoli,1,36,NA,NA,1200
-20240508_Fleets Branch,total_Ecoli,2,45,NA,NA,1500
-20240508_Fleets Branch,total_coliform,1,36,NA,NA,NA
-20240508_Fleets Branch,total_coliform,2,45,NA,NA,NA
-20240508_Harvell Dam,air_temperature,1,28.8,NA,NA,NA
-20240508_Harvell Dam,air_temperature,2,43.6,NA,NA,NA
-20240508_Harvell Dam,water_temperature,1,23.8,NA,NA,NA
-20240508_Harvell Dam,water_temperature,2,24.1,NA,NA,NA
-20240508_Harvell Dam,pH,1,6.65,NA,NA,NA
-20240508_Harvell Dam,pH,2,7.7,NA,NA,NA
-20240508_Harvell Dam,turbidity,1,5.76,NA,NA,NA
-20240508_Harvell Dam,turbidity,2,10.69,NA,NA,NA
-20240508_Harvell Dam,total_Ecoli,1,22,NA,NA,733.3333333333333
-20240508_Harvell Dam,total_Ecoli,2,9,NA,NA,300
-20240508_Harvell Dam,total_coliform,1,22,NA,NA,NA
-20240508_Harvell Dam,total_coliform,2,9,NA,NA,NA
-20240523_Fleets Branch,air_temperature,1,28.7,NA,NA,NA
-20240523_Fleets Branch,air_temperature,2,28.7,NA,NA,NA
-20240523_Fleets Branch,water_temperature,1,20,NA,NA,NA
-20240523_Fleets Branch,water_temperature,2,20,NA,NA,NA
-20240523_Fleets Branch,pH,1,7.41,NA,NA,NA
-20240523_Fleets Branch,pH,2,7.41,NA,NA,NA
-20240523_Fleets Branch,do_percent,1,89.3,NA,NA,NA
-20240523_Fleets Branch,do_percent,2,89.6,NA,NA,NA
-20240523_Fleets Branch,do_mgl,1,8.12,NA,NA,NA
-20240523_Fleets Branch,do_mgl,2,8.14,NA,NA,NA
-20240523_Fleets Branch,turbidity,1,5.24,NA,NA,NA
-20240523_Fleets Branch,turbidity,2,5.33,NA,NA,NA
-20240523_Fleets Branch,total_Ecoli,1,3,data entry on hard copy for wrong site,NA,100
-20240523_Fleets Branch,total_Ecoli,2,2,data entry on hard copy for wrong site,NA,66.66666666666666
-20240523_Fleets Branch,total_coliform,1,6,data entry on hard copy for wrong site,NA,NA
-20240523_Fleets Branch,total_coliform,2,5,data entry on hard copy for wrong site,NA,NA
-20240523_Harvell Dam,air_temperature,1,30.1,NA,NA,NA
-20240523_Harvell Dam,air_temperature,2,31.4,NA,NA,NA
-20240523_Harvell Dam,water_temperature,1,21.3,NA,NA,NA
-20240523_Harvell Dam,water_temperature,2,21.3,NA,NA,NA
-20240523_Harvell Dam,pH,1,7.19,NA,NA,NA
-20240523_Harvell Dam,pH,2,7.2,NA,NA,NA
-20240523_Harvell Dam,do_percent,1,95.8,NA,NA,NA
-20240523_Harvell Dam,do_percent,2,95.6,NA,NA,NA
-20240523_Harvell Dam,do_mgl,1,8.49,NA,NA,NA
-20240523_Harvell Dam,do_mgl,2,8.48,NA,NA,NA
-20240523_Harvell Dam,turbidity,1,13.5,NA,NA,NA
-20240523_Harvell Dam,turbidity,2,16,NA,NA,NA
-20240523_Harvell Dam,total_Ecoli,1,11,data entry on hard copy for wrong site,NA,366.66666666666663
-20240523_Harvell Dam,total_Ecoli,2,12,data entry on hard copy for wrong site,NA,400
-20240523_Harvell Dam,total_coliform,1,61,data entry on hard copy for wrong site,NA,NA
-20240523_Harvell Dam,total_coliform,2,60,data entry on hard copy for wrong site,NA,NA
-20240530_Fleets Branch,air_temperature,1,23.2,NA,NA,NA
-20240530_Fleets Branch,air_temperature,2,20.5,NA,NA,NA
-20240530_Fleets Branch,water_temperature,1,18.4,NA,NA,NA
-20240530_Fleets Branch,water_temperature,2,18.4,NA,NA,NA
-20240530_Fleets Branch,pH,1,7.58,NA,NA,NA
-20240530_Fleets Branch,pH,2,7.55,NA,NA,NA
-20240530_Fleets Branch,do_percent,1,95.9,NA,NA,NA
-20240530_Fleets Branch,do_percent,2,93.8,NA,NA,NA
-20240530_Fleets Branch,do_mgl,1,9,NA,NA,NA
-20240530_Fleets Branch,do_mgl,2,8.76,NA,NA,NA
-20240530_Fleets Branch,turbidity,1,5.59,NA,NA,NA
-20240530_Fleets Branch,turbidity,2,5.99,NA,NA,NA
-20240530_Fleets Branch,total_Ecoli,1,9,NA,NA,300
-20240530_Fleets Branch,total_Ecoli,2,16,NA,NA,533.3333333333333
-20240530_Fleets Branch,total_coliform,1,27,NA,NA,NA
-20240530_Fleets Branch,total_coliform,2,50,NA,NA,NA
-20240530_Fleets Branch,R-card total_Ecoli,1,8,NA,NA,NA
-20240530_Fleets Branch,R-card total_coliform,1,122,NA,NA,NA
-20240530_Harvell Dam,air_temperature,1,26,NA,NA,NA
-20240530_Harvell Dam,air_temperature,2,29.2,NA,NA,NA
-20240530_Harvell Dam,water_temperature,1,23.6,NA,NA,NA
-20240530_Harvell Dam,water_temperature,2,23.7,NA,NA,NA
-20240530_Harvell Dam,pH,1,7.55,NA,NA,NA
-20240530_Harvell Dam,pH,2,7.56,NA,NA,NA
-20240530_Harvell Dam,do_percent,1,97.2,NA,NA,NA
-20240530_Harvell Dam,do_percent,2,96,NA,NA,NA
-20240530_Harvell Dam,do_mgl,1,8.24,NA,NA,NA
-20240530_Harvell Dam,do_mgl,2,8.1,NA,NA,NA
-20240530_Harvell Dam,turbidity,1,5.44,NA,NA,NA
-20240530_Harvell Dam,turbidity,2,5.52,NA,NA,NA
-20240530_Harvell Dam,total_Ecoli,1,1,NA,NA,33.33333333333333
-20240530_Harvell Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20240530_Harvell Dam,total_coliform,1,32,NA,NA,NA
-20240530_Harvell Dam,total_coliform,2,17,NA,NA,NA
-20240530_Harvell Dam,R-card total_Ecoli,1,4,NA,NA,NA
-20240530_Harvell Dam,R-card total_coliform,1,159,NA,NA,NA
-20240606_Fleets Branch,air_temperature,1,26.4,NA,NA,NA
-20240606_Fleets Branch,air_temperature,2,26.6,NA,NA,NA
-20240606_Fleets Branch,water_temperature,1,21.4,NA,NA,NA
-20240606_Fleets Branch,water_temperature,2,21.4,NA,NA,NA
-20240606_Fleets Branch,pH,1,7.62,NA,NA,NA
-20240606_Fleets Branch,pH,2,7.62,NA,NA,NA
-20240606_Fleets Branch,do_percent,1,87.3,NA,NA,NA
-20240606_Fleets Branch,do_percent,2,86.5,NA,NA,NA
-20240606_Fleets Branch,do_mgl,1,7.72,NA,NA,NA
-20240606_Fleets Branch,do_mgl,2,7.68,NA,NA,NA
-20240606_Fleets Branch,turbidity,1,10.32,NA,NA,NA
-20240606_Fleets Branch,turbidity,2,9.36,NA,NA,NA
-20240606_Fleets Branch,total_Ecoli,1,63,NA,NA,2100
-20240606_Fleets Branch,total_Ecoli,2,77,NA,NA,2566.666666666667
-20240606_Fleets Branch,total_coliform,1,120,NA,NA,NA
-20240606_Fleets Branch,total_coliform,2,107,NA,NA,NA
-20240606_Fleets Branch,R-card total_Ecoli,1,81,NA,NA,NA
-20240606_Fleets Branch,R-card total_coliform,1,391,NA,NA,NA
-20240606_Harvell Dam,air_temperature,1,30.2,NA,NA,NA
-20240606_Harvell Dam,air_temperature,2,30.4,NA,NA,NA
-20240606_Harvell Dam,water_temperature,1,25.6,NA,NA,NA
-20240606_Harvell Dam,water_temperature,2,25.7,NA,NA,NA
-20240606_Harvell Dam,pH,1,7.64,NA,NA,NA
-20240606_Harvell Dam,pH,2,7.64,NA,NA,NA
-20240606_Harvell Dam,do_percent,1,91.4,NA,NA,NA
-20240606_Harvell Dam,do_percent,2,90.3,NA,NA,NA
-20240606_Harvell Dam,do_mgl,1,7.46,NA,NA,NA
-20240606_Harvell Dam,do_mgl,2,7.37,NA,NA,NA
-20240606_Harvell Dam,turbidity,1,2.66,NA,NA,NA
-20240606_Harvell Dam,turbidity,2,2.97,NA,NA,NA
-20240606_Harvell Dam,total_Ecoli,1,4,NA,NA,133.33333333333331
-20240606_Harvell Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20240606_Harvell Dam,total_coliform,1,30,NA,NA,NA
-20240606_Harvell Dam,total_coliform,2,40,NA,NA,NA
-20240606_Harvell Dam,R-card total_Ecoli,1,4,NA,NA,NA
-20240606_Harvell Dam,R-card total_coliform,1,194,NA,NA,NA
-20240606_Willcox Dam,air_temperature,1,27.3,NA,NA,NA
-20240606_Willcox Dam,air_temperature,2,27.2,NA,NA,NA
-20240606_Willcox Dam,water_temperature,1,26.3,NA,NA,NA
-20240606_Willcox Dam,water_temperature,2,26.3,NA,NA,NA
-20240606_Willcox Dam,pH,1,9.01,NA,NA,NA
-20240606_Willcox Dam,pH,2,9,NA,NA,NA
-20240606_Willcox Dam,do_percent,1,124.8,NA,NA,NA
-20240606_Willcox Dam,do_percent,2,125.2,NA,NA,NA
-20240606_Willcox Dam,do_mgl,1,10.07,NA,NA,NA
-20240606_Willcox Dam,do_mgl,2,10.11,NA,NA,NA
-20240606_Willcox Dam,turbidity,1,15.6,NA,NA,NA
-20240606_Willcox Dam,turbidity,2,19.6,NA,NA,NA
-20240606_Willcox Dam,total_Ecoli,1,0,NA,NA,0
-20240606_Willcox Dam,total_Ecoli,2,0,NA,NA,0
-20240606_Willcox Dam,total_coliform,1,81,NA,NA,NA
-20240606_Willcox Dam,total_coliform,2,75,NA,NA,NA
-20240606_Brickhouse Run,air_temperature,1,29.3,NA,NA,NA
-20240606_Brickhouse Run,air_temperature,2,28.6,NA,NA,NA
-20240606_Brickhouse Run,water_temperature,1,22.1,NA,NA,NA
-20240606_Brickhouse Run,water_temperature,2,22.1,NA,NA,NA
-20240606_Brickhouse Run,pH,1,7.62,NA,NA,NA
-20240606_Brickhouse Run,pH,2,7.61,NA,NA,NA
-20240606_Brickhouse Run,do_percent,1,82.7,NA,NA,NA
-20240606_Brickhouse Run,do_percent,2,84.3,NA,NA,NA
-20240606_Brickhouse Run,do_mgl,1,7.21,NA,NA,NA
-20240606_Brickhouse Run,do_mgl,2,7.35,NA,NA,NA
-20240606_Brickhouse Run,turbidity,1,86,no flag; paint in Brickhouse Run,NA,NA
-20240606_Brickhouse Run,turbidity,2,84.9,no flag; paint in Brickhouse Run,NA,NA
-20240606_Brickhouse Run,total_Ecoli,1,15,NA,NA,500
-20240606_Brickhouse Run,total_Ecoli,2,16,NA,NA,533.3333333333333
-20240606_Brickhouse Run,total_coliform,1,105,NA,NA,NA
-20240606_Brickhouse Run,total_coliform,2,130,NA,NA,NA
-20240613_Fleets Branch,air_temperature,1,32.3,NA,NA,NA
-20240613_Fleets Branch,air_temperature,2,32.2,NA,NA,NA
-20240613_Fleets Branch,water_temperature,1,21.5,NA,NA,NA
-20240613_Fleets Branch,water_temperature,2,21.5,NA,NA,NA
-20240613_Fleets Branch,pH,1,7.8,NA,NA,NA
-20240613_Fleets Branch,pH,2,7.8,NA,NA,NA
-20240613_Fleets Branch,do_percent,1,86.5,NA,NA,NA
-20240613_Fleets Branch,do_percent,2,86.2,NA,NA,NA
-20240613_Fleets Branch,do_mgl,1,7.61,NA,NA,NA
-20240613_Fleets Branch,do_mgl,2,7.67,NA,NA,NA
-20240613_Fleets Branch,turbidity,1,4.3,NA,NA,NA
-20240613_Fleets Branch,turbidity,2,4.76,NA,NA,NA
-20240613_Fleets Branch,total_Ecoli,1,12,NA,NA,400
-20240613_Fleets Branch,total_Ecoli,2,14,NA,NA,466.6666666666667
-20240613_Fleets Branch,total_coliform,1,58,NA,NA,NA
-20240613_Fleets Branch,total_coliform,2,59,NA,NA,NA
-20240613_Fleets Branch,R-card total_Ecoli,1,85,NA,NA,NA
-20240613_Fleets Branch,R-card total_coliform,1,196,NA,NA,NA
-20240613_Harvell Dam,air_temperature,1,34.2,NA,NA,NA
-20240613_Harvell Dam,air_temperature,2,34.4,NA,NA,NA
-20240613_Harvell Dam,water_temperature,1,26.9,NA,NA,NA
-20240613_Harvell Dam,water_temperature,2,26.8,NA,NA,NA
-20240613_Harvell Dam,pH,1,8.07,NA,NA,NA
-20240613_Harvell Dam,pH,2,8.06,NA,NA,NA
-20240613_Harvell Dam,do_percent,1,102.3,NA,NA,NA
-20240613_Harvell Dam,do_percent,2,101.6,NA,NA,NA
-20240613_Harvell Dam,do_mgl,1,8.13,NA,NA,NA
-20240613_Harvell Dam,do_mgl,2,8.19,NA,NA,NA
-20240613_Harvell Dam,turbidity,1,3.01,NA,NA,NA
-20240613_Harvell Dam,turbidity,2,2.41,NA,NA,NA
-20240613_Harvell Dam,total_Ecoli,1,4,NA,NA,133.33333333333331
-20240613_Harvell Dam,total_Ecoli,2,5,NA,NA,166.66666666666669
-20240613_Harvell Dam,total_coliform,1,20,NA,NA,NA
-20240613_Harvell Dam,total_coliform,2,43,NA,NA,NA
-20240613_Harvell Dam,R-card total_Ecoli,1,9,NA,NA,NA
-20240613_Harvell Dam,R-card total_coliform,1,228,NA,NA,NA
-20240620_ Fleets Branch,air_temperature,1,29,NA,NA,NA
-20240620_ Fleets Branch,air_temperature,2,29.2,NA,NA,NA
-20240620_ Fleets Branch,water_temperature,1,21.5,NA,NA,NA
-20240620_ Fleets Branch,water_temperature,2,21.5,NA,NA,NA
-20240620_ Fleets Branch,pH,1,7.59,NA,NA,NA
-20240620_ Fleets Branch,pH,2,7.58,NA,NA,NA
-20240620_ Fleets Branch,do_percent,1,77.4,NA,NA,NA
-20240620_ Fleets Branch,do_percent,2,79.6,NA,NA,NA
-20240620_ Fleets Branch,do_mgl,1,6.92,NA,NA,NA
-20240620_ Fleets Branch,do_mgl,2,7.02,NA,NA,NA
-20240620_ Fleets Branch,turbidity,1,4.24,NA,NA,NA
-20240620_ Fleets Branch,turbidity,2,3.61,NA,NA,NA
-20240620_ Fleets Branch,total_Ecoli,1,30,NA,NA,1000
-20240620_ Fleets Branch,total_coliform,1,37,NA,NA,NA
-20240620_ Fleets Branch,total_coliform,2,22,NA,NA,NA
-20240620_ Fleets Branch,R-card total_Ecoli,1,18,NA,NA,NA
-20240620_ Fleets Branch,R-card total_coliform,1,111,NA,NA,NA
-20240620_Harvell Dam,air_temperature,1,36.7,NA,NA,NA
-20240620_Harvell Dam,air_temperature,2,39.9,NA,NA,NA
-20240620_Harvell Dam,water_temperature,1,26.1,NA,NA,NA
-20240620_Harvell Dam,water_temperature,2,26.1,NA,NA,NA
-20240620_Harvell Dam,pH,1,7.81,NA,NA,NA
-20240620_Harvell Dam,pH,2,7.81,NA,NA,NA
-20240620_Harvell Dam,do_percent,1,88,NA,NA,NA
-20240620_Harvell Dam,do_percent,2,91.5,NA,NA,NA
-20240620_Harvell Dam,do_mgl,1,7.13,NA,NA,NA
-20240620_Harvell Dam,do_mgl,2,7.4,NA,NA,NA
-20240620_Harvell Dam,turbidity,1,4.41,NA,NA,NA
-20240620_Harvell Dam,turbidity,2,3.56,NA,NA,NA
-20240620_Harvell Dam,total_Ecoli,1,2,NA,NA,66.66666666666666
-20240620_Harvell Dam,total_Ecoli,2,4,NA,NA,133.33333333333331
-20240620_Harvell Dam,total_coliform,1,11,NA,NA,NA
-20240620_Harvell Dam,total_coliform,2,11,NA,NA,NA
-20240620_Harvell Dam,R-card total_Ecoli,1,4,NA,NA,NA
-20240620_Harvell Dam,R-card total_coliform,1,81,NA,NA,NA
-20240627_Fleets Branch,air_temperature,1,28.6,NA,NA,NA
-20240627_Fleets Branch,air_temperature,2,29.2,NA,NA,NA
-20240627_Fleets Branch,water_temperature,1,23.3,NA,NA,NA
-20240627_Fleets Branch,water_temperature,2,23.3,NA,NA,NA
-20240627_Fleets Branch,pH,1,7.64,NA,NA,NA
-20240627_Fleets Branch,pH,2,7.63,NA,NA,NA
-20240627_Fleets Branch,do_percent,1,78.1,NA,NA,NA
-20240627_Fleets Branch,do_percent,2,79.4,NA,NA,NA
-20240627_Fleets Branch,do_mgl,1,6.66,NA,NA,NA
-20240627_Fleets Branch,do_mgl,2,6.78,NA,NA,NA
-20240627_Fleets Branch,turbidity,1,2.33,NA,NA,NA
-20240627_Fleets Branch,turbidity,2,2.73,NA,NA,NA
-20240627_Fleets Branch,total_Ecoli,1,8,NA,NA,266.66666666666663
-20240627_Fleets Branch,total_Ecoli,2,30,NA,NA,1000
-20240627_Fleets Branch,total_coliform,1,64,NA,NA,NA
-20240627_Fleets Branch,total_coliform,2,67,NA,NA,NA
-20240627_Fleets Branch,R-card total_Ecoli,1,12,NA,NA,NA
-20240627_Fleets Branch,R-card total_coliform,1,193,NA,NA,NA
-20240627_Harvell Dam,air_temperature,1,36.7,NA,NA,NA
-20240627_Harvell Dam,air_temperature,2,30.8,NA,NA,NA
-20240627_Harvell Dam,water_temperature,1,29.1,NA,NA,NA
-20240627_Harvell Dam,water_temperature,2,29.2,NA,NA,NA
-20240627_Harvell Dam,pH,1,7.99,NA,NA,NA
-20240627_Harvell Dam,pH,2,8.03,NA,NA,NA
-20240627_Harvell Dam,do_percent,1,89.5,NA,NA,NA
-20240627_Harvell Dam,do_percent,2,90.7,NA,NA,NA
-20240627_Harvell Dam,do_mgl,1,6.87,NA,NA,NA
-20240627_Harvell Dam,do_mgl,2,6.93,NA,NA,NA
-20240627_Harvell Dam,turbidity,1,2.67,NA,NA,NA
-20240627_Harvell Dam,turbidity,2,2.63,NA,NA,NA
-20240627_Harvell Dam,total_Ecoli,1,7,NA,NA,233.33333333333334
-20240627_Harvell Dam,total_Ecoli,2,3,NA,NA,100
-20240627_Harvell Dam,total_coliform,1,43,NA,NA,NA
-20240627_Harvell Dam,total_coliform,2,32,NA,NA,NA
-20240627_Harvell Dam,R-card total_Ecoli,1,8,NA,NA,NA
-20240627_Harvell Dam,R-card total_coliform,1,131,NA,NA,NA
-20240702_Fleets Branch,air_temperature,1,26,NA,NA,NA
-20240702_Fleets Branch,air_temperature,2,25.9,NA,NA,NA
-20240702_Fleets Branch,water_temperature,1,20.6,NA,NA,NA
-20240702_Fleets Branch,water_temperature,2,20.6,NA,NA,NA
-20240702_Fleets Branch,pH,1,7.46,NA,NA,NA
-20240702_Fleets Branch,pH,2,7.45,NA,NA,NA
-20240702_Fleets Branch,do_percent,1,87.7,NA,NA,NA
-20240702_Fleets Branch,do_percent,2,88.5,NA,NA,NA
-20240702_Fleets Branch,do_mgl,1,7.9,NA,NA,NA
-20240702_Fleets Branch,do_mgl,2,7.93,NA,NA,NA
-20240702_Fleets Branch,turbidity,1,3.65,NA,NA,NA
-20240702_Fleets Branch,turbidity,2,4.1,NA,NA,NA
-20240702_Fleets Branch,total_Ecoli,1,70,NA,NA,2333.333333333333
-20240702_Fleets Branch,total_Ecoli,2,87,NA,NA,2900
-20240702_Fleets Branch,total_coliform,1,20,NA,NA,NA
-20240702_Fleets Branch,total_coliform,2,45,NA,NA,NA
-20240702_Fleets Branch,R-card total_Ecoli,1,103,NA,NA,NA
-20240702_Fleets Branch,R-card total_coliform,1,203,NA,NA,NA
-20240702_Harvell Dam,air_temperature,1,31.9,NA,NA,NA
-20240702_Harvell Dam,air_temperature,2,29.6,NA,NA,NA
-20240702_Harvell Dam,water_temperature,1,27.3,NA,NA,NA
-20240702_Harvell Dam,water_temperature,2,27.4,NA,NA,NA
-20240702_Harvell Dam,pH,1,7.92,NA,NA,NA
-20240702_Harvell Dam,pH,2,7.92,NA,NA,NA
-20240702_Harvell Dam,do_percent,1,97.4,NA,NA,NA
-20240702_Harvell Dam,do_percent,2,98.8,NA,NA,NA
-20240702_Harvell Dam,do_mgl,1,7.7,NA,NA,NA
-20240702_Harvell Dam,do_mgl,2,7.82,NA,NA,NA
-20240702_Harvell Dam,turbidity,1,13.03,NA,NA,NA
-20240702_Harvell Dam,turbidity,2,3.13,NA,NA,NA
-20240702_Harvell Dam,total_Ecoli,1,9,NA,NA,300
-20240702_Harvell Dam,total_Ecoli,2,9,NA,NA,300
-20240702_Harvell Dam,total_coliform,1,20,NA,NA,NA
-20240702_Harvell Dam,total_coliform,2,14,NA,NA,NA
-20240702_Harvell Dam,R-card total_Ecoli,1,7,NA,NA,NA
-20240702_Harvell Dam,R-card total_coliform,1,154,NA,NA,NA
-20240711_Fleets Branch,air_temperature,1,28.7,NA,NA,NA
-20240711_Fleets Branch,air_temperature,2,29.5,NA,NA,NA
-20240711_Fleets Branch,water_temperature,1,24.7,NA,NA,NA
-20240711_Fleets Branch,water_temperature,2,24.7,NA,NA,NA
-20240711_Fleets Branch,pH,1,7.48,NA,NA,NA
-20240711_Fleets Branch,pH,2,7.48,NA,NA,NA
-20240711_Fleets Branch,do_percent,1,82,NA,NA,NA
-20240711_Fleets Branch,do_percent,2,81.7,NA,NA,NA
-20240711_Fleets Branch,do_mgl,1,6.81,NA,NA,NA
-20240711_Fleets Branch,do_mgl,2,6.8,NA,NA,NA
-20240711_Fleets Branch,turbidity,1,2.58,NA,NA,NA
-20240711_Fleets Branch,turbidity,2,2.53,NA,NA,NA
-20240711_Fleets Branch,total_Ecoli,1,45,NA,NA,1500
-20240711_Fleets Branch,total_Ecoli,2,46,NA,NA,1533.3333333333335
-20240711_Fleets Branch,total_coliform,1,22,NA,NA,NA
-20240711_Fleets Branch,total_coliform,2,37,NA,NA,NA
-20240711_Fleets Branch,R-card total_Ecoli,1,108,NA,NA,NA
-20240711_Fleets Branch,R-card total_coliform,1,156,NA,NA,NA
-20240711_Harvell Dam,air_temperature,1,36.7,NA,NA,NA
-20240711_Harvell Dam,air_temperature,2,37,NA,NA,NA
-20240711_Harvell Dam,water_temperature,1,29.7,NA,NA,NA
-20240711_Harvell Dam,water_temperature,2,29.7,NA,NA,NA
-20240711_Harvell Dam,pH,1,7.84,NA,NA,NA
-20240711_Harvell Dam,pH,2,7.84,NA,NA,NA
-20240711_Harvell Dam,do_percent,1,96.7,NA,NA,NA
-20240711_Harvell Dam,do_percent,2,99.5,NA,NA,NA
-20240711_Harvell Dam,do_mgl,1,7.42,NA,NA,NA
-20240711_Harvell Dam,do_mgl,2,7.47,NA,NA,NA
-20240711_Harvell Dam,turbidity,1,1.91,NA,NA,NA
-20240711_Harvell Dam,turbidity,2,2.11,NA,NA,NA
-20240711_Harvell Dam,total_Ecoli,1,4,NA,NA,133.33333333333331
-20240711_Harvell Dam,total_Ecoli,2,7,NA,NA,233.33333333333334
-20240711_Harvell Dam,total_coliform,1,9,NA,NA,NA
-20240711_Harvell Dam,total_coliform,2,27,NA,NA,NA
-20240711_Harvell Dam,R-card total_Ecoli,1,4,NA,NA,NA
-20240711_Harvell Dam,R-card total_coliform,1,234,NA,NA,NA
-20240718_Fleets Branch,air_temperature,1,26.1,NA,NA,NA
-20240718_Fleets Branch,air_temperature,2,26.1,NA,NA,NA
-20240718_Fleets Branch,water_temperature,1,24.4,NA,NA,NA
-20240718_Fleets Branch,water_temperature,2,24.4,NA,NA,NA
-20240718_Fleets Branch,pH,1,7.48,NA,NA,NA
-20240718_Fleets Branch,pH,2,7.46,NA,NA,NA
-20240718_Fleets Branch,do_percent,1,73.3,NA,NA,NA
-20240718_Fleets Branch,do_percent,2,70.7,NA,NA,NA
-20240718_Fleets Branch,do_mgl,1,5.97,NA,NA,NA
-20240718_Fleets Branch,do_mgl,2,5.91,NA,NA,NA
-20240718_Fleets Branch,turbidity,1,4.97,NA,NA,NA
-20240718_Fleets Branch,turbidity,2,4.72,NA,NA,NA
-20240718_Fleets Branch,total_Ecoli,1,18,NA,NA,600
-20240718_Fleets Branch,total_Ecoli,2,31,NA,NA,1033.3333333333335
-20240718_Fleets Branch,total_coliform,1,48,NA,NA,NA
-20240718_Fleets Branch,total_coliform,2,72,NA,NA,NA
-20240718_Fleets Branch,R-card total_Ecoli,1,66,NA,NA,NA
-20240718_Fleets Branch,R-card total_coliform,1,127,NA,NA,NA
-20240718_Harvell Dam,air_temperature,1,25.4,NA,NA,NA
-20240718_Harvell Dam,air_temperature,2,26.5,NA,NA,NA
-20240718_Harvell Dam,water_temperature,1,27.4,NA,NA,NA
-20240718_Harvell Dam,water_temperature,2,27.4,NA,NA,NA
-20240718_Harvell Dam,pH,1,7.49,NA,NA,NA
-20240718_Harvell Dam,pH,2,7.48,NA,NA,NA
-20240718_Harvell Dam,do_percent,1,86.3,NA,NA,NA
-20240718_Harvell Dam,do_percent,2,85.6,NA,NA,NA
-20240718_Harvell Dam,do_mgl,1,6.85,NA,NA,NA
-20240718_Harvell Dam,do_mgl,2,6.78,NA,NA,NA
-20240718_Harvell Dam,turbidity,1,2.02,NA,NA,NA
-20240718_Harvell Dam,turbidity,2,1.95,NA,NA,NA
-20240718_Harvell Dam,total_Ecoli,1,11,NA,NA,366.66666666666663
-20240718_Harvell Dam,total_Ecoli,2,9,NA,NA,300
-20240718_Harvell Dam,total_coliform,1,14,NA,NA,NA
-20240718_Harvell Dam,total_coliform,2,16,NA,NA,NA
-20240718_Harvell Dam,R-card total_Ecoli,1,24,NA,NA,NA
-20240718_Harvell Dam,R-card total_coliform,1,162,NA,NA,NA
-20240726_Willcox Dam,air_temperature,1,25,NA,NA,NA
-20240726_Willcox Dam,air_temperature,2,25,NA,NA,NA
-20240726_Willcox Dam,water_temperature,1,27.3,NA,NA,NA
-20240726_Willcox Dam,water_temperature,2,27.2,NA,NA,NA
-20240726_Willcox Dam,pH,1,6.98,NA,NA,NA
-20240726_Willcox Dam,pH,2,6.96,NA,NA,NA
-20240726_Willcox Dam,do_percent,1,87.4,NA,NA,NA
-20240726_Willcox Dam,do_percent,2,88.4,NA,NA,NA
-20240726_Willcox Dam,do_mgl,1,6.93,NA,NA,NA
-20240726_Willcox Dam,do_mgl,2,7.03,NA,NA,NA
-20240726_Willcox Dam,turbidity,1,14.2,NA,NA,NA
-20240726_Willcox Dam,turbidity,2,13.6,NA,NA,NA
-20240726_Willcox Dam,total_Ecoli,1,1,NA,NA,33.33333333333333
-20240726_Willcox Dam,total_Ecoli,2,3,NA,NA,100
-20240726_Willcox Dam,total_coliform,1,27,NA,NA,NA
-20240726_Willcox Dam,total_coliform,2,16,NA,NA,NA
-20240726_Willcox Dam,R-card total_Ecoli,1,2,NA,NA,NA
-20240726_Willcox Dam,R-card total_coliform,2,588,NA,NA,NA
-20240726_Brickhouse Run,air_temperature,1,26.4,NA,NA,NA
-20240726_Brickhouse Run,air_temperature,2,25.9,NA,NA,NA
-20240726_Brickhouse Run,water_temperature,1,24.9,NA,NA,NA
-20240726_Brickhouse Run,water_temperature,2,24.9,NA,NA,NA
-20240726_Brickhouse Run,pH,1,7.4,NA,NA,NA
-20240726_Brickhouse Run,pH,2,7.41,NA,NA,NA
-20240726_Brickhouse Run,do_percent,1,86.5,NA,NA,NA
-20240726_Brickhouse Run,do_percent,2,89.4,NA,NA,NA
-20240726_Brickhouse Run,do_mgl,1,7.17,NA,NA,NA
-20240726_Brickhouse Run,do_mgl,2,7.46,NA,NA,NA
-20240726_Brickhouse Run,turbidity,1,4.96,NA,NA,NA
-20240726_Brickhouse Run,turbidity,2,4.77,NA,NA,NA
-20240726_Brickhouse Run,total_Ecoli,1,8,NA,NA,266.66666666666663
-20240726_Brickhouse Run,total_Ecoli,2,11,NA,NA,366.66666666666663
-20240726_Brickhouse Run,total_coliform,1,35,NA,NA,NA
-20240726_Brickhouse Run,total_coliform,2,34,NA,NA,NA
-20240726_Fleets Branch,air_temperature,1,27.5,NA,NA,NA
-20240726_Fleets Branch,air_temperature,2,28.6,NA,NA,NA
-20240726_Fleets Branch,water_temperature,1,24.6,NA,NA,NA
-20240726_Fleets Branch,water_temperature,2,24.6,NA,NA,NA
-20240726_Fleets Branch,pH,1,7.11,NA,NA,NA
-20240726_Fleets Branch,pH,2,7.11,NA,NA,NA
-20240726_Fleets Branch,do_percent,1,69,NA,NA,NA
-20240726_Fleets Branch,do_percent,2,70.8,NA,NA,NA
-20240726_Fleets Branch,do_mgl,1,5.79,NA,NA,NA
-20240726_Fleets Branch,do_mgl,2,5.9,NA,NA,NA
-20240726_Fleets Branch,turbidity,1,10.88,NA,NA,NA
-20240726_Fleets Branch,turbidity,2,11.6,NA,NA,NA
-20240726_Fleets Branch,total_Ecoli,1,65,<-- plus more that are too small to count,NA,2166.666666666667
-20240726_Fleets Branch,total_Ecoli,2,83,<-- plus more that are too small to count,NA,2766.666666666667
-20240726_Fleets Branch,total_coliform,1,NA,too many,NA,NA
-20240726_Fleets Branch,total_coliform,2,NA,too many,NA,NA
-20240726_Harvell Dam,air_temperature,1,NA,NA,NA,NA
-20240726_Harvell Dam,air_temperature,2,NA,NA,NA,NA
-20240726_Harvell Dam,water_temperature,1,28.7,NA,NA,NA
-20240726_Harvell Dam,water_temperature,2,28.7,NA,NA,NA
-20240726_Harvell Dam,pH,1,7.53,NA,NA,NA
-20240726_Harvell Dam,pH,2,7.52,NA,NA,NA
-20240726_Harvell Dam,do_percent,1,94.4,NA,NA,NA
-20240726_Harvell Dam,do_percent,2,94.4,NA,NA,NA
-20240726_Harvell Dam,do_mgl,1,7.23,NA,NA,NA
-20240726_Harvell Dam,do_mgl,2,7.3,NA,NA,NA
-20240726_Harvell Dam,turbidity,1,4.52,NA,NA,NA
-20240726_Harvell Dam,turbidity,2,5.27,NA,NA,NA
-20240726_Harvell Dam,total_Ecoli,1,1,NA,NA,33.33333333333333
-20240726_Harvell Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20240726_Harvell Dam,total_coliform,1,12,NA,NA,NA
-20240726_Harvell Dam,total_coliform,2,11,NA,NA,NA
-20240815_Fleets Branch,air_temperature,1,21.2,NA,NA,NA
-20240815_Fleets Branch,air_temperature,2,21.5,NA,NA,NA
-20240815_Fleets Branch,water_temperature,1,21,NA,NA,NA
-20240815_Fleets Branch,water_temperature,2,21,Tropical storm Debby raised river levels,NA,NA
-20240815_Fleets Branch,pH,1,7.59,NA,NA,NA
-20240815_Fleets Branch,pH,2,7.56,NA,NA,NA
-20240815_Fleets Branch,do_percent,1,72,NA,NA,NA
-20240815_Fleets Branch,do_percent,2,75,NA,NA,NA
-20240815_Fleets Branch,do_mgl,1,6.4,NA,NA,NA
-20240815_Fleets Branch,do_mgl,2,6.75,NA,NA,NA
-20240815_Fleets Branch,turbidity,1,2.62,NA,NA,NA
-20240815_Fleets Branch,turbidity,2,2.65,NA,NA,NA
-20240815_Fleets Branch,total_Ecoli,1,7,NA,NA,233.33333333333334
-20240815_Fleets Branch,total_Ecoli,2,13,NA,NA,433.3333333333333
-20240815_Fleets Branch,total_coliform,1,24,NA,NA,NA
-20240815_Fleets Branch,total_coliform,2,15,NA,NA,NA
-20240815_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20240815_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
-20240815_Harvell Dam,air_temperature,1,25.6,NA,NA,NA
-20240815_Harvell Dam,air_temperature,2,25.1,NA,NA,NA
-20240815_Harvell Dam,water_temperature,1,26.5,NA,NA,NA
-20240815_Harvell Dam,water_temperature,2,26.5,NA,NA,NA
-20240815_Harvell Dam,pH,1,7.1,NA,NA,NA
-20240815_Harvell Dam,pH,2,7.1,NA,NA,NA
-20240815_Harvell Dam,do_percent,1,82.5,NA,NA,NA
-20240815_Harvell Dam,do_percent,2,82.6,NA,NA,NA
-20240815_Harvell Dam,do_mgl,1,6.63,NA,NA,NA
-20240815_Harvell Dam,do_mgl,2,6.6,NA,NA,NA
-20240815_Harvell Dam,turbidity,1,25,NA,NA,NA
-20240815_Harvell Dam,turbidity,2,22,NA,NA,NA
-20240815_Harvell Dam,total_Ecoli,1,2,NA,NA,66.66666666666666
-20240815_Harvell Dam,total_Ecoli,2,2,NA,NA,66.66666666666666
-20240815_Harvell Dam,total_coliform,1,11,NA,NA,NA
-20240815_Harvell Dam,total_coliform,2,15,NA,NA,NA
-20240815_Harvell Dam,R-card total_Ecoli,1,1,NA,NA,NA
-20240815_Harvell Dam,R-card total_coliform,1,NA,too many to count,NA,NA
-20240815_Harvell Dam,R-card total_Ecoli,2,0,NA,NA,NA
-20240815_Harvell Dam,R-card total_coliform,2,NA,too many to count,NA,NA
-20240822_Fleets Branch,air_temperature,1,22,NA,NA,NA
-20240822_Fleets Branch,air_temperature,2,21.8,NA,NA,NA
-20240822_Fleets Branch,water_temperature,1,19.5,NA,NA,NA
-20240822_Fleets Branch,water_temperature,2,19.5,NA,NA,NA
-20240822_Fleets Branch,pH,1,7.39,NA,NA,NA
-20240822_Fleets Branch,pH,2,7.39,NA,NA,NA
-20240822_Fleets Branch,do_percent,1,58,NA,NA,NA
-20240822_Fleets Branch,do_percent,2,56.5,NA,NA,NA
-20240822_Fleets Branch,do_mgl,1,5.32,NA,NA,NA
-20240822_Fleets Branch,do_mgl,2,5.18,NA,NA,NA
-20240822_Fleets Branch,turbidity,1,39.4,NA,NA,NA
-20240822_Fleets Branch,turbidity,2,38.4,NA,NA,NA
-20240822_Fleets Branch,total_Ecoli,1,120,approximate count,NA,4000
-20240822_Fleets Branch,total_Ecoli,2,90,approximate count,NA,3000
-20240822_Fleets Branch,total_coliform,1,NA,cannot count; too many,NA,NA
-20240822_Fleets Branch,total_coliform,2,NA,cannot count; too many,NA,NA
-20240822_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20240822_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
-20240822_Harvell Dam,air_temperature,1,20.4,NA,NA,NA
-20240822_Harvell Dam,air_temperature,2,20.8,NA,NA,NA
-20240822_Harvell Dam,water_temperature,1,24,NA,NA,NA
-20240822_Harvell Dam,water_temperature,2,24,NA,NA,NA
-20240822_Harvell Dam,pH,1,7.29,NA,NA,NA
-20240822_Harvell Dam,pH,2,7.27,NA,NA,NA
-20240822_Harvell Dam,do_percent,1,90.3,NA,NA,NA
-20240822_Harvell Dam,do_percent,2,92.1,NA,NA,NA
-20240822_Harvell Dam,do_mgl,1,7.6,NA,NA,NA
-20240822_Harvell Dam,do_mgl,2,7.76,NA,NA,NA
-20240822_Harvell Dam,turbidity,1,7.19,NA,NA,NA
-20240822_Harvell Dam,turbidity,2,6.9,NA,NA,NA
-20240822_Harvell Dam,total_Ecoli,1,1,NA,NA,33.33333333333333
-20240822_Harvell Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20240822_Harvell Dam,total_coliform,1,7,7 big ones,NA,NA
-20240822_Harvell Dam,total_coliform,2,12,NA,NA,NA
-20240822_Harvell Dam,R-card total_Ecoli,1,3,NA,NA,NA
-20240822_Harvell Dam,R-card total_coliform,2,14,NA,NA,NA
-20240905_Harvell Dam,air_temperature,1,21.4,NA,NA,NA
-20240905_Harvell Dam,air_temperature,2,21.5,NA,NA,NA
-20240905_Harvell Dam,water_temperature,1,23.9,NA,NA,NA
-20240905_Harvell Dam,water_temperature,2,23.9,NA,NA,NA
-20240905_Harvell Dam,pH,1,7.4,NA,NA,NA
-20240905_Harvell Dam,pH,2,7.35,NA,NA,NA
-20240905_Harvell Dam,do_percent,1,82,NA,NA,NA
-20240905_Harvell Dam,do_percent,2,85.5,NA,NA,NA
-20240905_Harvell Dam,do_mgl,1,6.9,NA,NA,NA
-20240905_Harvell Dam,do_mgl,2,7.21,NA,NA,NA
-20240905_Harvell Dam,turbidity,1,2.65,NA,NA,NA
-20240905_Harvell Dam,turbidity,2,2.41,NA,NA,NA
-20240905_Harvell Dam,total_Ecoli,1,NA,NA,NA,NA
-20240905_Harvell Dam,total_Ecoli,2,NA,NA,NA,NA
-20240905_Harvell Dam,total_coliform,1,NA,NA,NA,NA
-20240905_Harvell Dam,total_coliform,2,NA,NA,NA,NA
-20240905_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20240905_Harvell Dam,R-card total_coliform,2,NA,NA,NA,NA
-20240926_Harvell Dam,air_temperature,1,25.8,NA,NA,NA
-20240926_Harvell Dam,air_temperature,2,25.6,NA,NA,NA
-20240926_Harvell Dam,water_temperature,1,23.5,NA,NA,NA
-20240926_Harvell Dam,water_temperature,2,23.5,NA,NA,NA
-20240926_Harvell Dam,pH,1,7.41,NA,NA,NA
-20240926_Harvell Dam,pH,2,7.41,NA,NA,NA
-20240926_Harvell Dam,do_percent,1,92.4,NA,NA,NA
-20240926_Harvell Dam,do_percent,2,92.6,NA,NA,NA
-20240926_Harvell Dam,do_mgl,1,7.85,NA,NA,NA
-20240926_Harvell Dam,do_mgl,2,7.87,NA,NA,NA
-20240926_Harvell Dam,turbidity,1,6.2,NA,NA,NA
-20240926_Harvell Dam,turbidity,2,5.1,NA,NA,NA
-20240926_Harvell Dam,total_Ecoli,1,3,NA,NA,100
-20240926_Harvell Dam,total_Ecoli,2,8,NA,NA,266.66666666666663
-20240926_Harvell Dam,total_coliform,1,20,NA,NA,NA
-20240926_Harvell Dam,total_coliform,2,19,NA,NA,NA
-20240926_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20240926_Harvell Dam,R-card total_coliform,2,NA,NA,NA,NA
-20240926_Fleets Branch,air_temperature,1,23.5,NA,NA,NA
-20240926_Fleets Branch,air_temperature,2,23.6,NA,NA,NA
-20240926_Fleets Branch,water_temperature,1,21.6,NA,NA,NA
-20240926_Fleets Branch,water_temperature,2,21.6,NA,NA,NA
-20240926_Fleets Branch,pH,1,7.37,NA,NA,NA
-20240926_Fleets Branch,pH,2,7.37,NA,NA,NA
-20240926_Fleets Branch,do_percent,1,85.7,NA,NA,NA
-20240926_Fleets Branch,do_percent,2,86.3,NA,NA,NA
-20240926_Fleets Branch,do_mgl,1,7.56,NA,NA,NA
-20240926_Fleets Branch,do_mgl,2,7.61,NA,NA,NA
-20240926_Fleets Branch,turbidity,1,7.4,NA,NA,NA
-20240926_Fleets Branch,turbidity,2,7.4,NA,NA,NA
-20240926_Fleets Branch,total_Ecoli,1,49,NA,NA,1633.3333333333333
-20240926_Fleets Branch,total_Ecoli,2,42,NA,NA,1400
-20240926_Fleets Branch,total_coliform,1,NA,too many,NA,NA
-20240926_Fleets Branch,total_coliform,2,NA,too many,NA,NA
-20240926_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20240926_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
-20241010_Fleets Branch,air_temperature,1,14.2,NA,NA,NA
-20241010_Fleets Branch,air_temperature,2,14.7,NA,NA,NA
-20241010_Fleets Branch,water_temperature,1,15.8,NA,NA,NA
-20241010_Fleets Branch,water_temperature,2,15.9,NA,NA,NA
-20241010_Fleets Branch,pH,1,7.31,NA,NA,NA
-20241010_Fleets Branch,pH,2,7.31,NA,NA,NA
-20241010_Fleets Branch,do_percent,1,75.5,NA,NA,NA
-20241010_Fleets Branch,do_percent,2,75.5,NA,NA,NA
-20241010_Fleets Branch,do_mgl,1,7.97,NA,NA,NA
-20241010_Fleets Branch,do_mgl,2,7.45,NA,NA,NA
-20241010_Fleets Branch,turbidity,1,3.65,NA,NA,NA
-20241010_Fleets Branch,turbidity,2,3.4,NA,NA,NA
-20241010_Fleets Branch,total_Ecoli,1,1,NA,NA,33.33333333333333
-20241010_Fleets Branch,total_Ecoli,2,2,NA,NA,66.66666666666666
-20241010_Fleets Branch,total_coliform,1,8,NA,NA,NA
-20241010_Fleets Branch,total_coliform,2,10,NA,NA,NA
-20241010_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20241010_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
-20241010_Harvell Dam,air_temperature,1,14.2,NA,NA,NA
-20241010_Harvell Dam,air_temperature,2,14.7,NA,NA,NA
-20241010_Harvell Dam,water_temperature,1,19.7,NA,NA,NA
-20241010_Harvell Dam,water_temperature,2,19.7,NA,NA,NA
-20241010_Harvell Dam,pH,1,7.18,NA,NA,NA
-20241010_Harvell Dam,pH,2,7.19,NA,NA,NA
-20241010_Harvell Dam,do_percent,1,89.6,NA,NA,NA
-20241010_Harvell Dam,do_percent,2,89.5,NA,NA,NA
-20241010_Harvell Dam,do_mgl,1,8.18,NA,NA,NA
-20241010_Harvell Dam,do_mgl,2,8.19,NA,NA,NA
-20241010_Harvell Dam,turbidity,1,12,NA,NA,NA
-20241010_Harvell Dam,turbidity,2,12.1,NA,NA,NA
-20241010_Harvell Dam,total_Ecoli,1,10,NA,NA,333.33333333333337
-20241010_Harvell Dam,total_Ecoli,2,12,NA,NA,400
-20241010_Harvell Dam,total_coliform,1,NA,too many,NA,NA
-20241010_Harvell Dam,total_coliform,2,NA,too many,NA,NA
-20241010_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20241010_Harvell Dam,R-card total_coliform,2,NA,NA,NA,NA
-20241024_Fleets Branch,air_temperature,1,15,NA,NA,NA
-20241024_Fleets Branch,air_temperature,2,15.1,NA,NA,NA
-20241024_Fleets Branch,water_temperature,1,15.6,NA,NA,NA
-20241024_Fleets Branch,water_temperature,2,15.6,NA,NA,NA
-20241024_Fleets Branch,pH,1,7.43,NA,NA,NA
-20241024_Fleets Branch,pH,2,7.43,NA,NA,NA
-20241024_Fleets Branch,do_percent,1,70.8,NA,NA,NA
-20241024_Fleets Branch,do_percent,2,70.5,NA,NA,NA
-20241024_Fleets Branch,do_mgl,1,7.03,NA,NA,NA
-20241024_Fleets Branch,do_mgl,2,7.02,NA,NA,NA
-20241024_Fleets Branch,turbidity,1,3.88,NA,NA,NA
-20241024_Fleets Branch,turbidity,2,NA,N/A,NA,NA
-20241024_Fleets Branch,total_Ecoli,1,26,NA,NA,866.6666666666666
-20241024_Fleets Branch,total_Ecoli,2,28,NA,NA,933.3333333333334
-20241024_Fleets Branch,total_coliform,1,NA,too many,NA,NA
-20241024_Fleets Branch,total_coliform,2,NA,too many,NA,NA
-20241024_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20241024_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
-20241024_Harvell Dam,air_temperature,1,15,NA,NA,NA
-20241024_Harvell Dam,air_temperature,2,15.1,NA,NA,NA
-20241024_Harvell Dam,water_temperature,1,17.8,NA,NA,NA
-20241024_Harvell Dam,water_temperature,2,17.8,NA,NA,NA
-20241024_Harvell Dam,pH,1,7.2,NA,NA,NA
-20241024_Harvell Dam,pH,2,7.15,NA,NA,NA
-20241024_Harvell Dam,do_percent,1,93.9,NA,NA,NA
-20241024_Harvell Dam,do_percent,2,94.6,NA,NA,NA
-20241024_Harvell Dam,do_mgl,1,8.95,NA,NA,NA
-20241024_Harvell Dam,do_mgl,2,9,NA,NA,NA
-20241024_Harvell Dam,turbidity,1,5.43,NA,NA,NA
-20241024_Harvell Dam,turbidity,2,NA,N/A,NA,NA
-20241024_Harvell Dam,total_Ecoli,1,2,NA,NA,66.66666666666666
-20241024_Harvell Dam,total_Ecoli,2,2,NA,NA,66.66666666666666
-20241024_Harvell Dam,total_coliform,1,15,NA,NA,NA
-20241024_Harvell Dam,total_coliform,2,9,NA,NA,NA
-20241024_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20241024_Harvell Dam,R-card total_coliform,2,NA,NA,NA,NA
-20241213_Fleets Branch,air_temperature,1,NA,NA,NA,NA
-20241213_Fleets Branch,air_temperature,2,NA,NA,NA,NA
-20241213_Fleets Branch,water_temperature,1,6.5,NA,NA,NA
-20241213_Fleets Branch,water_temperature,2,6.5,NA,NA,NA
-20241213_Fleets Branch,pH,1,7.18,NA,NA,NA
-20241213_Fleets Branch,pH,2,7.17,NA,NA,NA
-20241213_Fleets Branch,do_percent,1,95.3,NA,NA,NA
-20241213_Fleets Branch,do_percent,2,97.5,NA,NA,NA
-20241213_Fleets Branch,do_mgl,1,11.69,NA,NA,NA
-20241213_Fleets Branch,do_mgl,2,11.99,NA,NA,NA
-20241213_Fleets Branch,turbidity,1,8.11,NA,NA,NA
-20241213_Fleets Branch,turbidity,2,8.31,NA,NA,NA
-20241213_Fleets Branch,total_Ecoli,1,21,NA,NA,700
-20241213_Fleets Branch,total_Ecoli,2,12,NA,NA,400
-20241213_Fleets Branch,total_coliform,1,24,NA,NA,NA
-20241213_Fleets Branch,total_coliform,2,21,NA,NA,NA
-20241213_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20241213_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
-20241213_Harvell Dam,air_temperature,1,NA,NA,NA,NA
-20241213_Harvell Dam,air_temperature,2,NA,NA,NA,NA
-20241213_Harvell Dam,water_temperature,1,7.2,NA,NA,NA
-20241213_Harvell Dam,water_temperature,2,7.2,NA,NA,NA
-20241213_Harvell Dam,pH,1,7.24,NA,NA,NA
-20241213_Harvell Dam,pH,2,7.28,NA,NA,NA
-20241213_Harvell Dam,do_percent,1,102.5,NA,NA,NA
-20241213_Harvell Dam,do_percent,2,102.9,NA,NA,NA
-20241213_Harvell Dam,do_mgl,1,12.37,NA,NA,NA
-20241213_Harvell Dam,do_mgl,2,12.42,NA,NA,NA
-20241213_Harvell Dam,turbidity,1,4.64,NA,NA,NA
-20241213_Harvell Dam,turbidity,2,4.55,NA,NA,NA
-20241213_Harvell Dam,total_Ecoli,1,1,NA,NA,33.33333333333333
-20241213_Harvell Dam,total_Ecoli,2,0,NA,NA,0
-20241213_Harvell Dam,total_coliform,1,2,NA,NA,NA
-20241213_Harvell Dam,total_coliform,2,0,NA,NA,NA
-20241213_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20241213_Harvell Dam,R-card total_coliform,2,NA,NA,NA,NA
-20241101_Willcox Dam,air_temperature,1,21,NA,NA,NA
-20241101_Willcox Dam,air_temperature,2,20.5,NA,NA,NA
-20241101_Willcox Dam,water_temperature,1,17.9,NA,NA,NA
-20241101_Willcox Dam,water_temperature,2,17.9,NA,NA,NA
-20241101_Willcox Dam,pH,1,6.95,NA,NA,NA
-20241101_Willcox Dam,pH,2,6.95,NA,NA,NA
-20241101_Willcox Dam,do_percent,1,74.8,NA,NA,NA
-20241101_Willcox Dam,do_percent,2,74.7,NA,NA,NA
-20241101_Willcox Dam,do_mgl,1,7.09,NA,NA,NA
-20241101_Willcox Dam,do_mgl,2,7.09,NA,NA,NA
-20241101_Willcox Dam,turbidity,1,4.64,NA,NA,NA
-20241101_Willcox Dam,turbidity,2,4.38,NA,NA,NA
-20241101_Willcox Dam,total_Ecoli,1,0,NA,NA,0
-20241101_Willcox Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20241101_Willcox Dam,total_coliform,1,0,NA,NA,NA
-20241101_Willcox Dam,total_coliform,2,3,NA,NA,NA
-20241101_Willcox Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20241101_Willcox Dam,R-card total_coliform,2,NA,NA,NA,NA
-20241101_Brickhouse Run,air_temperature,1,19,NA,NA,NA
-20241101_Brickhouse Run,air_temperature,2,19,NA,NA,NA
-20241101_Brickhouse Run,water_temperature,1,18.1,NA,NA,NA
-20241101_Brickhouse Run,water_temperature,2,18.1,NA,NA,NA
-20241101_Brickhouse Run,pH,1,7.4,NA,NA,NA
-20241101_Brickhouse Run,pH,2,7.43,NA,NA,NA
-20241101_Brickhouse Run,do_percent,1,88.5,NA,NA,NA
-20241101_Brickhouse Run,do_percent,2,85.7,NA,NA,NA
-20241101_Brickhouse Run,do_mgl,1,8.3,NA,NA,NA
-20241101_Brickhouse Run,do_mgl,2,8.04,NA,NA,NA
-20241101_Brickhouse Run,turbidity,1,1.5,NA,NA,NA
-20241101_Brickhouse Run,turbidity,2,2.1,NA,NA,NA
-20241101_Brickhouse Run,total_Ecoli,1,19,NA,NA,633.3333333333333
-20241101_Brickhouse Run,total_Ecoli,2,10,NA,NA,333.33333333333337
-20241101_Brickhouse Run,total_coliform,1,41,NA,NA,NA
-20241101_Brickhouse Run,total_coliform,2,28,NA,NA,NA
-20241101_Brickhouse Run,R-card total_Ecoli,1,NA,NA,NA,NA
-20241101_Brickhouse Run,R-card total_coliform,2,NA,NA,NA,NA
-20241101_Fleets Branch,air_temperature,1,19,NA,NA,NA
-20241101_Fleets Branch,air_temperature,2,19,NA,NA,NA
-20241101_Fleets Branch,water_temperature,1,17.4,NA,NA,NA
-20241101_Fleets Branch,water_temperature,2,17.3,NA,NA,NA
-20241101_Fleets Branch,pH,1,7.25,NA,NA,NA
-20241101_Fleets Branch,pH,2,7.25,NA,NA,NA
-20241101_Fleets Branch,do_percent,1,77.5,NA,NA,NA
-20241101_Fleets Branch,do_percent,2,76.9,NA,NA,NA
-20241101_Fleets Branch,do_mgl,1,7.45,NA,NA,NA
-20241101_Fleets Branch,do_mgl,2,7.37,NA,NA,NA
-20241101_Fleets Branch,turbidity,1,1.09,NA,NA,NA
-20241101_Fleets Branch,turbidity,2,0.99,NA,NA,NA
-20241101_Fleets Branch,total_Ecoli,1,54,NA,NA,1800
-20241101_Fleets Branch,total_Ecoli,2,71,NA,NA,2366.666666666667
-20241101_Fleets Branch,total_coliform,1,61,NA,NA,NA
-20241101_Fleets Branch,total_coliform,2,80,NA,NA,NA
-20241101_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20241101_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
-20241101_Harvell Dam,air_temperature,1,19,NA,NA,NA
-20241101_Harvell Dam,air_temperature,2,19,NA,NA,NA
-20241101_Harvell Dam,water_temperature,1,18.3,NA,NA,NA
-20241101_Harvell Dam,water_temperature,2,18.3,NA,NA,NA
-20241101_Harvell Dam,pH,1,7.72,NA,NA,NA
-20241101_Harvell Dam,pH,2,7.72,NA,NA,NA
-20241101_Harvell Dam,do_percent,1,98.5,NA,NA,NA
-20241101_Harvell Dam,do_percent,2,98.3,NA,NA,NA
-20241101_Harvell Dam,do_mgl,1,9.25,NA,NA,NA
-20241101_Harvell Dam,do_mgl,2,9.24,NA,NA,NA
-20241101_Harvell Dam,turbidity,1,2.96,NA,NA,NA
-20241101_Harvell Dam,turbidity,2,3.08,NA,NA,NA
-20241101_Harvell Dam,total_Ecoli,1,0,NA,NA,0
-20241101_Harvell Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20241101_Harvell Dam,total_coliform,1,5,NA,NA,NA
-20241101_Harvell Dam,total_coliform,2,37,NA,NA,NA
-20241101_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20241101_Harvell Dam,R-card total_coliform,2,NA,NA,NA,NA
-20241114_Fleets Branch,air_temperature,1,13,NA,NA,NA
-20241114_Fleets Branch,air_temperature,2,13,NA,NA,NA
-20241114_Fleets Branch,water_temperature,1,11.1,NA,NA,NA
-20241114_Fleets Branch,water_temperature,2,11.1,NA,NA,NA
-20241114_Fleets Branch,pH,1,7.25,NA,NA,NA
-20241114_Fleets Branch,pH,2,7.24,NA,NA,NA
-20241114_Fleets Branch,do_percent,1,77.2,NA,NA,NA
-20241114_Fleets Branch,do_percent,2,76.7,NA,NA,NA
-20241114_Fleets Branch,do_mgl,1,8.5,NA,NA,NA
-20241114_Fleets Branch,do_mgl,2,8.44,NA,NA,NA
-20241114_Fleets Branch,turbidity,1,1.52,NA,NA,NA
-20241114_Fleets Branch,turbidity,2,1.79,NA,NA,NA
-20241114_Fleets Branch,total_Ecoli,1,10,NA,NA,333.33333333333337
-20241114_Fleets Branch,total_Ecoli,2,14,NA,NA,466.6666666666667
-20241114_Fleets Branch,total_coliform,1,21,NA,NA,NA
-20241114_Fleets Branch,total_coliform,2,36,NA,NA,NA
-20241114_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20241114_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
-20241114_Harvell Dam,air_temperature,1,13,NA,NA,NA
-20241114_Harvell Dam,air_temperature,2,13,NA,NA,NA
-20241114_Harvell Dam,water_temperature,1,11.1,NA,NA,NA
-20241114_Harvell Dam,water_temperature,2,11.1,NA,NA,NA
-20241114_Harvell Dam,pH,1,7.56,NA,NA,NA
-20241114_Harvell Dam,pH,2,7.56,NA,NA,NA
-20241114_Harvell Dam,do_percent,1,92.4,NA,NA,NA
-20241114_Harvell Dam,do_percent,2,92.1,NA,NA,NA
-20241114_Harvell Dam,do_mgl,1,9.57,NA,NA,NA
-20241114_Harvell Dam,do_mgl,2,9.54,NA,NA,NA
-20241114_Harvell Dam,turbidity,1,2.39,NA,NA,NA
-20241114_Harvell Dam,turbidity,2,2.28,NA,NA,NA
-20241114_Harvell Dam,total_Ecoli,1,7,NA,NA,233.33333333333334
-20241114_Harvell Dam,total_Ecoli,2,3,NA,NA,100
-20241114_Harvell Dam,total_coliform,1,13,NA,NA,NA
-20241114_Harvell Dam,total_coliform,2,6,NA,NA,NA
-20241114_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20241114_Harvell Dam,R-card total_coliform,2,NA,NA,NA,NA
-20241121_Fleets Branch,air_temperature,1,10,NA,NA,NA
-20241121_Fleets Branch,air_temperature,2,10,NA,NA,NA
-20241121_Fleets Branch,water_temperature,1,12.9,NA,NA,NA
-20241121_Fleets Branch,water_temperature,2,12.9,NA,NA,NA
-20241121_Fleets Branch,pH,1,7.31,NA,NA,NA
-20241121_Fleets Branch,pH,2,7.3,NA,NA,NA
-20241121_Fleets Branch,do_percent,1,76.4,NA,NA,NA
-20241121_Fleets Branch,do_percent,2,76.1,NA,NA,NA
-20241121_Fleets Branch,do_mgl,1,8.07,NA,NA,NA
-20241121_Fleets Branch,do_mgl,2,8.04,NA,NA,NA
-20241121_Fleets Branch,turbidity,1,2.77,NA,NA,NA
-20241121_Fleets Branch,turbidity,2,2.85,NA,NA,NA
-20241121_Fleets Branch,total_Ecoli,1,3,NA,NA,100
-20241121_Fleets Branch,total_Ecoli,2,5,NA,NA,166.66666666666669
-20241121_Fleets Branch,total_coliform,1,9,NA,NA,NA
-20241121_Fleets Branch,total_coliform,2,10,NA,NA,NA
-20241121_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20241121_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
-20241121_Harvell Dam,air_temperature,1,NA,NA,NA,NA
-20241121_Harvell Dam,air_temperature,2,NA,NA,NA,NA
-20241121_Harvell Dam,water_temperature,1,14,NA,NA,NA
-20241121_Harvell Dam,water_temperature,2,14,NA,NA,NA
-20241121_Harvell Dam,pH,1,7.57,NA,NA,NA
-20241121_Harvell Dam,pH,2,7.58,NA,NA,NA
-20241121_Harvell Dam,do_percent,1,95.7,NA,NA,NA
-20241121_Harvell Dam,do_percent,2,97.4,NA,NA,NA
-20241121_Harvell Dam,do_mgl,1,9.89,NA,NA,NA
-20241121_Harvell Dam,do_mgl,2,10.04,NA,NA,NA
-20241121_Harvell Dam,turbidity,1,3.03,NA,NA,NA
-20241121_Harvell Dam,turbidity,2,3.34,NA,NA,NA
-20241121_Harvell Dam,total_Ecoli,1,2,NA,NA,66.66666666666666
-20241121_Harvell Dam,total_Ecoli,2,4,NA,NA,133.33333333333331
-20241121_Harvell Dam,total_coliform,1,5,NA,NA,NA
-20241121_Harvell Dam,total_coliform,2,7,NA,NA,NA
-20241121_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20241121_Harvell Dam,R-card total_coliform,2,NA,NA,NA,NA
-20241205_Harvell Dam,air_temperature,1,NA,NA,NA,NA
-20241205_Harvell Dam,air_temperature,2,NA,NA,NA,NA
-20241205_Harvell Dam,water_temperature,1,7.8,NA,NA,NA
-20241205_Harvell Dam,water_temperature,2,7.8,NA,NA,NA
-20241205_Harvell Dam,pH,1,7.4,NA,NA,NA
-20241205_Harvell Dam,pH,2,7.41,NA,NA,NA
-20241205_Harvell Dam,do_percent,1,95,NA,NA,NA
-20241205_Harvell Dam,do_percent,2,94.8,NA,NA,NA
-20241205_Harvell Dam,do_mgl,1,11.29,NA,NA,NA
-20241205_Harvell Dam,do_mgl,2,11.27,NA,NA,NA
-20241205_Harvell Dam,turbidity,1,2.66,NA,NA,NA
-20241205_Harvell Dam,turbidity,2,2.61,NA,NA,NA
-20241205_Harvell Dam,total_Ecoli,1,3,NA,NA,100
-20241205_Harvell Dam,total_Ecoli,2,1,NA,NA,33.33333333333333
-20241205_Harvell Dam,total_coliform,1,1,NA,NA,NA
-20241205_Harvell Dam,total_coliform,2,1,NA,NA,NA
-20241205_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA,NA
-20241205_Harvell Dam,R-card total_coliform,2,NA,NA,NA,NA
-20241205_Fleets Branch,air_temperature,1,NA,NA,NA,NA
-20241205_Fleets Branch,air_temperature,2,NA,NA,NA,NA
-20241205_Fleets Branch,water_temperature,1,5.9,NA,NA,NA
-20241205_Fleets Branch,water_temperature,2,5.9,NA,NA,NA
-20241205_Fleets Branch,pH,1,7.41,NA,NA,NA
-20241205_Fleets Branch,pH,2,7.39,NA,NA,NA
-20241205_Fleets Branch,do_percent,1,95.1,NA,NA,NA
-20241205_Fleets Branch,do_percent,2,94.3,NA,NA,NA
-20241205_Fleets Branch,do_mgl,1,11.85,NA,NA,NA
-20241205_Fleets Branch,do_mgl,2,11.77,NA,NA,NA
-20241205_Fleets Branch,turbidity,1,1.32,NA,NA,NA
-20241205_Fleets Branch,turbidity,2,1.34,NA,NA,NA
-20241205_Fleets Branch,total_Ecoli,1,2,NA,NA,66.66666666666666
-20241205_Fleets Branch,total_Ecoli,2,6,NA,NA,200
-20241205_Fleets Branch,total_coliform,1,4,NA,NA,NA
-20241205_Fleets Branch,total_coliform,2,11,NA,NA,NA
-20241205_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA,NA
-20241205_Fleets Branch,R-card total_coliform,2,NA,NA,NA,NA
+id,measurement,replicate,value,sample_notes,flag
+20240320_Fleets Branch,air_temperature,1,13.8,NA,NA
+20240320_Fleets Branch,cfu_per_100ml,1,NA,NA,NA
+20240320_Fleets Branch,cfu_per_100ml,2,NA,NA,NA
+20240320_Fleets Branch,do_mgl,1,11.55,NA,NA
+20240320_Fleets Branch,do_percent,1,114.8,NA,NA
+20240320_Fleets Branch,pH,1,9.28,NA,NA
+20240320_Fleets Branch,total_Ecoli,1,NA,NA,NA
+20240320_Fleets Branch,total_Ecoli,2,NA,NA,NA
+20240320_Fleets Branch,total_coliform,1,NA,NA,NA
+20240320_Fleets Branch,total_coliform,2,NA,NA,NA
+20240320_Fleets Branch,turbidity,1,4.5,NA,NA
+20240320_Fleets Branch,water_temperature,1,15.1,NA,NA
+20240320_Harvell Dam,air_temperature,1,13.8,NA,NA
+20240320_Harvell Dam,cfu_per_100ml,1,133.33333333333331,NA,NA
+20240320_Harvell Dam,cfu_per_100ml,2,166.66666666666669,NA,NA
+20240320_Harvell Dam,do_mgl,1,13.31,NA,NA
+20240320_Harvell Dam,do_percent,1,110,NA,NA
+20240320_Harvell Dam,pH,1,7.81,NA,NA
+20240320_Harvell Dam,total_Ecoli,1,4,NA,NA
+20240320_Harvell Dam,total_Ecoli,2,5,NA,NA
+20240320_Harvell Dam,total_coliform,1,1,NA,NA
+20240320_Harvell Dam,total_coliform,2,0,NA,NA
+20240320_Harvell Dam,turbidity,1,25.5,NA,NA
+20240320_Harvell Dam,water_temperature,1,14.1,NA,NA
+20240403_Brickhouse Run,air_temperature,1,24.1,NA,NA
+20240403_Brickhouse Run,air_temperature,2,19,NA,NA
+20240403_Brickhouse Run,cfu_per_100ml,1,166.66666666666669,NA,NA
+20240403_Brickhouse Run,cfu_per_100ml,2,266.66666666666663,NA,NA
+20240403_Brickhouse Run,do_mgl,1,8.69,NA,NA
+20240403_Brickhouse Run,do_mgl,2,8.7,NA,NA
+20240403_Brickhouse Run,do_percent,1,89.3,NA,NA
+20240403_Brickhouse Run,do_percent,2,89.4,NA,NA
+20240403_Brickhouse Run,pH,1,7.37,NA,NA
+20240403_Brickhouse Run,pH,2,7.37,NA,NA
+20240403_Brickhouse Run,total_Ecoli,1,5,NA,NA
+20240403_Brickhouse Run,total_Ecoli,2,8,NA,NA
+20240403_Brickhouse Run,total_coliform,1,21,NA,NA
+20240403_Brickhouse Run,total_coliform,2,24,NA,NA
+20240403_Brickhouse Run,turbidity,1,9.89,NA,NA
+20240403_Brickhouse Run,turbidity,2,9.4,NA,NA
+20240403_Brickhouse Run,water_temperature,1,16.7,NA,NA
+20240403_Brickhouse Run,water_temperature,2,16.7,NA,NA
+20240403_Willcox Dam,air_temperature,NA,25.1,rain in the AM; more rain on the way,NA
+20240403_Willcox Dam,cfu_per_100ml,1,33.33333333333333,NA,NA
+20240403_Willcox Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20240403_Willcox Dam,do_mgl,1,8.75,NA,NA
+20240403_Willcox Dam,do_mgl,2,9.53,NA,NA
+20240403_Willcox Dam,do_percent,1,90,NA,NA
+20240403_Willcox Dam,do_percent,2,97.9,NA,NA
+20240403_Willcox Dam,pH,1,7.42,NA,NA
+20240403_Willcox Dam,pH,2,7.24,NA,NA
+20240403_Willcox Dam,total_Ecoli,1,1,NA,NA
+20240403_Willcox Dam,total_Ecoli,2,1,NA,NA
+20240403_Willcox Dam,total_coliform,1,0,NA,NA
+20240403_Willcox Dam,total_coliform,2,1,NA,NA
+20240403_Willcox Dam,turbidity,1,21.4,NA,NA
+20240403_Willcox Dam,turbidity,2,22.1,NA,NA
+20240403_Willcox Dam,water_temperature,1,16.6,tornado warning; temperature drop with coming rain,NA
+20240403_Willcox Dam,water_temperature,2,16.7,NA,NA
+20240410_Fleets Branch,air_temperature,1,26.8,NA,NA
+20240410_Fleets Branch,air_temperature,2,27.7,NA,NA
+20240410_Fleets Branch,cfu_per_100ml,1,133.33333333333331,NA,NA
+20240410_Fleets Branch,cfu_per_100ml,2,66.66666666666666,NA,NA
+20240410_Fleets Branch,do_mgl,1,9.24,NA,NA
+20240410_Fleets Branch,do_mgl,2,9.2,NA,NA
+20240410_Fleets Branch,do_percent,1,99,NA,NA
+20240410_Fleets Branch,do_percent,2,98.4,NA,NA
+20240410_Fleets Branch,pH,1,9.19,NA,NA
+20240410_Fleets Branch,pH,2,9.19,NA,NA
+20240410_Fleets Branch,total_Ecoli,1,4,NA,NA
+20240410_Fleets Branch,total_Ecoli,2,2,NA,NA
+20240410_Fleets Branch,total_coliform,1,7,NA,NA
+20240410_Fleets Branch,total_coliform,2,7,NA,NA
+20240410_Fleets Branch,turbidity,1,3.66,NA,NA
+20240410_Fleets Branch,turbidity,2,3.77,NA,NA
+20240410_Fleets Branch,water_temperature,1,18.7,NA,NA
+20240410_Fleets Branch,water_temperature,2,18.7,NA,NA
+20240410_Harvell Dam,air_temperature,1,24.1,NA,NA
+20240410_Harvell Dam,air_temperature,2,23.7,NA,NA
+20240410_Harvell Dam,cfu_per_100ml,1,0,NA,NA
+20240410_Harvell Dam,cfu_per_100ml,2,66.66666666666666,NA,NA
+20240410_Harvell Dam,do_mgl,1,9.1,NA,NA
+20240410_Harvell Dam,do_mgl,2,9.82,NA,NA
+20240410_Harvell Dam,do_percent,1,91,NA,NA
+20240410_Harvell Dam,do_percent,2,99.8,NA,NA
+20240410_Harvell Dam,pH,1,7.84,NA,NA
+20240410_Harvell Dam,pH,2,7.81,NA,NA
+20240410_Harvell Dam,total_Ecoli,1,0,NA,NA
+20240410_Harvell Dam,total_Ecoli,2,2,NA,NA
+20240410_Harvell Dam,total_coliform,1,0,NA,NA
+20240410_Harvell Dam,total_coliform,2,1,NA,NA
+20240410_Harvell Dam,turbidity,1,16.4,NA,NA
+20240410_Harvell Dam,turbidity,2,15.8,NA,NA
+20240410_Harvell Dam,water_temperature,1,16.1,river level low,NA
+20240410_Harvell Dam,water_temperature,2,16.1,NA,NA
+20240417_Fleets Branch,air_temperature,1,24.8,NA,NA
+20240417_Fleets Branch,air_temperature,2,25.6,NA,NA
+20240417_Fleets Branch,cfu_per_100ml,1,200,NA,NA
+20240417_Fleets Branch,cfu_per_100ml,2,133.33333333333331,NA,NA
+20240417_Fleets Branch,do_mgl,1,8.19,NA,NA
+20240417_Fleets Branch,do_mgl,2,8.31,NA,NA
+20240417_Fleets Branch,do_percent,1,85.3,NA,NA
+20240417_Fleets Branch,do_percent,2,86.6,NA,NA
+20240417_Fleets Branch,pH,1,7.89,NA,NA
+20240417_Fleets Branch,pH,2,7.83,NA,NA
+20240417_Fleets Branch,total_Ecoli,1,6,NA,NA
+20240417_Fleets Branch,total_Ecoli,2,4,NA,NA
+20240417_Fleets Branch,total_coliform,1,16,NA,NA
+20240417_Fleets Branch,total_coliform,2,29,NA,NA
+20240417_Fleets Branch,turbidity,1,2.67,NA,NA
+20240417_Fleets Branch,turbidity,2,2.7,NA,NA
+20240417_Fleets Branch,water_temperature,1,17.3,NA,NA
+20240417_Fleets Branch,water_temperature,2,17.3,NA,NA
+20240417_Harvell Dam,air_temperature,1,29.8,NA,NA
+20240417_Harvell Dam,air_temperature,2,30.1,NA,NA
+20240417_Harvell Dam,cfu_per_100ml,1,0,NA,NA
+20240417_Harvell Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20240417_Harvell Dam,do_mgl,1,9.29,NA,NA
+20240417_Harvell Dam,do_mgl,2,9.34,NA,NA
+20240417_Harvell Dam,do_percent,1,97.6,NA,NA
+20240417_Harvell Dam,do_percent,2,98.1,NA,NA
+20240417_Harvell Dam,pH,1,7.9,NA,NA
+20240417_Harvell Dam,pH,2,7.89,NA,NA
+20240417_Harvell Dam,total_Ecoli,1,0,NA,NA
+20240417_Harvell Dam,total_Ecoli,2,1,NA,NA
+20240417_Harvell Dam,total_coliform,1,1,NA,NA
+20240417_Harvell Dam,total_coliform,2,1,NA,NA
+20240417_Harvell Dam,turbidity,1,9.62,NA,NA
+20240417_Harvell Dam,turbidity,2,10.73,NA,NA
+20240417_Harvell Dam,water_temperature,1,17.8,NA,NA
+20240417_Harvell Dam,water_temperature,2,17.8,NA,NA
+20240424_Fleets Branch,air_temperature,1,22.9,NA,NA
+20240424_Fleets Branch,air_temperature,2,23.7,NA,NA
+20240424_Fleets Branch,cfu_per_100ml,1,166.66666666666669,NA,NA
+20240424_Fleets Branch,cfu_per_100ml,2,100,NA,NA
+20240424_Fleets Branch,do_mgl,1,9.69,NA,NA
+20240424_Fleets Branch,do_mgl,2,9.91,NA,NA
+20240424_Fleets Branch,do_percent,1,95.9,NA,NA
+20240424_Fleets Branch,do_percent,2,97.7,NA,NA
+20240424_Fleets Branch,pH,1,7.69,NA,NA
+20240424_Fleets Branch,pH,2,7.72,NA,NA
+20240424_Fleets Branch,total_Ecoli,1,5,NA,NA
+20240424_Fleets Branch,total_Ecoli,2,3,NA,NA
+20240424_Fleets Branch,total_coliform,1,20,NA,NA
+20240424_Fleets Branch,total_coliform,2,15,NA,NA
+20240424_Fleets Branch,turbidity,1,2.42,NA,NA
+20240424_Fleets Branch,turbidity,2,2.3,NA,NA
+20240424_Fleets Branch,water_temperature,1,15.2,NA,NA
+20240424_Fleets Branch,water_temperature,2,15.2,NA,NA
+20240424_Harvell Dam,air_temperature,1,24.9,NA,NA
+20240424_Harvell Dam,air_temperature,2,23,NA,NA
+20240424_Harvell Dam,cfu_per_100ml,1,33.33333333333333,NA,NA
+20240424_Harvell Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20240424_Harvell Dam,do_mgl,1,9.5,NA,NA
+20240424_Harvell Dam,do_mgl,2,9.91,NA,NA
+20240424_Harvell Dam,do_percent,1,100.8,NA,NA
+20240424_Harvell Dam,do_percent,2,105.5,NA,NA
+20240424_Harvell Dam,pH,1,8.05,NA,NA
+20240424_Harvell Dam,pH,2,8.05,NA,NA
+20240424_Harvell Dam,total_Ecoli,1,1,NA,NA
+20240424_Harvell Dam,total_Ecoli,2,1,NA,NA
+20240424_Harvell Dam,total_coliform,1,2,NA,NA
+20240424_Harvell Dam,total_coliform,2,1,NA,NA
+20240424_Harvell Dam,turbidity,1,4.6,NA,NA
+20240424_Harvell Dam,turbidity,2,4.33,NA,NA
+20240424_Harvell Dam,water_temperature,1,18.3,river level low,NA
+20240424_Harvell Dam,water_temperature,2,18.4,NA,NA
+20240425_Brickhouse Run,air_temperature,1,26.4,NA,NA
+20240425_Brickhouse Run,air_temperature,2,23.2,NA,NA
+20240425_Brickhouse Run,cfu_per_100ml,1,33.33333333333333,NA,NA
+20240425_Brickhouse Run,cfu_per_100ml,2,0,NA,NA
+20240425_Brickhouse Run,do_mgl,1,9.05,NA,NA
+20240425_Brickhouse Run,do_mgl,2,9.44,NA,NA
+20240425_Brickhouse Run,do_percent,1,90.8,NA,NA
+20240425_Brickhouse Run,do_percent,2,94,NA,NA
+20240425_Brickhouse Run,pH,1,7.48,NA,NA
+20240425_Brickhouse Run,pH,2,7.49,NA,NA
+20240425_Brickhouse Run,total_Ecoli,1,1,NA,NA
+20240425_Brickhouse Run,total_Ecoli,2,0,NA,NA
+20240425_Brickhouse Run,total_coliform,1,14,NA,NA
+20240425_Brickhouse Run,total_coliform,2,12,NA,NA
+20240425_Brickhouse Run,turbidity,1,2.93,NA,NA
+20240425_Brickhouse Run,turbidity,2,2.76,NA,NA
+20240425_Brickhouse Run,water_temperature,1,15.4,NA,NA
+20240425_Brickhouse Run,water_temperature,2,15.3,NA,NA
+20240425_Willcox Dam,air_temperature,1,21.6,NA,NA
+20240425_Willcox Dam,air_temperature,2,22,NA,NA
+20240425_Willcox Dam,cfu_per_100ml,1,0,NA,NA
+20240425_Willcox Dam,cfu_per_100ml,2,0,NA,NA
+20240425_Willcox Dam,do_mgl,1,8.61,NA,NA
+20240425_Willcox Dam,do_mgl,2,8.62,NA,NA
+20240425_Willcox Dam,do_percent,1,92.9,NA,NA
+20240425_Willcox Dam,do_percent,2,93,NA,NA
+20240425_Willcox Dam,pH,1,7.15,NA,NA
+20240425_Willcox Dam,pH,2,7.16,NA,NA
+20240425_Willcox Dam,total_Ecoli,1,0,NA,NA
+20240425_Willcox Dam,total_Ecoli,2,0,NA,NA
+20240425_Willcox Dam,total_coliform,1,1,NA,NA
+20240425_Willcox Dam,total_coliform,2,2,NA,NA
+20240425_Willcox Dam,turbidity,1,4.29,NA,NA
+20240425_Willcox Dam,turbidity,2,4.35,NA,NA
+20240425_Willcox Dam,water_temperature,1,19.1,NA,NA
+20240425_Willcox Dam,water_temperature,2,19.1,NA,NA
+20240501_Fleets Branch,air_temperature,1,24.7,NA,NA
+20240501_Fleets Branch,air_temperature,2,25,NA,NA
+20240501_Fleets Branch,cfu_per_100ml,1,33.33333333333333,NA,NA
+20240501_Fleets Branch,cfu_per_100ml,2,266.66666666666663,NA,NA
+20240501_Fleets Branch,pH,1,7.3,NA,NA
+20240501_Fleets Branch,pH,2,7.29,NA,NA
+20240501_Fleets Branch,total_Ecoli,1,1,NA,NA
+20240501_Fleets Branch,total_Ecoli,2,8,NA,NA
+20240501_Fleets Branch,total_coliform,1,1,NA,NA
+20240501_Fleets Branch,total_coliform,2,8,NA,NA
+20240501_Fleets Branch,turbidity,1,3.7,NA,NA
+20240501_Fleets Branch,turbidity,2,3.46,NA,NA
+20240501_Fleets Branch,water_temperature,1,18,NA,NA
+20240501_Fleets Branch,water_temperature,2,18,NA,NA
+20240501_Harvell Dam,air_temperature,1,23.7,NA,NA
+20240501_Harvell Dam,air_temperature,2,23,NA,NA
+20240501_Harvell Dam,cfu_per_100ml,1,133.33333333333331,NA,NA
+20240501_Harvell Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20240501_Harvell Dam,pH,1,6.8,NA,NA
+20240501_Harvell Dam,pH,2,6.76,NA,NA
+20240501_Harvell Dam,total_Ecoli,1,4,NA,NA
+20240501_Harvell Dam,total_Ecoli,2,1,NA,NA
+20240501_Harvell Dam,total_coliform,1,4,NA,NA
+20240501_Harvell Dam,total_coliform,2,1,NA,NA
+20240501_Harvell Dam,turbidity,1,6.63,NA,NA
+20240501_Harvell Dam,turbidity,2,6.01,NA,NA
+20240501_Harvell Dam,water_temperature,1,20.1,NA,NA
+20240501_Harvell Dam,water_temperature,2,20.6,NA,NA
+20240508_Fleets Branch,air_temperature,1,34.5,NA,NA
+20240508_Fleets Branch,air_temperature,2,33,NA,NA
+20240508_Fleets Branch,cfu_per_100ml,1,1200,NA,NA
+20240508_Fleets Branch,cfu_per_100ml,2,1500,NA,NA
+20240508_Fleets Branch,pH,1,7.18,NA,NA
+20240508_Fleets Branch,pH,2,7.27,NA,NA
+20240508_Fleets Branch,total_Ecoli,1,36,NA,NA
+20240508_Fleets Branch,total_Ecoli,2,45,NA,NA
+20240508_Fleets Branch,total_coliform,1,36,NA,NA
+20240508_Fleets Branch,total_coliform,2,45,NA,NA
+20240508_Fleets Branch,turbidity,1,7.12,NA,NA
+20240508_Fleets Branch,turbidity,2,7.91,NA,NA
+20240508_Fleets Branch,water_temperature,1,21.2,NA,NA
+20240508_Fleets Branch,water_temperature,2,21.2,NA,NA
+20240508_Harvell Dam,air_temperature,1,28.8,NA,NA
+20240508_Harvell Dam,air_temperature,2,43.6,NA,NA
+20240508_Harvell Dam,cfu_per_100ml,1,733.3333333333333,NA,NA
+20240508_Harvell Dam,cfu_per_100ml,2,300,NA,NA
+20240508_Harvell Dam,pH,1,6.65,NA,NA
+20240508_Harvell Dam,pH,2,7.7,NA,NA
+20240508_Harvell Dam,total_Ecoli,1,22,NA,NA
+20240508_Harvell Dam,total_Ecoli,2,9,NA,NA
+20240508_Harvell Dam,total_coliform,1,22,NA,NA
+20240508_Harvell Dam,total_coliform,2,9,NA,NA
+20240508_Harvell Dam,turbidity,1,5.76,NA,NA
+20240508_Harvell Dam,turbidity,2,10.69,NA,NA
+20240508_Harvell Dam,water_temperature,1,23.8,NA,NA
+20240508_Harvell Dam,water_temperature,2,24.1,NA,NA
+20240523_Fleets Branch,air_temperature,1,28.7,NA,NA
+20240523_Fleets Branch,air_temperature,2,28.7,NA,NA
+20240523_Fleets Branch,cfu_per_100ml,1,100,data entry on hard copy for wrong site,NA
+20240523_Fleets Branch,cfu_per_100ml,2,66.66666666666666,data entry on hard copy for wrong site,NA
+20240523_Fleets Branch,do_mgl,1,8.12,NA,NA
+20240523_Fleets Branch,do_mgl,2,8.14,NA,NA
+20240523_Fleets Branch,do_percent,1,89.3,NA,NA
+20240523_Fleets Branch,do_percent,2,89.6,NA,NA
+20240523_Fleets Branch,pH,1,7.41,NA,NA
+20240523_Fleets Branch,pH,2,7.41,NA,NA
+20240523_Fleets Branch,total_Ecoli,1,3,data entry on hard copy for wrong site,NA
+20240523_Fleets Branch,total_Ecoli,2,2,data entry on hard copy for wrong site,NA
+20240523_Fleets Branch,total_coliform,1,6,data entry on hard copy for wrong site,NA
+20240523_Fleets Branch,total_coliform,2,5,data entry on hard copy for wrong site,NA
+20240523_Fleets Branch,turbidity,1,5.24,NA,NA
+20240523_Fleets Branch,turbidity,2,5.33,NA,NA
+20240523_Fleets Branch,water_temperature,1,20,NA,NA
+20240523_Fleets Branch,water_temperature,2,20,NA,NA
+20240523_Harvell Dam,air_temperature,1,30.1,NA,NA
+20240523_Harvell Dam,air_temperature,2,31.4,NA,NA
+20240523_Harvell Dam,cfu_per_100ml,1,366.66666666666663,data entry on hard copy for wrong site,NA
+20240523_Harvell Dam,cfu_per_100ml,2,400,data entry on hard copy for wrong site,NA
+20240523_Harvell Dam,do_mgl,1,8.49,NA,NA
+20240523_Harvell Dam,do_mgl,2,8.48,NA,NA
+20240523_Harvell Dam,do_percent,1,95.8,NA,NA
+20240523_Harvell Dam,do_percent,2,95.6,NA,NA
+20240523_Harvell Dam,pH,1,7.19,NA,NA
+20240523_Harvell Dam,pH,2,7.2,NA,NA
+20240523_Harvell Dam,total_Ecoli,1,11,data entry on hard copy for wrong site,NA
+20240523_Harvell Dam,total_Ecoli,2,12,data entry on hard copy for wrong site,NA
+20240523_Harvell Dam,total_coliform,1,61,data entry on hard copy for wrong site,NA
+20240523_Harvell Dam,total_coliform,2,60,data entry on hard copy for wrong site,NA
+20240523_Harvell Dam,turbidity,1,13.5,NA,NA
+20240523_Harvell Dam,turbidity,2,16,NA,NA
+20240523_Harvell Dam,water_temperature,1,21.3,NA,NA
+20240523_Harvell Dam,water_temperature,2,21.3,NA,NA
+20240530_Fleets Branch,R-card total_Ecoli,1,8,NA,NA
+20240530_Fleets Branch,R-card total_coliform,1,122,NA,NA
+20240530_Fleets Branch,air_temperature,1,23.2,NA,NA
+20240530_Fleets Branch,air_temperature,2,20.5,NA,NA
+20240530_Fleets Branch,cfu_per_100ml,1,300,NA,NA
+20240530_Fleets Branch,cfu_per_100ml,2,533.3333333333333,NA,NA
+20240530_Fleets Branch,do_mgl,1,9,NA,NA
+20240530_Fleets Branch,do_mgl,2,8.76,NA,NA
+20240530_Fleets Branch,do_percent,1,95.9,NA,NA
+20240530_Fleets Branch,do_percent,2,93.8,NA,NA
+20240530_Fleets Branch,pH,1,7.58,NA,NA
+20240530_Fleets Branch,pH,2,7.55,NA,NA
+20240530_Fleets Branch,total_Ecoli,1,9,NA,NA
+20240530_Fleets Branch,total_Ecoli,2,16,NA,NA
+20240530_Fleets Branch,total_coliform,1,27,NA,NA
+20240530_Fleets Branch,total_coliform,2,50,NA,NA
+20240530_Fleets Branch,turbidity,1,5.59,NA,NA
+20240530_Fleets Branch,turbidity,2,5.99,NA,NA
+20240530_Fleets Branch,water_temperature,1,18.4,NA,NA
+20240530_Fleets Branch,water_temperature,2,18.4,NA,NA
+20240530_Harvell Dam,R-card total_Ecoli,1,4,NA,NA
+20240530_Harvell Dam,R-card total_coliform,1,159,NA,NA
+20240530_Harvell Dam,air_temperature,1,26,NA,NA
+20240530_Harvell Dam,air_temperature,2,29.2,NA,NA
+20240530_Harvell Dam,cfu_per_100ml,1,33.33333333333333,NA,NA
+20240530_Harvell Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20240530_Harvell Dam,do_mgl,1,8.24,NA,NA
+20240530_Harvell Dam,do_mgl,2,8.1,NA,NA
+20240530_Harvell Dam,do_percent,1,97.2,NA,NA
+20240530_Harvell Dam,do_percent,2,96,NA,NA
+20240530_Harvell Dam,pH,1,7.55,NA,NA
+20240530_Harvell Dam,pH,2,7.56,NA,NA
+20240530_Harvell Dam,total_Ecoli,1,1,NA,NA
+20240530_Harvell Dam,total_Ecoli,2,1,NA,NA
+20240530_Harvell Dam,total_coliform,1,32,NA,NA
+20240530_Harvell Dam,total_coliform,2,17,NA,NA
+20240530_Harvell Dam,turbidity,1,5.44,NA,NA
+20240530_Harvell Dam,turbidity,2,5.52,NA,NA
+20240530_Harvell Dam,water_temperature,1,23.6,NA,NA
+20240530_Harvell Dam,water_temperature,2,23.7,NA,NA
+20240606_Brickhouse Run,air_temperature,1,29.3,NA,NA
+20240606_Brickhouse Run,air_temperature,2,28.6,NA,NA
+20240606_Brickhouse Run,cfu_per_100ml,1,500,NA,NA
+20240606_Brickhouse Run,cfu_per_100ml,2,533.3333333333333,NA,NA
+20240606_Brickhouse Run,do_mgl,1,7.21,NA,NA
+20240606_Brickhouse Run,do_mgl,2,7.35,NA,NA
+20240606_Brickhouse Run,do_percent,1,82.7,NA,NA
+20240606_Brickhouse Run,do_percent,2,84.3,NA,NA
+20240606_Brickhouse Run,pH,1,7.62,NA,NA
+20240606_Brickhouse Run,pH,2,7.61,NA,NA
+20240606_Brickhouse Run,total_Ecoli,1,15,NA,NA
+20240606_Brickhouse Run,total_Ecoli,2,16,NA,NA
+20240606_Brickhouse Run,total_coliform,1,105,NA,NA
+20240606_Brickhouse Run,total_coliform,2,130,NA,NA
+20240606_Brickhouse Run,turbidity,1,86,no flag; paint in Brickhouse Run,NA
+20240606_Brickhouse Run,turbidity,2,84.9,no flag; paint in Brickhouse Run,NA
+20240606_Brickhouse Run,water_temperature,1,22.1,NA,NA
+20240606_Brickhouse Run,water_temperature,2,22.1,NA,NA
+20240606_Fleets Branch,R-card total_Ecoli,1,81,NA,NA
+20240606_Fleets Branch,R-card total_coliform,1,391,NA,NA
+20240606_Fleets Branch,air_temperature,1,26.4,NA,NA
+20240606_Fleets Branch,air_temperature,2,26.6,NA,NA
+20240606_Fleets Branch,cfu_per_100ml,1,2100,NA,NA
+20240606_Fleets Branch,cfu_per_100ml,2,2566.666666666667,NA,NA
+20240606_Fleets Branch,do_mgl,1,7.72,NA,NA
+20240606_Fleets Branch,do_mgl,2,7.68,NA,NA
+20240606_Fleets Branch,do_percent,1,87.3,NA,NA
+20240606_Fleets Branch,do_percent,2,86.5,NA,NA
+20240606_Fleets Branch,pH,1,7.62,NA,NA
+20240606_Fleets Branch,pH,2,7.62,NA,NA
+20240606_Fleets Branch,total_Ecoli,1,63,NA,NA
+20240606_Fleets Branch,total_Ecoli,2,77,NA,NA
+20240606_Fleets Branch,total_coliform,1,120,NA,NA
+20240606_Fleets Branch,total_coliform,2,107,NA,NA
+20240606_Fleets Branch,turbidity,1,10.32,NA,NA
+20240606_Fleets Branch,turbidity,2,9.36,NA,NA
+20240606_Fleets Branch,water_temperature,1,21.4,NA,NA
+20240606_Fleets Branch,water_temperature,2,21.4,NA,NA
+20240606_Harvell Dam,R-card total_Ecoli,1,4,NA,NA
+20240606_Harvell Dam,R-card total_coliform,1,194,NA,NA
+20240606_Harvell Dam,air_temperature,1,30.2,NA,NA
+20240606_Harvell Dam,air_temperature,2,30.4,NA,NA
+20240606_Harvell Dam,cfu_per_100ml,1,133.33333333333331,NA,NA
+20240606_Harvell Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20240606_Harvell Dam,do_mgl,1,7.46,NA,NA
+20240606_Harvell Dam,do_mgl,2,7.37,NA,NA
+20240606_Harvell Dam,do_percent,1,91.4,NA,NA
+20240606_Harvell Dam,do_percent,2,90.3,NA,NA
+20240606_Harvell Dam,pH,1,7.64,NA,NA
+20240606_Harvell Dam,pH,2,7.64,NA,NA
+20240606_Harvell Dam,total_Ecoli,1,4,NA,NA
+20240606_Harvell Dam,total_Ecoli,2,1,NA,NA
+20240606_Harvell Dam,total_coliform,1,30,NA,NA
+20240606_Harvell Dam,total_coliform,2,40,NA,NA
+20240606_Harvell Dam,turbidity,1,2.66,NA,NA
+20240606_Harvell Dam,turbidity,2,2.97,NA,NA
+20240606_Harvell Dam,water_temperature,1,25.6,NA,NA
+20240606_Harvell Dam,water_temperature,2,25.7,NA,NA
+20240606_Willcox Dam,air_temperature,1,27.3,NA,NA
+20240606_Willcox Dam,air_temperature,2,27.2,NA,NA
+20240606_Willcox Dam,cfu_per_100ml,1,0,NA,NA
+20240606_Willcox Dam,cfu_per_100ml,2,0,NA,NA
+20240606_Willcox Dam,do_mgl,1,10.07,NA,NA
+20240606_Willcox Dam,do_mgl,2,10.11,NA,NA
+20240606_Willcox Dam,do_percent,1,124.8,NA,NA
+20240606_Willcox Dam,do_percent,2,125.2,NA,NA
+20240606_Willcox Dam,pH,1,9.01,NA,NA
+20240606_Willcox Dam,pH,2,9,NA,NA
+20240606_Willcox Dam,total_Ecoli,1,0,NA,NA
+20240606_Willcox Dam,total_Ecoli,2,0,NA,NA
+20240606_Willcox Dam,total_coliform,1,81,NA,NA
+20240606_Willcox Dam,total_coliform,2,75,NA,NA
+20240606_Willcox Dam,turbidity,1,15.6,NA,NA
+20240606_Willcox Dam,turbidity,2,19.6,NA,NA
+20240606_Willcox Dam,water_temperature,1,26.3,NA,NA
+20240606_Willcox Dam,water_temperature,2,26.3,NA,NA
+20240613_Fleets Branch,R-card total_Ecoli,1,85,NA,NA
+20240613_Fleets Branch,R-card total_coliform,1,196,NA,NA
+20240613_Fleets Branch,air_temperature,1,32.3,NA,NA
+20240613_Fleets Branch,air_temperature,2,32.2,NA,NA
+20240613_Fleets Branch,cfu_per_100ml,1,400,NA,NA
+20240613_Fleets Branch,cfu_per_100ml,2,466.6666666666667,NA,NA
+20240613_Fleets Branch,do_mgl,1,7.61,NA,NA
+20240613_Fleets Branch,do_mgl,2,7.67,NA,NA
+20240613_Fleets Branch,do_percent,1,86.5,NA,NA
+20240613_Fleets Branch,do_percent,2,86.2,NA,NA
+20240613_Fleets Branch,pH,1,7.8,NA,NA
+20240613_Fleets Branch,pH,2,7.8,NA,NA
+20240613_Fleets Branch,total_Ecoli,1,12,NA,NA
+20240613_Fleets Branch,total_Ecoli,2,14,NA,NA
+20240613_Fleets Branch,total_coliform,1,58,NA,NA
+20240613_Fleets Branch,total_coliform,2,59,NA,NA
+20240613_Fleets Branch,turbidity,1,4.3,NA,NA
+20240613_Fleets Branch,turbidity,2,4.76,NA,NA
+20240613_Fleets Branch,water_temperature,1,21.5,NA,NA
+20240613_Fleets Branch,water_temperature,2,21.5,NA,NA
+20240613_Harvell Dam,R-card total_Ecoli,1,9,NA,NA
+20240613_Harvell Dam,R-card total_coliform,1,228,NA,NA
+20240613_Harvell Dam,air_temperature,1,34.2,NA,NA
+20240613_Harvell Dam,air_temperature,2,34.4,NA,NA
+20240613_Harvell Dam,cfu_per_100ml,1,133.33333333333331,NA,NA
+20240613_Harvell Dam,cfu_per_100ml,2,166.66666666666669,NA,NA
+20240613_Harvell Dam,do_mgl,1,8.13,NA,NA
+20240613_Harvell Dam,do_mgl,2,8.19,NA,NA
+20240613_Harvell Dam,do_percent,1,102.3,NA,NA
+20240613_Harvell Dam,do_percent,2,101.6,NA,NA
+20240613_Harvell Dam,pH,1,8.07,NA,NA
+20240613_Harvell Dam,pH,2,8.06,NA,NA
+20240613_Harvell Dam,total_Ecoli,1,4,NA,NA
+20240613_Harvell Dam,total_Ecoli,2,5,NA,NA
+20240613_Harvell Dam,total_coliform,1,20,NA,NA
+20240613_Harvell Dam,total_coliform,2,43,NA,NA
+20240613_Harvell Dam,turbidity,1,3.01,NA,NA
+20240613_Harvell Dam,turbidity,2,2.41,NA,NA
+20240613_Harvell Dam,water_temperature,1,26.9,NA,NA
+20240613_Harvell Dam,water_temperature,2,26.8,NA,NA
+20240620_ Fleets Branch,R-card total_Ecoli,1,18,NA,NA
+20240620_ Fleets Branch,R-card total_coliform,1,111,NA,NA
+20240620_ Fleets Branch,air_temperature,1,29,NA,NA
+20240620_ Fleets Branch,air_temperature,2,29.2,NA,NA
+20240620_ Fleets Branch,cfu_per_100ml,1,1000,NA,NA
+20240620_ Fleets Branch,do_mgl,1,6.92,NA,NA
+20240620_ Fleets Branch,do_mgl,2,7.02,NA,NA
+20240620_ Fleets Branch,do_percent,1,77.4,NA,NA
+20240620_ Fleets Branch,do_percent,2,79.6,NA,NA
+20240620_ Fleets Branch,pH,1,7.59,NA,NA
+20240620_ Fleets Branch,pH,2,7.58,NA,NA
+20240620_ Fleets Branch,total_Ecoli,1,30,NA,NA
+20240620_ Fleets Branch,total_coliform,1,37,NA,NA
+20240620_ Fleets Branch,total_coliform,2,22,NA,NA
+20240620_ Fleets Branch,turbidity,1,4.24,NA,NA
+20240620_ Fleets Branch,turbidity,2,3.61,NA,NA
+20240620_ Fleets Branch,water_temperature,1,21.5,NA,NA
+20240620_ Fleets Branch,water_temperature,2,21.5,NA,NA
+20240620_Harvell Dam,R-card total_Ecoli,1,4,NA,NA
+20240620_Harvell Dam,R-card total_coliform,1,81,NA,NA
+20240620_Harvell Dam,air_temperature,1,36.7,NA,NA
+20240620_Harvell Dam,air_temperature,2,39.9,NA,NA
+20240620_Harvell Dam,cfu_per_100ml,1,66.66666666666666,NA,NA
+20240620_Harvell Dam,cfu_per_100ml,2,133.33333333333331,NA,NA
+20240620_Harvell Dam,do_mgl,1,7.13,NA,NA
+20240620_Harvell Dam,do_mgl,2,7.4,NA,NA
+20240620_Harvell Dam,do_percent,1,88,NA,NA
+20240620_Harvell Dam,do_percent,2,91.5,NA,NA
+20240620_Harvell Dam,pH,1,7.81,NA,NA
+20240620_Harvell Dam,pH,2,7.81,NA,NA
+20240620_Harvell Dam,total_Ecoli,1,2,NA,NA
+20240620_Harvell Dam,total_Ecoli,2,4,NA,NA
+20240620_Harvell Dam,total_coliform,1,11,NA,NA
+20240620_Harvell Dam,total_coliform,2,11,NA,NA
+20240620_Harvell Dam,turbidity,1,4.41,NA,NA
+20240620_Harvell Dam,turbidity,2,3.56,NA,NA
+20240620_Harvell Dam,water_temperature,1,26.1,NA,NA
+20240620_Harvell Dam,water_temperature,2,26.1,NA,NA
+20240627_Fleets Branch,R-card total_Ecoli,1,12,NA,NA
+20240627_Fleets Branch,R-card total_coliform,1,193,NA,NA
+20240627_Fleets Branch,air_temperature,1,28.6,NA,NA
+20240627_Fleets Branch,air_temperature,2,29.2,NA,NA
+20240627_Fleets Branch,cfu_per_100ml,1,266.66666666666663,NA,NA
+20240627_Fleets Branch,cfu_per_100ml,2,1000,NA,NA
+20240627_Fleets Branch,do_mgl,1,6.66,NA,NA
+20240627_Fleets Branch,do_mgl,2,6.78,NA,NA
+20240627_Fleets Branch,do_percent,1,78.1,NA,NA
+20240627_Fleets Branch,do_percent,2,79.4,NA,NA
+20240627_Fleets Branch,pH,1,7.64,NA,NA
+20240627_Fleets Branch,pH,2,7.63,NA,NA
+20240627_Fleets Branch,total_Ecoli,1,8,NA,NA
+20240627_Fleets Branch,total_Ecoli,2,30,NA,NA
+20240627_Fleets Branch,total_coliform,1,64,NA,NA
+20240627_Fleets Branch,total_coliform,2,67,NA,NA
+20240627_Fleets Branch,turbidity,1,2.33,NA,NA
+20240627_Fleets Branch,turbidity,2,2.73,NA,NA
+20240627_Fleets Branch,water_temperature,1,23.3,NA,NA
+20240627_Fleets Branch,water_temperature,2,23.3,NA,NA
+20240627_Harvell Dam,R-card total_Ecoli,1,8,NA,NA
+20240627_Harvell Dam,R-card total_coliform,1,131,NA,NA
+20240627_Harvell Dam,air_temperature,1,36.7,NA,NA
+20240627_Harvell Dam,air_temperature,2,30.8,NA,NA
+20240627_Harvell Dam,cfu_per_100ml,1,233.33333333333334,NA,NA
+20240627_Harvell Dam,cfu_per_100ml,2,100,NA,NA
+20240627_Harvell Dam,do_mgl,1,6.87,NA,NA
+20240627_Harvell Dam,do_mgl,2,6.93,NA,NA
+20240627_Harvell Dam,do_percent,1,89.5,NA,NA
+20240627_Harvell Dam,do_percent,2,90.7,NA,NA
+20240627_Harvell Dam,pH,1,7.99,NA,NA
+20240627_Harvell Dam,pH,2,8.03,NA,NA
+20240627_Harvell Dam,total_Ecoli,1,7,NA,NA
+20240627_Harvell Dam,total_Ecoli,2,3,NA,NA
+20240627_Harvell Dam,total_coliform,1,43,NA,NA
+20240627_Harvell Dam,total_coliform,2,32,NA,NA
+20240627_Harvell Dam,turbidity,1,2.67,NA,NA
+20240627_Harvell Dam,turbidity,2,2.63,NA,NA
+20240627_Harvell Dam,water_temperature,1,29.1,NA,NA
+20240627_Harvell Dam,water_temperature,2,29.2,NA,NA
+20240702_Fleets Branch,R-card total_Ecoli,1,103,NA,NA
+20240702_Fleets Branch,R-card total_coliform,1,203,NA,NA
+20240702_Fleets Branch,air_temperature,1,26,NA,NA
+20240702_Fleets Branch,air_temperature,2,25.9,NA,NA
+20240702_Fleets Branch,cfu_per_100ml,1,2333.333333333333,NA,NA
+20240702_Fleets Branch,cfu_per_100ml,2,2900,NA,NA
+20240702_Fleets Branch,do_mgl,1,7.9,NA,NA
+20240702_Fleets Branch,do_mgl,2,7.93,NA,NA
+20240702_Fleets Branch,do_percent,1,87.7,NA,NA
+20240702_Fleets Branch,do_percent,2,88.5,NA,NA
+20240702_Fleets Branch,pH,1,7.46,NA,NA
+20240702_Fleets Branch,pH,2,7.45,NA,NA
+20240702_Fleets Branch,total_Ecoli,1,70,NA,NA
+20240702_Fleets Branch,total_Ecoli,2,87,NA,NA
+20240702_Fleets Branch,total_coliform,1,20,NA,NA
+20240702_Fleets Branch,total_coliform,2,45,NA,NA
+20240702_Fleets Branch,turbidity,1,3.65,NA,NA
+20240702_Fleets Branch,turbidity,2,4.1,NA,NA
+20240702_Fleets Branch,water_temperature,1,20.6,NA,NA
+20240702_Fleets Branch,water_temperature,2,20.6,NA,NA
+20240702_Harvell Dam,R-card total_Ecoli,1,7,NA,NA
+20240702_Harvell Dam,R-card total_coliform,1,154,NA,NA
+20240702_Harvell Dam,air_temperature,1,31.9,NA,NA
+20240702_Harvell Dam,air_temperature,2,29.6,NA,NA
+20240702_Harvell Dam,cfu_per_100ml,1,300,NA,NA
+20240702_Harvell Dam,cfu_per_100ml,2,300,NA,NA
+20240702_Harvell Dam,do_mgl,1,7.7,NA,NA
+20240702_Harvell Dam,do_mgl,2,7.82,NA,NA
+20240702_Harvell Dam,do_percent,1,97.4,NA,NA
+20240702_Harvell Dam,do_percent,2,98.8,NA,NA
+20240702_Harvell Dam,pH,1,7.92,NA,NA
+20240702_Harvell Dam,pH,2,7.92,NA,NA
+20240702_Harvell Dam,total_Ecoli,1,9,NA,NA
+20240702_Harvell Dam,total_Ecoli,2,9,NA,NA
+20240702_Harvell Dam,total_coliform,1,20,NA,NA
+20240702_Harvell Dam,total_coliform,2,14,NA,NA
+20240702_Harvell Dam,turbidity,1,13.03,NA,NA
+20240702_Harvell Dam,turbidity,2,3.13,NA,NA
+20240702_Harvell Dam,water_temperature,1,27.3,NA,NA
+20240702_Harvell Dam,water_temperature,2,27.4,NA,NA
+20240711_Fleets Branch,R-card total_Ecoli,1,108,NA,NA
+20240711_Fleets Branch,R-card total_coliform,1,156,NA,NA
+20240711_Fleets Branch,air_temperature,1,28.7,NA,NA
+20240711_Fleets Branch,air_temperature,2,29.5,NA,NA
+20240711_Fleets Branch,cfu_per_100ml,1,1500,NA,NA
+20240711_Fleets Branch,cfu_per_100ml,2,1533.3333333333335,NA,NA
+20240711_Fleets Branch,do_mgl,1,6.81,NA,NA
+20240711_Fleets Branch,do_mgl,2,6.8,NA,NA
+20240711_Fleets Branch,do_percent,1,82,NA,NA
+20240711_Fleets Branch,do_percent,2,81.7,NA,NA
+20240711_Fleets Branch,pH,1,7.48,NA,NA
+20240711_Fleets Branch,pH,2,7.48,NA,NA
+20240711_Fleets Branch,total_Ecoli,1,45,NA,NA
+20240711_Fleets Branch,total_Ecoli,2,46,NA,NA
+20240711_Fleets Branch,total_coliform,1,22,NA,NA
+20240711_Fleets Branch,total_coliform,2,37,NA,NA
+20240711_Fleets Branch,turbidity,1,2.58,NA,NA
+20240711_Fleets Branch,turbidity,2,2.53,NA,NA
+20240711_Fleets Branch,water_temperature,1,24.7,NA,NA
+20240711_Fleets Branch,water_temperature,2,24.7,NA,NA
+20240711_Harvell Dam,R-card total_Ecoli,1,4,NA,NA
+20240711_Harvell Dam,R-card total_coliform,1,234,NA,NA
+20240711_Harvell Dam,air_temperature,1,36.7,NA,NA
+20240711_Harvell Dam,air_temperature,2,37,NA,NA
+20240711_Harvell Dam,cfu_per_100ml,1,133.33333333333331,NA,NA
+20240711_Harvell Dam,cfu_per_100ml,2,233.33333333333334,NA,NA
+20240711_Harvell Dam,do_mgl,1,7.42,NA,NA
+20240711_Harvell Dam,do_mgl,2,7.47,NA,NA
+20240711_Harvell Dam,do_percent,1,96.7,NA,NA
+20240711_Harvell Dam,do_percent,2,99.5,NA,NA
+20240711_Harvell Dam,pH,1,7.84,NA,NA
+20240711_Harvell Dam,pH,2,7.84,NA,NA
+20240711_Harvell Dam,total_Ecoli,1,4,NA,NA
+20240711_Harvell Dam,total_Ecoli,2,7,NA,NA
+20240711_Harvell Dam,total_coliform,1,9,NA,NA
+20240711_Harvell Dam,total_coliform,2,27,NA,NA
+20240711_Harvell Dam,turbidity,1,1.91,NA,NA
+20240711_Harvell Dam,turbidity,2,2.11,NA,NA
+20240711_Harvell Dam,water_temperature,1,29.7,NA,NA
+20240711_Harvell Dam,water_temperature,2,29.7,NA,NA
+20240718_Fleets Branch,R-card total_Ecoli,1,66,NA,NA
+20240718_Fleets Branch,R-card total_coliform,1,127,NA,NA
+20240718_Fleets Branch,air_temperature,1,26.1,NA,NA
+20240718_Fleets Branch,air_temperature,2,26.1,NA,NA
+20240718_Fleets Branch,cfu_per_100ml,1,600,NA,NA
+20240718_Fleets Branch,cfu_per_100ml,2,1033.3333333333335,NA,NA
+20240718_Fleets Branch,do_mgl,1,5.97,NA,NA
+20240718_Fleets Branch,do_mgl,2,5.91,NA,NA
+20240718_Fleets Branch,do_percent,1,73.3,NA,NA
+20240718_Fleets Branch,do_percent,2,70.7,NA,NA
+20240718_Fleets Branch,pH,1,7.48,NA,NA
+20240718_Fleets Branch,pH,2,7.46,NA,NA
+20240718_Fleets Branch,total_Ecoli,1,18,NA,NA
+20240718_Fleets Branch,total_Ecoli,2,31,NA,NA
+20240718_Fleets Branch,total_coliform,1,48,NA,NA
+20240718_Fleets Branch,total_coliform,2,72,NA,NA
+20240718_Fleets Branch,turbidity,1,4.97,NA,NA
+20240718_Fleets Branch,turbidity,2,4.72,NA,NA
+20240718_Fleets Branch,water_temperature,1,24.4,NA,NA
+20240718_Fleets Branch,water_temperature,2,24.4,NA,NA
+20240718_Harvell Dam,R-card total_Ecoli,1,24,NA,NA
+20240718_Harvell Dam,R-card total_coliform,1,162,NA,NA
+20240718_Harvell Dam,air_temperature,1,25.4,NA,NA
+20240718_Harvell Dam,air_temperature,2,26.5,NA,NA
+20240718_Harvell Dam,cfu_per_100ml,1,366.66666666666663,NA,NA
+20240718_Harvell Dam,cfu_per_100ml,2,300,NA,NA
+20240718_Harvell Dam,do_mgl,1,6.85,NA,NA
+20240718_Harvell Dam,do_mgl,2,6.78,NA,NA
+20240718_Harvell Dam,do_percent,1,86.3,NA,NA
+20240718_Harvell Dam,do_percent,2,85.6,NA,NA
+20240718_Harvell Dam,pH,1,7.49,NA,NA
+20240718_Harvell Dam,pH,2,7.48,NA,NA
+20240718_Harvell Dam,total_Ecoli,1,11,NA,NA
+20240718_Harvell Dam,total_Ecoli,2,9,NA,NA
+20240718_Harvell Dam,total_coliform,1,14,NA,NA
+20240718_Harvell Dam,total_coliform,2,16,NA,NA
+20240718_Harvell Dam,turbidity,1,2.02,NA,NA
+20240718_Harvell Dam,turbidity,2,1.95,NA,NA
+20240718_Harvell Dam,water_temperature,1,27.4,NA,NA
+20240718_Harvell Dam,water_temperature,2,27.4,NA,NA
+20240726_Brickhouse Run,air_temperature,1,26.4,NA,NA
+20240726_Brickhouse Run,air_temperature,2,25.9,NA,NA
+20240726_Brickhouse Run,cfu_per_100ml,1,266.66666666666663,NA,NA
+20240726_Brickhouse Run,cfu_per_100ml,2,366.66666666666663,NA,NA
+20240726_Brickhouse Run,do_mgl,1,7.17,NA,NA
+20240726_Brickhouse Run,do_mgl,2,7.46,NA,NA
+20240726_Brickhouse Run,do_percent,1,86.5,NA,NA
+20240726_Brickhouse Run,do_percent,2,89.4,NA,NA
+20240726_Brickhouse Run,pH,1,7.4,NA,NA
+20240726_Brickhouse Run,pH,2,7.41,NA,NA
+20240726_Brickhouse Run,total_Ecoli,1,8,NA,NA
+20240726_Brickhouse Run,total_Ecoli,2,11,NA,NA
+20240726_Brickhouse Run,total_coliform,1,35,NA,NA
+20240726_Brickhouse Run,total_coliform,2,34,NA,NA
+20240726_Brickhouse Run,turbidity,1,4.96,NA,NA
+20240726_Brickhouse Run,turbidity,2,4.77,NA,NA
+20240726_Brickhouse Run,water_temperature,1,24.9,NA,NA
+20240726_Brickhouse Run,water_temperature,2,24.9,NA,NA
+20240726_Fleets Branch,air_temperature,1,27.5,NA,NA
+20240726_Fleets Branch,air_temperature,2,28.6,NA,NA
+20240726_Fleets Branch,cfu_per_100ml,1,2166.666666666667,<-- plus more that are too small to count,NA
+20240726_Fleets Branch,cfu_per_100ml,2,2766.666666666667,<-- plus more that are too small to count,NA
+20240726_Fleets Branch,do_mgl,1,5.79,NA,NA
+20240726_Fleets Branch,do_mgl,2,5.9,NA,NA
+20240726_Fleets Branch,do_percent,1,69,NA,NA
+20240726_Fleets Branch,do_percent,2,70.8,NA,NA
+20240726_Fleets Branch,pH,1,7.11,NA,NA
+20240726_Fleets Branch,pH,2,7.11,NA,NA
+20240726_Fleets Branch,total_Ecoli,1,65,<-- plus more that are too small to count,NA
+20240726_Fleets Branch,total_Ecoli,2,83,<-- plus more that are too small to count,NA
+20240726_Fleets Branch,total_coliform,1,NA,too many to count,NA
+20240726_Fleets Branch,total_coliform,2,NA,too many to count,NA
+20240726_Fleets Branch,turbidity,1,10.88,NA,NA
+20240726_Fleets Branch,turbidity,2,11.6,NA,NA
+20240726_Fleets Branch,water_temperature,1,24.6,NA,NA
+20240726_Fleets Branch,water_temperature,2,24.6,NA,NA
+20240726_Harvell Dam,air_temperature,1,NA,NA,NA
+20240726_Harvell Dam,air_temperature,2,NA,NA,NA
+20240726_Harvell Dam,cfu_per_100ml,1,33.33333333333333,NA,NA
+20240726_Harvell Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20240726_Harvell Dam,do_mgl,1,7.23,NA,NA
+20240726_Harvell Dam,do_mgl,2,7.3,NA,NA
+20240726_Harvell Dam,do_percent,1,94.4,NA,NA
+20240726_Harvell Dam,do_percent,2,94.4,NA,NA
+20240726_Harvell Dam,pH,1,7.53,NA,NA
+20240726_Harvell Dam,pH,2,7.52,NA,NA
+20240726_Harvell Dam,total_Ecoli,1,1,NA,NA
+20240726_Harvell Dam,total_Ecoli,2,1,NA,NA
+20240726_Harvell Dam,total_coliform,1,12,NA,NA
+20240726_Harvell Dam,total_coliform,2,11,NA,NA
+20240726_Harvell Dam,turbidity,1,4.52,NA,NA
+20240726_Harvell Dam,turbidity,2,5.27,NA,NA
+20240726_Harvell Dam,water_temperature,1,28.7,NA,NA
+20240726_Harvell Dam,water_temperature,2,28.7,NA,NA
+20240726_Willcox Dam,R-card total_Ecoli,1,2,NA,NA
+20240726_Willcox Dam,R-card total_coliform,2,588,NA,NA
+20240726_Willcox Dam,air_temperature,1,25,NA,NA
+20240726_Willcox Dam,air_temperature,2,25,NA,NA
+20240726_Willcox Dam,cfu_per_100ml,1,33.33333333333333,NA,NA
+20240726_Willcox Dam,cfu_per_100ml,2,100,NA,NA
+20240726_Willcox Dam,do_mgl,1,6.93,NA,NA
+20240726_Willcox Dam,do_mgl,2,7.03,NA,NA
+20240726_Willcox Dam,do_percent,1,87.4,NA,NA
+20240726_Willcox Dam,do_percent,2,88.4,NA,NA
+20240726_Willcox Dam,pH,1,6.98,NA,NA
+20240726_Willcox Dam,pH,2,6.96,NA,NA
+20240726_Willcox Dam,total_Ecoli,1,1,NA,NA
+20240726_Willcox Dam,total_Ecoli,2,3,NA,NA
+20240726_Willcox Dam,total_coliform,1,27,NA,NA
+20240726_Willcox Dam,total_coliform,2,16,NA,NA
+20240726_Willcox Dam,turbidity,1,14.2,NA,NA
+20240726_Willcox Dam,turbidity,2,13.6,NA,NA
+20240726_Willcox Dam,water_temperature,1,27.3,NA,NA
+20240726_Willcox Dam,water_temperature,2,27.2,NA,NA
+20240815_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20240815_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20240815_Fleets Branch,air_temperature,1,21.2,NA,NA
+20240815_Fleets Branch,air_temperature,2,21.5,NA,NA
+20240815_Fleets Branch,cfu_per_100ml,1,233.33333333333334,NA,NA
+20240815_Fleets Branch,cfu_per_100ml,2,433.3333333333333,NA,NA
+20240815_Fleets Branch,do_mgl,1,6.4,NA,NA
+20240815_Fleets Branch,do_mgl,2,6.75,NA,NA
+20240815_Fleets Branch,do_percent,1,72,NA,NA
+20240815_Fleets Branch,do_percent,2,75,NA,NA
+20240815_Fleets Branch,pH,1,7.59,NA,NA
+20240815_Fleets Branch,pH,2,7.56,NA,NA
+20240815_Fleets Branch,total_Ecoli,1,7,NA,NA
+20240815_Fleets Branch,total_Ecoli,2,13,NA,NA
+20240815_Fleets Branch,total_coliform,1,24,NA,NA
+20240815_Fleets Branch,total_coliform,2,15,NA,NA
+20240815_Fleets Branch,turbidity,1,2.62,NA,NA
+20240815_Fleets Branch,turbidity,2,2.65,NA,NA
+20240815_Fleets Branch,water_temperature,1,21,NA,NA
+20240815_Fleets Branch,water_temperature,2,21,Tropical storm Debby raised river levels,NA
+20240815_Harvell Dam,R-card total_Ecoli,1,1,NA,NA
+20240815_Harvell Dam,R-card total_Ecoli,2,0,NA,NA
+20240815_Harvell Dam,R-card total_coliform,1,NA,too many to count,NA
+20240815_Harvell Dam,R-card total_coliform,2,NA,too many to count,NA
+20240815_Harvell Dam,air_temperature,1,25.6,NA,NA
+20240815_Harvell Dam,air_temperature,2,25.1,NA,NA
+20240815_Harvell Dam,cfu_per_100ml,1,66.66666666666666,NA,NA
+20240815_Harvell Dam,cfu_per_100ml,2,66.66666666666666,NA,NA
+20240815_Harvell Dam,do_mgl,1,6.63,NA,NA
+20240815_Harvell Dam,do_mgl,2,6.6,NA,NA
+20240815_Harvell Dam,do_percent,1,82.5,NA,NA
+20240815_Harvell Dam,do_percent,2,82.6,NA,NA
+20240815_Harvell Dam,pH,1,7.1,NA,NA
+20240815_Harvell Dam,pH,2,7.1,NA,NA
+20240815_Harvell Dam,total_Ecoli,1,2,NA,NA
+20240815_Harvell Dam,total_Ecoli,2,2,NA,NA
+20240815_Harvell Dam,total_coliform,1,11,NA,NA
+20240815_Harvell Dam,total_coliform,2,15,NA,NA
+20240815_Harvell Dam,turbidity,1,25,NA,NA
+20240815_Harvell Dam,turbidity,2,22,NA,NA
+20240815_Harvell Dam,water_temperature,1,26.5,NA,NA
+20240815_Harvell Dam,water_temperature,2,26.5,NA,NA
+20240822_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20240822_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20240822_Fleets Branch,air_temperature,1,22,NA,NA
+20240822_Fleets Branch,air_temperature,2,21.8,NA,NA
+20240822_Fleets Branch,cfu_per_100ml,1,4000,approximate count,NA
+20240822_Fleets Branch,cfu_per_100ml,2,3000,approximate count,NA
+20240822_Fleets Branch,do_mgl,1,5.32,NA,NA
+20240822_Fleets Branch,do_mgl,2,5.18,NA,NA
+20240822_Fleets Branch,do_percent,1,58,NA,NA
+20240822_Fleets Branch,do_percent,2,56.5,NA,NA
+20240822_Fleets Branch,pH,1,7.39,NA,NA
+20240822_Fleets Branch,pH,2,7.39,NA,NA
+20240822_Fleets Branch,total_Ecoli,1,120,approximate count,NA
+20240822_Fleets Branch,total_Ecoli,2,90,approximate count,NA
+20240822_Fleets Branch,total_coliform,1,NA,cannot count; too many,NA
+20240822_Fleets Branch,total_coliform,2,NA,cannot count; too many,NA
+20240822_Fleets Branch,turbidity,1,39.4,NA,NA
+20240822_Fleets Branch,turbidity,2,38.4,NA,NA
+20240822_Fleets Branch,water_temperature,1,19.5,NA,NA
+20240822_Fleets Branch,water_temperature,2,19.5,NA,NA
+20240822_Harvell Dam,R-card total_Ecoli,1,3,NA,NA
+20240822_Harvell Dam,R-card total_coliform,2,14,NA,NA
+20240822_Harvell Dam,air_temperature,1,20.4,NA,NA
+20240822_Harvell Dam,air_temperature,2,20.8,NA,NA
+20240822_Harvell Dam,cfu_per_100ml,1,33.33333333333333,NA,NA
+20240822_Harvell Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20240822_Harvell Dam,do_mgl,1,7.6,NA,NA
+20240822_Harvell Dam,do_mgl,2,7.76,NA,NA
+20240822_Harvell Dam,do_percent,1,90.3,NA,NA
+20240822_Harvell Dam,do_percent,2,92.1,NA,NA
+20240822_Harvell Dam,pH,1,7.29,NA,NA
+20240822_Harvell Dam,pH,2,7.27,NA,NA
+20240822_Harvell Dam,total_Ecoli,1,1,NA,NA
+20240822_Harvell Dam,total_Ecoli,2,1,NA,NA
+20240822_Harvell Dam,total_coliform,1,7,7 big ones,NA
+20240822_Harvell Dam,total_coliform,2,12,NA,NA
+20240822_Harvell Dam,turbidity,1,7.19,NA,NA
+20240822_Harvell Dam,turbidity,2,6.9,NA,NA
+20240822_Harvell Dam,water_temperature,1,24,NA,NA
+20240822_Harvell Dam,water_temperature,2,24,NA,NA
+20240905_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA
+20240905_Harvell Dam,R-card total_coliform,2,NA,NA,NA
+20240905_Harvell Dam,air_temperature,1,21.4,NA,NA
+20240905_Harvell Dam,air_temperature,2,21.5,NA,NA
+20240905_Harvell Dam,cfu_per_100ml,1,NA,NA,NA
+20240905_Harvell Dam,cfu_per_100ml,2,NA,NA,NA
+20240905_Harvell Dam,do_mgl,1,6.9,NA,NA
+20240905_Harvell Dam,do_mgl,2,7.21,NA,NA
+20240905_Harvell Dam,do_percent,1,82,NA,NA
+20240905_Harvell Dam,do_percent,2,85.5,NA,NA
+20240905_Harvell Dam,pH,1,7.4,NA,NA
+20240905_Harvell Dam,pH,2,7.35,NA,NA
+20240905_Harvell Dam,total_Ecoli,1,NA,NA,NA
+20240905_Harvell Dam,total_Ecoli,2,NA,NA,NA
+20240905_Harvell Dam,total_coliform,1,NA,NA,NA
+20240905_Harvell Dam,total_coliform,2,NA,NA,NA
+20240905_Harvell Dam,turbidity,1,2.65,NA,NA
+20240905_Harvell Dam,turbidity,2,2.41,NA,NA
+20240905_Harvell Dam,water_temperature,1,23.9,NA,NA
+20240905_Harvell Dam,water_temperature,2,23.9,NA,NA
+20240926_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20240926_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20240926_Fleets Branch,air_temperature,1,23.5,NA,NA
+20240926_Fleets Branch,air_temperature,2,23.6,NA,NA
+20240926_Fleets Branch,cfu_per_100ml,1,1633.3333333333333,NA,NA
+20240926_Fleets Branch,cfu_per_100ml,2,1400,NA,NA
+20240926_Fleets Branch,do_mgl,1,7.56,NA,NA
+20240926_Fleets Branch,do_mgl,2,7.61,NA,NA
+20240926_Fleets Branch,do_percent,1,85.7,NA,NA
+20240926_Fleets Branch,do_percent,2,86.3,NA,NA
+20240926_Fleets Branch,pH,1,7.37,NA,NA
+20240926_Fleets Branch,pH,2,7.37,NA,NA
+20240926_Fleets Branch,total_Ecoli,1,49,NA,NA
+20240926_Fleets Branch,total_Ecoli,2,42,NA,NA
+20240926_Fleets Branch,total_coliform,1,NA,too many to count,NA
+20240926_Fleets Branch,total_coliform,2,NA,too many to count,NA
+20240926_Fleets Branch,turbidity,1,7.4,NA,NA
+20240926_Fleets Branch,turbidity,2,7.4,NA,NA
+20240926_Fleets Branch,water_temperature,1,21.6,NA,NA
+20240926_Fleets Branch,water_temperature,2,21.6,NA,NA
+20240926_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA
+20240926_Harvell Dam,R-card total_coliform,2,NA,NA,NA
+20240926_Harvell Dam,air_temperature,1,25.8,NA,NA
+20240926_Harvell Dam,air_temperature,2,25.6,NA,NA
+20240926_Harvell Dam,cfu_per_100ml,1,100,NA,NA
+20240926_Harvell Dam,cfu_per_100ml,2,266.66666666666663,NA,NA
+20240926_Harvell Dam,do_mgl,1,7.85,NA,NA
+20240926_Harvell Dam,do_mgl,2,7.87,NA,NA
+20240926_Harvell Dam,do_percent,1,92.4,NA,NA
+20240926_Harvell Dam,do_percent,2,92.6,NA,NA
+20240926_Harvell Dam,pH,1,7.41,NA,NA
+20240926_Harvell Dam,pH,2,7.41,NA,NA
+20240926_Harvell Dam,total_Ecoli,1,3,NA,NA
+20240926_Harvell Dam,total_Ecoli,2,8,NA,NA
+20240926_Harvell Dam,total_coliform,1,20,NA,NA
+20240926_Harvell Dam,total_coliform,2,19,NA,NA
+20240926_Harvell Dam,turbidity,1,6.2,NA,NA
+20240926_Harvell Dam,turbidity,2,5.1,NA,NA
+20240926_Harvell Dam,water_temperature,1,23.5,NA,NA
+20240926_Harvell Dam,water_temperature,2,23.5,NA,NA
+20241010_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20241010_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20241010_Fleets Branch,air_temperature,1,14.2,NA,NA
+20241010_Fleets Branch,air_temperature,2,14.7,NA,NA
+20241010_Fleets Branch,cfu_per_100ml,1,33.33333333333333,NA,NA
+20241010_Fleets Branch,cfu_per_100ml,2,66.66666666666666,NA,NA
+20241010_Fleets Branch,do_mgl,1,7.97,NA,NA
+20241010_Fleets Branch,do_mgl,2,7.45,NA,NA
+20241010_Fleets Branch,do_percent,1,75.5,NA,NA
+20241010_Fleets Branch,do_percent,2,75.5,NA,NA
+20241010_Fleets Branch,pH,1,7.31,NA,NA
+20241010_Fleets Branch,pH,2,7.31,NA,NA
+20241010_Fleets Branch,total_Ecoli,1,1,NA,NA
+20241010_Fleets Branch,total_Ecoli,2,2,NA,NA
+20241010_Fleets Branch,total_coliform,1,8,NA,NA
+20241010_Fleets Branch,total_coliform,2,10,NA,NA
+20241010_Fleets Branch,turbidity,1,3.65,NA,NA
+20241010_Fleets Branch,turbidity,2,3.4,NA,NA
+20241010_Fleets Branch,water_temperature,1,15.8,NA,NA
+20241010_Fleets Branch,water_temperature,2,15.9,NA,NA
+20241010_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA
+20241010_Harvell Dam,R-card total_coliform,2,NA,NA,NA
+20241010_Harvell Dam,air_temperature,1,14.2,NA,NA
+20241010_Harvell Dam,air_temperature,2,14.7,NA,NA
+20241010_Harvell Dam,cfu_per_100ml,1,333.33333333333337,NA,NA
+20241010_Harvell Dam,cfu_per_100ml,2,400,NA,NA
+20241010_Harvell Dam,do_mgl,1,8.18,NA,NA
+20241010_Harvell Dam,do_mgl,2,8.19,NA,NA
+20241010_Harvell Dam,do_percent,1,89.6,NA,NA
+20241010_Harvell Dam,do_percent,2,89.5,NA,NA
+20241010_Harvell Dam,pH,1,7.18,NA,NA
+20241010_Harvell Dam,pH,2,7.19,NA,NA
+20241010_Harvell Dam,total_Ecoli,1,10,NA,NA
+20241010_Harvell Dam,total_Ecoli,2,12,NA,NA
+20241010_Harvell Dam,total_coliform,1,NA,too many to count,NA
+20241010_Harvell Dam,total_coliform,2,NA,too many to count,NA
+20241010_Harvell Dam,turbidity,1,12,NA,NA
+20241010_Harvell Dam,turbidity,2,12.1,NA,NA
+20241010_Harvell Dam,water_temperature,1,19.7,NA,NA
+20241010_Harvell Dam,water_temperature,2,19.7,NA,NA
+20241024_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20241024_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20241024_Fleets Branch,air_temperature,1,15,NA,NA
+20241024_Fleets Branch,air_temperature,2,15.1,NA,NA
+20241024_Fleets Branch,cfu_per_100ml,1,866.6666666666666,NA,NA
+20241024_Fleets Branch,cfu_per_100ml,2,933.3333333333334,NA,NA
+20241024_Fleets Branch,do_mgl,1,7.03,NA,NA
+20241024_Fleets Branch,do_mgl,2,7.02,NA,NA
+20241024_Fleets Branch,do_percent,1,70.8,NA,NA
+20241024_Fleets Branch,do_percent,2,70.5,NA,NA
+20241024_Fleets Branch,pH,1,7.43,NA,NA
+20241024_Fleets Branch,pH,2,7.43,NA,NA
+20241024_Fleets Branch,total_Ecoli,1,26,NA,NA
+20241024_Fleets Branch,total_Ecoli,2,28,NA,NA
+20241024_Fleets Branch,total_coliform,1,NA,too many to count,NA
+20241024_Fleets Branch,total_coliform,2,NA,too many to count,NA
+20241024_Fleets Branch,turbidity,1,3.88,NA,NA
+20241024_Fleets Branch,turbidity,2,NA,no sample taken,NA
+20241024_Fleets Branch,water_temperature,1,15.6,NA,NA
+20241024_Fleets Branch,water_temperature,2,15.6,NA,NA
+20241024_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA
+20241024_Harvell Dam,R-card total_coliform,2,NA,NA,NA
+20241024_Harvell Dam,air_temperature,1,15,NA,NA
+20241024_Harvell Dam,air_temperature,2,15.1,NA,NA
+20241024_Harvell Dam,cfu_per_100ml,1,66.66666666666666,NA,NA
+20241024_Harvell Dam,cfu_per_100ml,2,66.66666666666666,NA,NA
+20241024_Harvell Dam,do_mgl,1,8.95,NA,NA
+20241024_Harvell Dam,do_mgl,2,9,NA,NA
+20241024_Harvell Dam,do_percent,1,93.9,NA,NA
+20241024_Harvell Dam,do_percent,2,94.6,NA,NA
+20241024_Harvell Dam,pH,1,7.2,NA,NA
+20241024_Harvell Dam,pH,2,7.15,NA,NA
+20241024_Harvell Dam,total_Ecoli,1,2,NA,NA
+20241024_Harvell Dam,total_Ecoli,2,2,NA,NA
+20241024_Harvell Dam,total_coliform,1,15,NA,NA
+20241024_Harvell Dam,total_coliform,2,9,NA,NA
+20241024_Harvell Dam,turbidity,1,5.43,NA,NA
+20241024_Harvell Dam,turbidity,2,NA,no sample taken,NA
+20241024_Harvell Dam,water_temperature,1,17.8,NA,NA
+20241024_Harvell Dam,water_temperature,2,17.8,NA,NA
+20241101_Brickhouse Run,R-card total_Ecoli,1,NA,NA,NA
+20241101_Brickhouse Run,R-card total_coliform,2,NA,NA,NA
+20241101_Brickhouse Run,air_temperature,1,19,NA,NA
+20241101_Brickhouse Run,air_temperature,2,19,NA,NA
+20241101_Brickhouse Run,cfu_per_100ml,1,633.3333333333333,NA,NA
+20241101_Brickhouse Run,cfu_per_100ml,2,333.33333333333337,NA,NA
+20241101_Brickhouse Run,do_mgl,1,8.3,NA,NA
+20241101_Brickhouse Run,do_mgl,2,8.04,NA,NA
+20241101_Brickhouse Run,do_percent,1,88.5,NA,NA
+20241101_Brickhouse Run,do_percent,2,85.7,NA,NA
+20241101_Brickhouse Run,pH,1,7.4,NA,NA
+20241101_Brickhouse Run,pH,2,7.43,NA,NA
+20241101_Brickhouse Run,total_Ecoli,1,19,NA,NA
+20241101_Brickhouse Run,total_Ecoli,2,10,NA,NA
+20241101_Brickhouse Run,total_coliform,1,41,NA,NA
+20241101_Brickhouse Run,total_coliform,2,28,NA,NA
+20241101_Brickhouse Run,turbidity,1,1.5,NA,NA
+20241101_Brickhouse Run,turbidity,2,2.1,NA,NA
+20241101_Brickhouse Run,water_temperature,1,18.1,NA,NA
+20241101_Brickhouse Run,water_temperature,2,18.1,NA,NA
+20241101_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20241101_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20241101_Fleets Branch,air_temperature,1,19,NA,NA
+20241101_Fleets Branch,air_temperature,2,19,NA,NA
+20241101_Fleets Branch,cfu_per_100ml,1,1800,NA,NA
+20241101_Fleets Branch,cfu_per_100ml,2,2366.666666666667,NA,NA
+20241101_Fleets Branch,do_mgl,1,7.45,NA,NA
+20241101_Fleets Branch,do_mgl,2,7.37,NA,NA
+20241101_Fleets Branch,do_percent,1,77.5,NA,NA
+20241101_Fleets Branch,do_percent,2,76.9,NA,NA
+20241101_Fleets Branch,pH,1,7.25,NA,NA
+20241101_Fleets Branch,pH,2,7.25,NA,NA
+20241101_Fleets Branch,total_Ecoli,1,54,NA,NA
+20241101_Fleets Branch,total_Ecoli,2,71,NA,NA
+20241101_Fleets Branch,total_coliform,1,61,NA,NA
+20241101_Fleets Branch,total_coliform,2,80,NA,NA
+20241101_Fleets Branch,turbidity,1,1.09,NA,NA
+20241101_Fleets Branch,turbidity,2,0.99,NA,NA
+20241101_Fleets Branch,water_temperature,1,17.4,NA,NA
+20241101_Fleets Branch,water_temperature,2,17.3,NA,NA
+20241101_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA
+20241101_Harvell Dam,R-card total_coliform,2,NA,NA,NA
+20241101_Harvell Dam,air_temperature,1,19,NA,NA
+20241101_Harvell Dam,air_temperature,2,19,NA,NA
+20241101_Harvell Dam,cfu_per_100ml,1,0,NA,NA
+20241101_Harvell Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20241101_Harvell Dam,do_mgl,1,9.25,NA,NA
+20241101_Harvell Dam,do_mgl,2,9.24,NA,NA
+20241101_Harvell Dam,do_percent,1,98.5,NA,NA
+20241101_Harvell Dam,do_percent,2,98.3,NA,NA
+20241101_Harvell Dam,pH,1,7.72,NA,NA
+20241101_Harvell Dam,pH,2,7.72,NA,NA
+20241101_Harvell Dam,total_Ecoli,1,0,NA,NA
+20241101_Harvell Dam,total_Ecoli,2,1,NA,NA
+20241101_Harvell Dam,total_coliform,1,5,NA,NA
+20241101_Harvell Dam,total_coliform,2,37,NA,NA
+20241101_Harvell Dam,turbidity,1,2.96,NA,NA
+20241101_Harvell Dam,turbidity,2,3.08,NA,NA
+20241101_Harvell Dam,water_temperature,1,18.3,NA,NA
+20241101_Harvell Dam,water_temperature,2,18.3,NA,NA
+20241101_Willcox Dam,R-card total_Ecoli,1,NA,NA,NA
+20241101_Willcox Dam,R-card total_coliform,2,NA,NA,NA
+20241101_Willcox Dam,air_temperature,1,21,NA,NA
+20241101_Willcox Dam,air_temperature,2,20.5,NA,NA
+20241101_Willcox Dam,cfu_per_100ml,1,0,NA,NA
+20241101_Willcox Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20241101_Willcox Dam,do_mgl,1,7.09,NA,NA
+20241101_Willcox Dam,do_mgl,2,7.09,NA,NA
+20241101_Willcox Dam,do_percent,1,74.8,NA,NA
+20241101_Willcox Dam,do_percent,2,74.7,NA,NA
+20241101_Willcox Dam,pH,1,6.95,NA,NA
+20241101_Willcox Dam,pH,2,6.95,NA,NA
+20241101_Willcox Dam,total_Ecoli,1,0,NA,NA
+20241101_Willcox Dam,total_Ecoli,2,1,NA,NA
+20241101_Willcox Dam,total_coliform,1,0,NA,NA
+20241101_Willcox Dam,total_coliform,2,3,NA,NA
+20241101_Willcox Dam,turbidity,1,4.64,NA,NA
+20241101_Willcox Dam,turbidity,2,4.38,NA,NA
+20241101_Willcox Dam,water_temperature,1,17.9,NA,NA
+20241101_Willcox Dam,water_temperature,2,17.9,NA,NA
+20241114_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20241114_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20241114_Fleets Branch,air_temperature,1,13,NA,NA
+20241114_Fleets Branch,air_temperature,2,13,NA,NA
+20241114_Fleets Branch,cfu_per_100ml,1,333.33333333333337,NA,NA
+20241114_Fleets Branch,cfu_per_100ml,2,466.6666666666667,NA,NA
+20241114_Fleets Branch,do_mgl,1,8.5,NA,NA
+20241114_Fleets Branch,do_mgl,2,8.44,NA,NA
+20241114_Fleets Branch,do_percent,1,77.2,NA,NA
+20241114_Fleets Branch,do_percent,2,76.7,NA,NA
+20241114_Fleets Branch,pH,1,7.25,NA,NA
+20241114_Fleets Branch,pH,2,7.24,NA,NA
+20241114_Fleets Branch,total_Ecoli,1,10,NA,NA
+20241114_Fleets Branch,total_Ecoli,2,14,NA,NA
+20241114_Fleets Branch,total_coliform,1,21,NA,NA
+20241114_Fleets Branch,total_coliform,2,36,NA,NA
+20241114_Fleets Branch,turbidity,1,1.52,NA,NA
+20241114_Fleets Branch,turbidity,2,1.79,NA,NA
+20241114_Fleets Branch,water_temperature,1,11.1,NA,NA
+20241114_Fleets Branch,water_temperature,2,11.1,NA,NA
+20241114_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA
+20241114_Harvell Dam,R-card total_coliform,2,NA,NA,NA
+20241114_Harvell Dam,air_temperature,1,13,NA,NA
+20241114_Harvell Dam,air_temperature,2,13,NA,NA
+20241114_Harvell Dam,cfu_per_100ml,1,233.33333333333334,NA,NA
+20241114_Harvell Dam,cfu_per_100ml,2,100,NA,NA
+20241114_Harvell Dam,do_mgl,1,9.57,NA,NA
+20241114_Harvell Dam,do_mgl,2,9.54,NA,NA
+20241114_Harvell Dam,do_percent,1,92.4,NA,NA
+20241114_Harvell Dam,do_percent,2,92.1,NA,NA
+20241114_Harvell Dam,pH,1,7.56,NA,NA
+20241114_Harvell Dam,pH,2,7.56,NA,NA
+20241114_Harvell Dam,total_Ecoli,1,7,NA,NA
+20241114_Harvell Dam,total_Ecoli,2,3,NA,NA
+20241114_Harvell Dam,total_coliform,1,13,NA,NA
+20241114_Harvell Dam,total_coliform,2,6,NA,NA
+20241114_Harvell Dam,turbidity,1,2.39,NA,NA
+20241114_Harvell Dam,turbidity,2,2.28,NA,NA
+20241114_Harvell Dam,water_temperature,1,11.1,NA,NA
+20241114_Harvell Dam,water_temperature,2,11.1,NA,NA
+20241121_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20241121_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20241121_Fleets Branch,air_temperature,1,10,NA,NA
+20241121_Fleets Branch,air_temperature,2,10,NA,NA
+20241121_Fleets Branch,cfu_per_100ml,1,100,NA,NA
+20241121_Fleets Branch,cfu_per_100ml,2,166.66666666666669,NA,NA
+20241121_Fleets Branch,do_mgl,1,8.07,NA,NA
+20241121_Fleets Branch,do_mgl,2,8.04,NA,NA
+20241121_Fleets Branch,do_percent,1,76.4,NA,NA
+20241121_Fleets Branch,do_percent,2,76.1,NA,NA
+20241121_Fleets Branch,pH,1,7.31,NA,NA
+20241121_Fleets Branch,pH,2,7.3,NA,NA
+20241121_Fleets Branch,total_Ecoli,1,3,NA,NA
+20241121_Fleets Branch,total_Ecoli,2,5,NA,NA
+20241121_Fleets Branch,total_coliform,1,9,NA,NA
+20241121_Fleets Branch,total_coliform,2,10,NA,NA
+20241121_Fleets Branch,turbidity,1,2.77,NA,NA
+20241121_Fleets Branch,turbidity,2,2.85,NA,NA
+20241121_Fleets Branch,water_temperature,1,12.9,NA,NA
+20241121_Fleets Branch,water_temperature,2,12.9,NA,NA
+20241121_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA
+20241121_Harvell Dam,R-card total_coliform,2,NA,NA,NA
+20241121_Harvell Dam,air_temperature,1,NA,NA,NA
+20241121_Harvell Dam,air_temperature,2,NA,NA,NA
+20241121_Harvell Dam,cfu_per_100ml,1,66.66666666666666,NA,NA
+20241121_Harvell Dam,cfu_per_100ml,2,133.33333333333331,NA,NA
+20241121_Harvell Dam,do_mgl,1,9.89,NA,NA
+20241121_Harvell Dam,do_mgl,2,10.04,NA,NA
+20241121_Harvell Dam,do_percent,1,95.7,NA,NA
+20241121_Harvell Dam,do_percent,2,97.4,NA,NA
+20241121_Harvell Dam,pH,1,7.57,NA,NA
+20241121_Harvell Dam,pH,2,7.58,NA,NA
+20241121_Harvell Dam,total_Ecoli,1,2,NA,NA
+20241121_Harvell Dam,total_Ecoli,2,4,NA,NA
+20241121_Harvell Dam,total_coliform,1,5,NA,NA
+20241121_Harvell Dam,total_coliform,2,7,NA,NA
+20241121_Harvell Dam,turbidity,1,3.03,NA,NA
+20241121_Harvell Dam,turbidity,2,3.34,NA,NA
+20241121_Harvell Dam,water_temperature,1,14,NA,NA
+20241121_Harvell Dam,water_temperature,2,14,NA,NA
+20241205_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20241205_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20241205_Fleets Branch,air_temperature,1,NA,NA,NA
+20241205_Fleets Branch,air_temperature,2,NA,NA,NA
+20241205_Fleets Branch,cfu_per_100ml,1,66.66666666666666,NA,NA
+20241205_Fleets Branch,cfu_per_100ml,2,200,NA,NA
+20241205_Fleets Branch,do_mgl,1,11.85,NA,NA
+20241205_Fleets Branch,do_mgl,2,11.77,NA,NA
+20241205_Fleets Branch,do_percent,1,95.1,NA,NA
+20241205_Fleets Branch,do_percent,2,94.3,NA,NA
+20241205_Fleets Branch,pH,1,7.41,NA,NA
+20241205_Fleets Branch,pH,2,7.39,NA,NA
+20241205_Fleets Branch,total_Ecoli,1,2,NA,NA
+20241205_Fleets Branch,total_Ecoli,2,6,NA,NA
+20241205_Fleets Branch,total_coliform,1,4,NA,NA
+20241205_Fleets Branch,total_coliform,2,11,NA,NA
+20241205_Fleets Branch,turbidity,1,1.32,NA,NA
+20241205_Fleets Branch,turbidity,2,1.34,NA,NA
+20241205_Fleets Branch,water_temperature,1,5.9,NA,NA
+20241205_Fleets Branch,water_temperature,2,5.9,NA,NA
+20241205_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA
+20241205_Harvell Dam,R-card total_coliform,2,NA,NA,NA
+20241205_Harvell Dam,air_temperature,1,NA,NA,NA
+20241205_Harvell Dam,air_temperature,2,NA,NA,NA
+20241205_Harvell Dam,cfu_per_100ml,1,100,NA,NA
+20241205_Harvell Dam,cfu_per_100ml,2,33.33333333333333,NA,NA
+20241205_Harvell Dam,do_mgl,1,11.29,NA,NA
+20241205_Harvell Dam,do_mgl,2,11.27,NA,NA
+20241205_Harvell Dam,do_percent,1,95,NA,NA
+20241205_Harvell Dam,do_percent,2,94.8,NA,NA
+20241205_Harvell Dam,pH,1,7.4,NA,NA
+20241205_Harvell Dam,pH,2,7.41,NA,NA
+20241205_Harvell Dam,total_Ecoli,1,3,NA,NA
+20241205_Harvell Dam,total_Ecoli,2,1,NA,NA
+20241205_Harvell Dam,total_coliform,1,1,NA,NA
+20241205_Harvell Dam,total_coliform,2,1,NA,NA
+20241205_Harvell Dam,turbidity,1,2.66,NA,NA
+20241205_Harvell Dam,turbidity,2,2.61,NA,NA
+20241205_Harvell Dam,water_temperature,1,7.8,NA,NA
+20241205_Harvell Dam,water_temperature,2,7.8,NA,NA
+20241213_Fleets Branch,R-card total_Ecoli,1,NA,NA,NA
+20241213_Fleets Branch,R-card total_coliform,2,NA,NA,NA
+20241213_Fleets Branch,air_temperature,1,NA,NA,NA
+20241213_Fleets Branch,air_temperature,2,NA,NA,NA
+20241213_Fleets Branch,cfu_per_100ml,1,700,NA,NA
+20241213_Fleets Branch,cfu_per_100ml,2,400,NA,NA
+20241213_Fleets Branch,do_mgl,1,11.69,NA,NA
+20241213_Fleets Branch,do_mgl,2,11.99,NA,NA
+20241213_Fleets Branch,do_percent,1,95.3,NA,NA
+20241213_Fleets Branch,do_percent,2,97.5,NA,NA
+20241213_Fleets Branch,pH,1,7.18,NA,NA
+20241213_Fleets Branch,pH,2,7.17,NA,NA
+20241213_Fleets Branch,total_Ecoli,1,21,NA,NA
+20241213_Fleets Branch,total_Ecoli,2,12,NA,NA
+20241213_Fleets Branch,total_coliform,1,24,NA,NA
+20241213_Fleets Branch,total_coliform,2,21,NA,NA
+20241213_Fleets Branch,turbidity,1,8.11,NA,NA
+20241213_Fleets Branch,turbidity,2,8.31,NA,NA
+20241213_Fleets Branch,water_temperature,1,6.5,NA,NA
+20241213_Fleets Branch,water_temperature,2,6.5,NA,NA
+20241213_Harvell Dam,R-card total_Ecoli,1,NA,NA,NA
+20241213_Harvell Dam,R-card total_coliform,2,NA,NA,NA
+20241213_Harvell Dam,air_temperature,1,NA,NA,NA
+20241213_Harvell Dam,air_temperature,2,NA,NA,NA
+20241213_Harvell Dam,cfu_per_100ml,1,33.33333333333333,NA,NA
+20241213_Harvell Dam,cfu_per_100ml,2,0,NA,NA
+20241213_Harvell Dam,do_mgl,1,12.37,NA,NA
+20241213_Harvell Dam,do_mgl,2,12.42,NA,NA
+20241213_Harvell Dam,do_percent,1,102.5,NA,NA
+20241213_Harvell Dam,do_percent,2,102.9,NA,NA
+20241213_Harvell Dam,pH,1,7.24,NA,NA
+20241213_Harvell Dam,pH,2,7.28,NA,NA
+20241213_Harvell Dam,total_Ecoli,1,1,NA,NA
+20241213_Harvell Dam,total_Ecoli,2,0,NA,NA
+20241213_Harvell Dam,total_coliform,1,2,NA,NA
+20241213_Harvell Dam,total_coliform,2,0,NA,NA
+20241213_Harvell Dam,turbidity,1,4.64,NA,NA
+20241213_Harvell Dam,turbidity,2,4.55,NA,NA
+20241213_Harvell Dam,water_temperature,1,7.2,NA,NA
+20241213_Harvell Dam,water_temperature,2,7.2,NA,NA

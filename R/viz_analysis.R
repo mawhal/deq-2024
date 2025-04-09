@@ -47,7 +47,6 @@ dsite <- d_env %>%
            sum1,sum2,sum3,sum4,sum5,sum6,sum7,sum8,
            tobs,tmax) %>% 
   summarize( value = mean(value),
-             cfu100 = mean(cfu100),
              river_height = mean(river_height_feet) )
 
 
@@ -63,7 +62,7 @@ give.n <- function(x){
 dsite %>%
   filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
   filter( measurement %in% c("do_mgl","do_percent",
-                             "pH","total_Ecoli","turbidity","water_temperature")) %>% 
+                             "pH","cfu_per_100ml","turbidity","water_temperature")) %>% 
   ggplot( aes(x = site_name, y = value, fill = site_name)) +
     facet_wrap( ~ measurement, scales = "free_y") + 
     geom_boxplot(notch = T) +
@@ -74,7 +73,7 @@ ggsave("figs/all_measures_2sites.svg", width = 6, height = 3)
 
 dsite %>%
   filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
-  filter( measurement %in% c("total_Ecoli")) %>% 
+  filter( measurement %in% c("cfu_per_100ml")) %>% 
   ggplot( aes(x = site_name, y = value, fill = site_name)) +
   facet_wrap( ~ measurement, scales = "free_y") + 
   geom_boxplot(notch = T) + 
@@ -95,8 +94,7 @@ dweeks <- dsite %>%
 lubridate::ymd( "2024-01-01" ) + lubridate::weeks( c(12,14,17,23,30,44) )
 
 dweeks %>% 
-  filter( measurement %in% c("do_mgl","do_percent",
-                             "pH","total_Ecoli","turbidity","water_temperature")) %>% 
+  filter( measurement %in% c("do_mgl","cfu_per_100ml","turbidity","water_temperature")) %>% 
   ggplot( aes(x = site_name, y = value, fill = site_name)) +
   facet_wrap( ~ measurement, scales = "free_y") + 
   geom_boxplot() +
@@ -165,8 +163,8 @@ env %>%
 # E coli
 dsite %>% 
   filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
-  filter( measurement == "total_Ecoli") %>% 
-  ggplot( aes(x = date, y = cfu100, col = site_name) ) +
+  filter( measurement == "cfu_per_100ml") %>% 
+  ggplot( aes(x = date, y = value, col = site_name) ) +
   geom_point( size = 2 ) + geom_smooth( se = F ) + 
   ylab("total E.coli colonies\nColiscan method") +
   scale_color_manual(values = vsu) +
@@ -174,16 +172,16 @@ dsite %>%
 ggsave("figs/Ecoli_trend.svg", height = 3, width = 5)
 dsite %>% 
   filter( site_name %in% c("Harvell Dam")) %>% 
-  filter( measurement == "total_Ecoli") %>% 
-  ggplot( aes(x = date, y = cfu100) ) +
+  filter( measurement == "cfu_per_100ml") %>% 
+  ggplot( aes(x = date, y = value) ) +
   geom_smooth( col = vsu[2], se = F ) + 
   geom_point( col = vsu[2] ) + 
   ylab("total E.coli colonies\nColiscan method")  + 
   ylim(c(0,525))
 dsite %>% 
   filter( site_name %in% c("Fleets Branch")) %>% 
-  filter( measurement == "total_Ecoli") %>% 
-  ggplot( aes(x = date, y = cfu100) ) +
+  filter( measurement == "cfu_per_100ml") %>% 
+  ggplot( aes(x = date, y = value) ) +
   geom_smooth( col = vsu[1], se = F ) + 
   geom_point( col = vsu[1] ) + 
   ylab("total E.coli colonies\nColiscan method") + 
@@ -192,11 +190,10 @@ dsite %>%
 
 # does weather and temperature predict the quantity of E. coli for each stream?
 dcoli <- dsite %>% 
-  filter(measurement == "total_Ecoli") %>% 
+  filter(measurement == "cfu_per_100ml") %>% 
   filter(site_name %in% c("Fleets Branch", "Harvell Dam"))
 dwide <- dsite %>% 
   ungroup() %>% 
-  select(-cfu100) %>% 
   filter(site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
   pivot_wider( names_from = measurement, values_from = value )
 dwide$cfu100 <- dwide$total_Ecoli / 3 * 100
@@ -207,3 +204,21 @@ lm1 <- lm( logcfu100 ~ water_temperature + sum6 + site_name, data = dwide)
 summary(lm1)
 plot(lm1)
 
+
+### temperature and precipitation as explanatory variables for E.coli
+dwide %>% 
+  filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
+  ggplot( aes(x = water_temperature, y = logcfu100, col = site_name) ) +
+  geom_point( size = 2 ) + geom_smooth( se = T, method = "lm" ) + 
+  ylab("CFU100\nColiscan method") +
+  scale_color_manual(values = vsu) +
+  scale_y_log10()
+ggsave("figs/Ecoli_temperature.svg", height = 3, width = 5)
+dwide %>% 
+  filter( site_name %in% c("Fleets Branch", "Harvell Dam")) %>% 
+  ggplot( aes(x = sum6, y = logcfu100, col = site_name) ) +
+  geom_point( size = 2 ) + geom_smooth( se = T, method = "lm" ) + 
+  ylab("CFU100\nColiscan method") +
+  scale_color_manual(values = vsu) +
+  scale_y_log10() 
+ggsave("figs/Ecoli_precipitation.svg", height = 3, width = 5)

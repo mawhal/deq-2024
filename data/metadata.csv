@@ -57,8 +57,8 @@ id,date,datetime,site_name,site_conditions,site_notes,river_height_feet
 20241101_Willcox Dam,2024-11-01,2024-11-01T10:40:00Z,Willcox Dam,overcast but warm and breezy,NA,2.15
 20241114_Fleets Branch,2024-11-14,2024-11-14T10:55:00Z,Fleets Branch,"overcast, chilly, recent rains in the past week",NA,2.63
 20241114_Harvell Dam,2024-11-14,2024-11-14T11:05:00Z,Harvell Dam,"overcast, chilly, recent rains in the past week",NA,2.63
-20241121_Fleets Branch,2024-11-21,2024-11-21T09:20:00Z,Fleets Branch,"chilly, humid,sunny, creek river level up after recent rains(19/Nov)",Sewage smells in fleets Branch,2.74
-20241121_Harvell Dam,2024-11-21,2024-11-21T09:32:00Z,Harvell Dam,"chilly, humid,sunny, creek river level up after recent rains(19/Nov)",Sewage smells in fleets Branch,2.74
+20241121_Fleets Branch,2024-11-21,2024-11-21T09:20:00Z,Fleets Branch,"chilly, humid,sunny, creek river level up after recent rains(19/Nov)",Sewage smells in Fleets Branch,2.74
+20241121_Harvell Dam,2024-11-21,2024-11-21T09:32:00Z,Harvell Dam,"chilly, humid,sunny, creek river level up after recent rains(19/Nov)",Sewage smells in Fleets Branch,2.74
 20241205_Fleets Branch,2024-12-05,2024-12-05T10:25:00Z,Fleets Branch,"40.5F, overcast, rain drizzle",NA,2.59
 20241205_Harvell Dam,2024-12-05,2024-12-05T12:00:00Z,Harvell Dam,"40.5F, overcast, rain drizzle",NA,2.59
 20241213_Fleets Branch,2024-12-13,2024-12-13T11:00:00Z,Fleets Branch,"cold, sunny, recent rains 2 days ago",NA,3.04

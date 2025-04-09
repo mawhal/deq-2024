@@ -58,25 +58,31 @@ write_csv(meta, "data/metadata.csv")
 
 # prepare final data file
 d <- draw
+# sample dates missing Ecoli data
 d %>% 
   filter( measurement == "total_Ecoli" ) %>% 
   filter( is.na(value) )
 
-# use the standard by James River Association
+# use the standard by James River Association and others
 # CFU / 100ml
-d$cfu100 <- d$value/3 * 100
-d$cfu100[ d$measurement != "total_Ecoli" ] <- NA
+dcoli <- d %>% 
+  filter( measurement == "total_Ecoli" ) 
+dcoli$measurement = "cfu_per_100ml"
+dcoli$value <- dcoli$value/3 * 100
+# merge with dataset
+dfull <- bind_rows(d, dcoli)
+dfull <- dfull %>% arrange(id, measurement, replicate)
 
 # outliers?
-by( d$value, d$measurement, FUN = summary)
+by( dfull$value, dfull$measurement, FUN = summary)
 
-# flagged data
-unique(d$flag)
-d <- d %>% 
+# flagged data - remove flagged data
+unique(dfull$flag)
+dfull <- dfull %>% 
   filter( is.na(flag) )
 
 
 
 
 # write to disk
-write_csv( d, "data/data_qaqc.csv")
+write_csv( dfull, "data/data_qaqc.csv")

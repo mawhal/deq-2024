@@ -204,10 +204,10 @@ id,measurement,replicate,value,sample_notes,flag
 20240501_Fleets Branch,water_temperature,2,18,,
 20240501_Fleets Branch,pH,1,7.3,,
 20240501_Fleets Branch,pH,2,7.29,,
-20240501_Fleets Branch,do_percent,1,92.9,,Low oxygen readings needed to replace electolyte in ysi
-20240501_Fleets Branch,do_percent,2,87.5,,Low oxygen readings needed to replace electolyte in ysi
-20240501_Fleets Branch,do_mgl,1,8.9,,Low oxygen readings needed to replace electolyte in ysi
-20240501_Fleets Branch,do_mgl,2,8.57,,Low oxygen readings needed to replace electolyte in ysi
+20240501_Fleets Branch,do_percent,1,92.9,Low oxygen readings needed to replace electolyte in ysi,2
+20240501_Fleets Branch,do_percent,2,87.5,Low oxygen readings needed to replace electolyte in ysi,2
+20240501_Fleets Branch,do_mgl,1,8.9,Low oxygen readings needed to replace electolyte in ysi,2
+20240501_Fleets Branch,do_mgl,2,8.57,Low oxygen readings needed to replace electolyte in ysi,2
 20240501_Fleets Branch,turbidity,1,3.7,,
 20240501_Fleets Branch,turbidity,2,3.46,,
 20240501_Fleets Branch,total_Ecoli,1,1,,
@@ -236,10 +236,10 @@ id,measurement,replicate,value,sample_notes,flag
 20240508_Fleets Branch,water_temperature,2,21.2,,
 20240508_Fleets Branch,pH,1,7.18,,
 20240508_Fleets Branch,pH,2,7.27,,
-20240508_Fleets Branch,do_percent,1,77.9,,Low oxygen readings needed to replace electolyte in ysi
-20240508_Fleets Branch,do_percent,2,77.5,,Low oxygen readings needed to replace electolyte in ysi
-20240508_Fleets Branch,do_mgl,1,6.96,,Low oxygen readings needed to replace electolyte in ysi
-20240508_Fleets Branch,do_mgl,2,6.71,,Low oxygen readings needed to replace electolyte in ysi
+20240508_Fleets Branch,do_percent,1,77.9,Low oxygen readings needed to replace electolyte in ysi,2
+20240508_Fleets Branch,do_percent,2,77.5,Low oxygen readings needed to replace electolyte in ysi,2
+20240508_Fleets Branch,do_mgl,1,6.96,Low oxygen readings needed to replace electolyte in ysi,2
+20240508_Fleets Branch,do_mgl,2,6.71,Low oxygen readings needed to replace electolyte in ysi,2
 20240508_Fleets Branch,turbidity,1,7.12,,
 20240508_Fleets Branch,turbidity,2,7.91,,
 20240508_Fleets Branch,total_Ecoli,1,36,,
@@ -252,10 +252,10 @@ id,measurement,replicate,value,sample_notes,flag
 20240508_Harvell Dam,water_temperature,2,24.1,,
 20240508_Harvell Dam,pH,1,6.65,,
 20240508_Harvell Dam,pH,2,7.7,,
-20240508_Harvell Dam,do_percent,1,80.5,,Low oxygen readings needed to replace electolyte in ysi
-20240508_Harvell Dam,do_percent,2,89.9,,Low oxygen readings needed to replace electolyte in ysi
-20240508_Harvell Dam,do_mgl,1,6.8,,Low oxygen readings needed to replace electolyte in ysi
-20240508_Harvell Dam,do_mgl,2,7.48,,Low oxygen readings needed to replace electolyte in ysi
+20240508_Harvell Dam,do_percent,1,80.5,Low oxygen readings needed to replace electolyte in ysi,2
+20240508_Harvell Dam,do_percent,2,89.9,Low oxygen readings needed to replace electolyte in ysi,2
+20240508_Harvell Dam,do_mgl,1,6.8,Low oxygen readings needed to replace electolyte in ysi,2
+20240508_Harvell Dam,do_mgl,2,7.48,Low oxygen readings needed to replace electolyte in ysi,2
 20240508_Harvell Dam,turbidity,1,5.76,,
 20240508_Harvell Dam,turbidity,2,10.69,,
 20240508_Harvell Dam,total_Ecoli,1,22,,
@@ -447,7 +447,7 @@ id,measurement,replicate,value,sample_notes,flag
 20240620_ Fleets Branch,turbidity,1,4.24,,
 20240620_ Fleets Branch,turbidity,2,3.61,,
 20240620_ Fleets Branch,total_Ecoli,1,30,,
-20240620_ Fleets Branch,total_Ecoli,2,24,,Big splotch on plate. Data suspect
+20240620_ Fleets Branch,total_Ecoli,2,24,Big splotch on plate. Data suspect,1
 20240620_ Fleets Branch,total_coliform,1,37,,
 20240620_ Fleets Branch,total_coliform,2,22,,
 20240620_ Fleets Branch,R-card total_Ecoli,1,18,,
@@ -662,8 +662,8 @@ id,measurement,replicate,value,sample_notes,flag
 20240726_Fleets Branch,turbidity,2,11.6,,
 20240726_Fleets Branch,total_Ecoli,1,65,<-- plus more that are too small to count ,
 20240726_Fleets Branch,total_Ecoli,2,83,<-- plus more that are too small to count ,
-20240726_Fleets Branch,total_coliform,1,,too many,
-20240726_Fleets Branch,total_coliform,2,,too many,
+20240726_Fleets Branch,total_coliform,1,,too many to count,
+20240726_Fleets Branch,total_coliform,2,,too many to count,
 20240726_Harvell Dam,air_temperature,1,,,
 20240726_Harvell Dam,air_temperature,2, ,,
 20240726_Harvell Dam,water_temperature,1,28.7,,
@@ -804,8 +804,8 @@ id,measurement,replicate,value,sample_notes,flag
 20240926_Fleets Branch,turbidity,2,7.4,,
 20240926_Fleets Branch,total_Ecoli,1,49,,
 20240926_Fleets Branch,total_Ecoli,2,42,,
-20240926_Fleets Branch,total_coliform,1,,too many,
-20240926_Fleets Branch,total_coliform,2,,too many,
+20240926_Fleets Branch,total_coliform,1,,too many to count,
+20240926_Fleets Branch,total_coliform,2,,too many to count,
 20240926_Fleets Branch,R-card total_Ecoli,1,,,
 20240926_Fleets Branch,R-card total_coliform,2,,,
 20241010_Fleets Branch,air_temperature,1,14.2,,
@@ -840,8 +840,8 @@ id,measurement,replicate,value,sample_notes,flag
 20241010_Harvell Dam,turbidity,2,12.1,,
 20241010_Harvell Dam,total_Ecoli,1,10,,
 20241010_Harvell Dam,total_Ecoli,2,12,,
-20241010_Harvell Dam,total_coliform,1,,too many,
-20241010_Harvell Dam,total_coliform,2,,too many,
+20241010_Harvell Dam,total_coliform,1,,too many to count,
+20241010_Harvell Dam,total_coliform,2,,too many to count,
 20241010_Harvell Dam,R-card total_Ecoli,1,,,
 20241010_Harvell Dam,R-card total_coliform,2,,,
 20241024_Fleets Branch,air_temperature,1,15,,
@@ -855,11 +855,11 @@ id,measurement,replicate,value,sample_notes,flag
 20241024_Fleets Branch,do_mgl,1,7.03,,
 20241024_Fleets Branch,do_mgl,2,7.02,,
 20241024_Fleets Branch,turbidity,1,3.88,,
-20241024_Fleets Branch,turbidity,2,,N/A,
+20241024_Fleets Branch,turbidity,2,,no sample taken,
 20241024_Fleets Branch,total_Ecoli,1,26,,
 20241024_Fleets Branch,total_Ecoli,2,28,,
-20241024_Fleets Branch,total_coliform,1,,too many,
-20241024_Fleets Branch,total_coliform,2,,too many,
+20241024_Fleets Branch,total_coliform,1,,too many to count,
+20241024_Fleets Branch,total_coliform,2,,too many to count,
 20241024_Fleets Branch,R-card total_Ecoli,1,,,
 20241024_Fleets Branch,R-card total_coliform,2,,,
 20241024_Harvell Dam,air_temperature,1,15,,
@@ -873,7 +873,7 @@ id,measurement,replicate,value,sample_notes,flag
 20241024_Harvell Dam,do_mgl,1,8.95,,
 20241024_Harvell Dam,do_mgl,2,9,,
 20241024_Harvell Dam,turbidity,1,5.43,,
-20241024_Harvell Dam,turbidity,2,,N/A,
+20241024_Harvell Dam,turbidity,2,,no sample taken,
 20241024_Harvell Dam,total_Ecoli,1,2,,
 20241024_Harvell Dam,total_Ecoli,2,2,,
 20241024_Harvell Dam,total_coliform,1,15,,
